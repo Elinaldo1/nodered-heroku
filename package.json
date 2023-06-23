@@ -34,6 +34,7 @@
         "node-red-node-ui-table": "latest",
         "pdfmake": "latest",
         "red-contrib-turf-module": "latest",
-        "xmldom": "latest"
+        "xmldom": "latest",
+        "when": "3.7.8"
     }
 }
