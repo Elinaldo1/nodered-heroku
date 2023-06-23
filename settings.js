@@ -44,7 +44,7 @@ process.env.HOSTNAME = require('os').hostname();
  *
  **/
 
-module.exports = {
+var settings = module.exports = {
 
 /*******************************************************************************
  * Flow File and User Directory Settings
