@@ -1,4 +1,28 @@
 /**
+ * Copyright 2014 IBM Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ **/
+
+var path = require('path');
+var when = require('when');
+
+process.env.HOSTNAME = require('os').hostname();
+//process.env.BOT_TOKEN = "2097247350:AAHvGZR34e34Y0MjKtvFRFLs1qcysirD2rA";
+//... useless... use Config Vars in Heroku Dashboard | Settings, instead!
+
+/**
  * This is the default settings file provided by Node-RED.
  *
  * It can contain any valid JavaScript code that will get run when Node-RED
@@ -42,6 +66,7 @@ module.exports = {
      * lost.
      */
     //credentialSecret: "a-secret-key",
+    credentialSecret: false,
 
     /** By default, the flow JSON will be formatted over multiple lines making
      * it easier to compare changes when using version control.
@@ -59,6 +84,8 @@ module.exports = {
      * The following property can be used to specify an additional directory to scan.
      */
     //nodesDir: '/home/nol/.node-red/nodes',
+        // Add the nodes in
+        nodesDir: path.join(__dirname, "nodes"),
 
 /*******************************************************************************
  * Security
@@ -153,7 +180,7 @@ module.exports = {
     /** The maximum size of HTTP request that will be accepted by the runtime api.
      * Default: 5mb
      */
-    //apiMaxLength: '5mb',
+    apiMaxLength: '15mb',
 
     /** The following property can be used to pass custom options to the Express.js
      * server used by Node-RED. For a full list of available options, refer
@@ -165,7 +192,7 @@ module.exports = {
      * The following property can be used to specify a different root path.
      * If set to false, this is disabled.
      */
-    //httpAdminRoot: '/admin',
+    httpAdminRoot: '/admin',
 
     /** The following property can be used to add a custom middleware function
      * in front of all admin http routes. For example, to set custom http
@@ -195,6 +222,10 @@ module.exports = {
     //    origin: "*",
     //    methods: "GET,PUT,POST,DELETE"
     //},
+    httpNodeCors: {
+       origin: "*",
+       methods: "GET,PUT,POST,DELETE"
+    },
 
     /** If you need to set an http proxy please set an environment variable
      * called http_proxy (or HTTP_PROXY) outside of Node-RED in the operating system.
@@ -228,6 +259,7 @@ module.exports = {
     //    {path: '/home/nol/pics/',    root: "/img/"}, 
     //    {path: '/home/nol/reports/', root: "/doc/"}, 
     //],
+    httpStatic: path.join(__dirname, "public"),
 
     /**  
      * All static routes will be appended to httpStaticRoot
@@ -332,6 +364,7 @@ module.exports = {
      * will install/load. It can use '*' as a wildcard that matches anything.
      */
     externalModules: {
+        autoInstall: true,   /** Whether the runtime will attempt to automatically install missing modules */
         // autoInstall: false,   /** Whether the runtime will attempt to automatically install missing modules */
         // autoInstallRetry: 30, /** Interval, in seconds, between reinstall attempts */
         // palette: {              /** Configuration for the Palette Manager */
@@ -482,13 +515,13 @@ module.exports = {
      *  middleware:{function or array}, (req,res,next) - http middleware
      *  ioMiddleware:{function or array}, (socket,next) - socket.io middleware
      */
-    //ui: { path: "ui" },
+    ui: { path: "ui" },
 
     /** Colourise the console output of the debug node */
     //debugUseColors: true,
 
     /** The maximum length, in characters, of any message sent to the debug sidebar tab */
-    debugMaxLength: 1000,
+    debugMaxLength: 10000000,
 
     /** Maximum buffer size for the exec node. Defaults to 10Mb */
     //execMaxBufferSize: 10000000,
@@ -543,4 +576,25 @@ module.exports = {
     //    *   - reason: if result is false, the HTTP reason string to return
     //    */
     //},
+}
+
+if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
+    settings.adminAuth = {
+        type: "credentials",
+        users: function (username) {
+            if (process.env.NODE_RED_USERNAME == username) {
+                return when.resolve({ username: username, permissions: "*" });
+            } else {
+                return when.resolve(null);
+            }
+        },
+        authenticate: function (username, password) {
+            if (process.env.NODE_RED_USERNAME == username &&
+                process.env.NODE_RED_PASSWORD == password) {
+                return when.resolve({ username: username, permissions: "*" });
+            } else {
+                return when.resolve(null);
+            }
+        }
+    }
 }
