@@ -36,6 +36,7 @@
         "node-red-node-ui-table": "latest",
         "pdfmake": "latest",
         "red-contrib-turf-module": "latest",
+        "ui-upload-mf": "~0.1.0",
         "when": "3.7.8",
         "xmldom": "latest"
     }
