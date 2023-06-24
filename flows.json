@@ -5705,6 +5705,24 @@
         "wires": []
     },
     {
+        "id": "b61a9a857dc43831",
+        "type": "ui_upload_mf",
+        "z": "3c1975f87cd0cabf",
+        "group": "dfb4a60f.d788f8",
+        "title": "upload-mf",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 5,
+        "chunk": 256,
+        "transfer": "binary",
+        "x": 200,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "d85cdcb9a48003e8",
         "type": "inject",
         "z": "e44685951726d544",
