@@ -16,17 +16,19 @@
     ],
     "private": true,
     "dependencies": {
-        "node-red": "latest",
-        "node-red-contrib-aedes": "latest",
         "@node-red-contrib-themes/theme-collection": "latest",
         "@tmcw/togeojson": "latest",
+        "node-red": "latest",
+        "node-red-contrib-aedes": "latest",
         "node-red-contrib-buffer-parser": "latest",
+        "node-red-contrib-fs": "~1.4.1",
         "node-red-contrib-localstorage": "latest",
         "node-red-contrib-mongodb-aleph": "latest",
         "node-red-contrib-mssql-plus": "latest",
         "node-red-contrib-pdfmake": "latest",
         "node-red-contrib-puppeteer-new": "latest",
         "node-red-contrib-require": "latest",
+        "node-red-contrib-ui-led": "~0.4.11",
         "node-red-contrib-web-worldmap": "latest",
         "node-red-contrib-zip": "latest",
         "node-red-dashboard": "latest",
@@ -34,7 +36,7 @@
         "node-red-node-ui-table": "latest",
         "pdfmake": "latest",
         "red-contrib-turf-module": "latest",
-        "xmldom": "latest",
-        "when": "3.7.8"
+        "when": "3.7.8",
+        "xmldom": "latest"
     }
 }
