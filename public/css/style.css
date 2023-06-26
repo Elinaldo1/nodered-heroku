@@ -1,5 +1,16 @@
-body {
-    color: #555;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ececec;
 }
 a {
     text-decoration: none;
