@@ -17,7 +17,7 @@
     "private": true,
     "scripts": {
         "start": "node node_modules/node-red/red.js --settings ./settings.js --userDir ./",
-        "heroku-postbuild": "mkdir ./.cache && mv /app/.cache/puppeteer ./.cache"
+        "heroku-postbuild": "mkdir ./.cache && mv ./app/.cache/puppeteer ./.cache"
       },
     "dependencies": {
         "@node-red-contrib-themes/theme-collection": "latest",
