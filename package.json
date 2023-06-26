@@ -15,9 +15,6 @@
         "heroku"
     ],
     "private": true,
-    "scripts": {
-        "start": "node node_modules/node-red/red.js --settings ./settings.js --userDir ./"
-      },
     "dependencies": {
         "@node-red-contrib-themes/theme-collection": "latest",
         "@tmcw/togeojson": "latest",
@@ -29,7 +26,6 @@
         "node-red-contrib-mongodb-aleph": "latest",
         "node-red-contrib-mssql-plus": "latest",
         "node-red-contrib-pdfmake": "latest",
-        "node-red-contrib-puppeteer-new": "latest",
         "node-red-contrib-require": "latest",
         "node-red-contrib-ui-led": "~0.4.11",
         "node-red-contrib-web-worldmap": "latest",
