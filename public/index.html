@@ -8,6 +8,10 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- ==== Link Swiper's CSS  ==== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- ==== Fontawesome CDN Link ==== -->
     <script src="https://unpkg.com/phosphor-icons"></script>
     <link href="css/simplegrid.css" rel="stylesheet" media="screen">
@@ -69,39 +73,47 @@
             </div>
         </div>
     </div>
-    <div class="card-content">
-        <div class="image">
-            <img src="https://github.com/Elinaldo1.png" alt=""> 
-        </div>
-        <div class="media-icons">
-            <a href="https://www.linkedin.com/in/elinaldo-sc/" data-tooltip = "Linkedin" >
-                <i class="ph-linkedin-logo-light"></i>
-            </a>
-            <a href="https://www.instagram.com/elinaldosc/" data-tooltip = "Instagram" >
-                <i class="ph-instagram-logo-light"></i>
-            </a>
-            <a href="https://github.com/Elinaldo1" data-tooltip="Github" >
-                <i class="ph-github-logo-light"></i>
-            </a>
-        </div>
+    <div class="slide-container mySwiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper" >
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="https://github.com/Elinaldo1.png" alt="" class="card-img"> 
+                        </div>
+                        <div class="media-icons">
+                            <a href="https://www.linkedin.com/in/elinaldo-sc/" data-tooltip = "Linkedin" >
+                                <i class="ph-linkedin-logo-light"></i>
+                            </a>
+                            <a href="https://www.instagram.com/elinaldosc/" data-tooltip = "Instagram" >
+                                <i class="ph-instagram-logo-light"></i>
+                            </a>
+                            <a href="https://github.com/Elinaldo1" data-tooltip="Github" >
+                                <i class="ph-github-logo-light"></i>
+                            </a>
+                        </div>
 
-        <div class="name-profession">
-            <span class="name">Elinaldo</span>
-            <span class="profession">Node.Js Developer</span>
-        </div>
+                        <div class="name-profession">
+                            <span class="name">Elinaldo</span>
+                            <span class="profession">Web Developer</span>
+                        </div>
 
-        <div class="rating">
-            <i class="ph-star-fill"></i>
-            <i class="ph-star-fill"></i>
-            <i class="ph-star-fill"></i>
-            <i class="ph-star-light"></i>
-            <i class="ph-star-light"></i>
-        </div>
+                        <div class="rating">
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-light"></i>
+                            <i class="ph-star-light"></i>
+                        </div>
 
-        <!-- <div class="button">
-            <button class="aboutMe">About Me</button>
-            <button class="hireMe">About Me</button>
-        </div> -->
+                        <!-- <div class="button">
+                            <button class="aboutMe">About Me</button>
+                            <button class="hireMe">About Me</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Grid 2/2 -->
     <!-- <div class="row3">
@@ -180,6 +192,40 @@
         </div>
     </div> -->
     <script>
+        const swiper = new Swiper(".slide-content", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            centerSlide: true,
+            fade: true,
+            grabCursor: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            breakpoints:{
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            950: {
+                slidesPerView: 3,
+            }
+            }
+        });
+
+        function darkMode() {
+            const element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
         $(function () {
             $(".insecure").hide();
             $.ajax({

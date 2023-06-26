@@ -12,8 +12,8 @@
     display: inline-block;
 }
 
-.container a:after,
-.container a:before {
+.containerBts a:after,
+.containerBts a:before {
     content: '';
     position: absolute;
     inset: 0;
@@ -23,16 +23,16 @@
 
 }
 
-.container a:hover:before {
+.containerBts a:hover:before {
     inset: -0.1875rem;
 }
 
-.container a:hover:after {
+.containerBts a:hover:after {
     inset: -0.1875rem;
     filter: blur(0.925rem)
 }
 
-.container a span {
+.containerBts a span {
     position: absolute;
     padding: 20px;
     top: 0;
