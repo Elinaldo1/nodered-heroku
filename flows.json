@@ -5115,7 +5115,7 @@
         "y": 180,
         "wires": [
             [
-                "55460ff8c5a6a2db"
+                "6f86903b34dfa90b"
             ]
         ]
     },
@@ -5141,25 +5141,6 @@
         ]
     },
     {
-        "id": "55460ff8c5a6a2db",
-        "type": "function",
-        "z": "cba5d6223338fdda",
-        "name": "amostras",
-        "func": "const unSynced = [];\nconst synced = [];\n\n// await Promise.allSettled(\n\n    msg.payload.map((/** @type {any} */ amostra, /** @type {any} */ id) => {\n        const {__v} = amostra;\n\n        if(__v === 0){\n            unSynced.push(amostra);\n        }else {\n            synced.push(amostra);\n\n        }\n    })\n// ).then(\n    \n    msg.all = msg.payload\n    msg.dataUnSynced = unSynced\n    msg.dataSynced = synced\n    global.set('unSyncedSimplesHarvest', unSynced)\n// ).catch(err => console.log(err))\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 700,
-        "y": 240,
-        "wires": [
-            [
-                "88cd4bdfb39edf42"
-            ]
-        ]
-    },
-    {
         "id": "88cd4bdfb39edf42",
         "type": "debug",
         "z": "cba5d6223338fdda",
@@ -5181,14 +5162,14 @@
         "type": "mongodb-aleph-in",
         "z": "cba5d6223338fdda",
         "mongodb": "b367bea366a3eb86",
-        "name": "baseqchmec collection",
+        "name": "plantio collection",
         "collection": "baseqplantios",
         "operation": "find",
-        "x": 420,
+        "x": 410,
         "y": 240,
         "wires": [
             [
-                "55460ff8c5a6a2db"
+                "779ce61f90c4551b"
             ]
         ]
     },
@@ -5197,14 +5178,71 @@
         "type": "mongodb-aleph-in",
         "z": "cba5d6223338fdda",
         "mongodb": "b367bea366a3eb86",
-        "name": "baseqchmec collection",
+        "name": "infestacao collection",
         "collection": "baselevinfestacaos",
         "operation": "find",
         "x": 420,
         "y": 300,
         "wires": [
             [
-                "55460ff8c5a6a2db"
+                "8d5a67f7fb5e37a1"
+            ]
+        ]
+    },
+    {
+        "id": "6f86903b34dfa90b",
+        "type": "function",
+        "z": "cba5d6223338fdda",
+        "name": "amostras plantio",
+        "func": "const unSynced = [];\nconst synced = [];\n\n// await Promise.allSettled(\n\n    msg.payload.map((/** @type {any} */ amostra, /** @type {any} */ id) => {\n        const {__v} = amostra;\n\n        if(__v === 0){\n            unSynced.push(amostra);\n        }else {\n            synced.push(amostra);\n\n        }\n    })\n// ).then(\n    msg.plantio = {\n\n        all: msg.payload,\n        dataUnSynced: unSynced,\n        dataSynced: synced,\n    }\n    // global.set('unSyncedSimplesHarvest', unSynced)\n// ).catch(err => console.log(err))\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "88cd4bdfb39edf42"
+            ]
+        ]
+    },
+    {
+        "id": "779ce61f90c4551b",
+        "type": "function",
+        "z": "cba5d6223338fdda",
+        "name": "amostras ChMec",
+        "func": "const unSynced = [];\nconst synced = [];\n\n// await Promise.allSettled(\n\n    msg.payload.map((/** @type {any} */ amostra, /** @type {any} */ id) => {\n        const {__v} = amostra;\n\n        if(__v === 0){\n            unSynced.push(amostra);\n        }else {\n            synced.push(amostra);\n\n        }\n    })\n// ).then(\n    msg.chMec = {\n\n        all: msg.payload,\n        dataUnSynced: unSynced,\n        dataSynced: synced,\n    }\n    // global.set('unSyncedSimplesHarvest', unSynced)\n// ).catch(err => console.log(err))\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 240,
+        "wires": [
+            [
+                "88cd4bdfb39edf42"
+            ]
+        ]
+    },
+    {
+        "id": "8d5a67f7fb5e37a1",
+        "type": "function",
+        "z": "cba5d6223338fdda",
+        "name": "amostras infestacao",
+        "func": "const unSynced = [];\nconst synced = [];\n\n// await Promise.allSettled(\n\n    msg.payload.map((/** @type {any} */ amostra, /** @type {any} */ id) => {\n        const {__v} = amostra;\n\n        if(__v === 0){\n            unSynced.push(amostra);\n        }else {\n            synced.push(amostra);\n\n        }\n    })\n// ).then(\n    msg.infestacao = {\n\n        all: msg.payload,\n        dataUnSynced: unSynced,\n        dataSynced: synced,\n    }\n    // global.set('unSyncedSimplesHarvest', unSynced)\n// ).catch(err => console.log(err))\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 300,
+        "wires": [
+            [
+                "88cd4bdfb39edf42"
             ]
         ]
     },
