@@ -8,8 +8,12 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- ==== Fontawesome CDN Link ==== -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <link href="css/simplegrid.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/card.css" rel="stylesheet" media="screen">
+    <link href="css/callActionButtons.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -46,14 +50,58 @@
             </div> -->
             <div class="col-1-2">
                 <div class="content blurb">
-                    <p style="text-align: center"><a style="width:300px;" class="button1" href="admin/">Editor</a></p>
-                    <p style="text-align: center"><a style="width:300px;" class="button2" href="ui/">Dashboard</a></p>
-                    <p class="insecure hide" style="text-align: center"><a href="#password-protecting">How to
+                    <div class="containerBts">
+                        <a href="admin/">
+                            <span>Editor Admin</span>
+                        </a>
+                    </div>
+                    <div class="containerBts">
+                        <a href="ui/">
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+                    <input type="button" style="text-align: center"><a style="width:300px;" class="button1" href="admin/">Editor</a></input>
+                    <input type="button" style="text-align: center"><a style="width:300px;" class="button2" href="ui/">Dashboard</a></input>
+                    <!-- <p class="insecure hide" style="text-align: center"><a href="#password-protecting">How to
                             password-protect your instance</a></p>
-                    <p style="text-align: center"><a href="#custom">How to customise Node-RED</a></p>
+                    <p style="text-align: center"><a href="#custom">How to customise Node-RED</a></p> -->
                 </div>
             </div>
         </div>
+    </div>
+    <div class="card-content">
+        <div class="image">
+            <img src="avatar1.png" alt=""> 
+        </div>
+        <div class="media-icons">
+            <a href="https://www.linkedin.com/in/elinaldo-sc/" data-tooltip = "Linkedin" >
+                <i class="ph-linkedin-logo-light"></i>
+            </a>
+            <a href="https://www.instagram.com/elinaldosc/" data-tooltip = "Instagram" >
+                <i class="ph-instagram-logo-light"></i>
+            </a>
+            <a href="https://github.com/Elinaldo1" data-tooltip="Github" >
+                <i class="ph-github-logo-light"></i>
+            </a>
+        </div>
+
+        <div class="name-profession">
+            <span class="name">Elinaldo</span>
+            <span class="profession">Node.Js Developer</span>
+        </div>
+
+        <div class="rating">
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-fill"></i>
+            <i class="ph-star-light"></i>
+            <i class="ph-star-light"></i>
+        </div>
+
+        <!-- <div class="button">
+            <button class="aboutMe">About Me</button>
+            <button class="hireMe">About Me</button>
+        </div> -->
     </div>
     <!-- Grid 2/2 -->
     <!-- <div class="row3">
