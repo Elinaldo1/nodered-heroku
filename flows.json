@@ -4303,7 +4303,7 @@
         "key": "",
         "certname": "",
         "keyname": "",
-        "persistence_bind": "mongodb",
+        "persistence_bind": "memory",
         "dburl": "mongodb+srv://devhouse:devhouse@devhouse.q7nqg.mongodb.net/?retryWrites=true&w=majority",
         "usetls": false,
         "x": 210,
