@@ -4304,7 +4304,7 @@
         "certname": "",
         "keyname": "",
         "persistence_bind": "memory",
-        "dburl": "mongodb+srv://devhouse:devhouse@devhouse.q7nqg.mongodb.net/?retryWrites=true&w=majority",
+        "dburl": "",
         "usetls": false,
         "x": 210,
         "y": 100,
