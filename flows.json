@@ -80,6 +80,14 @@
         "env": []
     },
     {
+        "id": "b358909e0825d509",
+        "type": "tab",
+        "label": "FOGO",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "9af68cd51d7acc97",
         "type": "group",
         "z": "c92269ec28a9671a",
@@ -109,9 +117,7 @@
             "ec4418ab7eb25d4d"
         ],
         "x": 14,
-        "y": 379,
-        "w": 1392,
-        "h": 262
+        "y": 379
     },
     {
         "id": "7b5197ce95d8414e",
@@ -163,9 +169,7 @@
             "69c3c363b3c53039"
         ],
         "x": 34,
-        "y": 879,
-        "w": 1512,
-        "h": 742
+        "y": 879
     },
     {
         "id": "079559ea1fbafa2e",
@@ -180,9 +184,7 @@
             "4067f486c627e18a"
         ],
         "x": 334,
-        "y": 699,
-        "w": 352,
-        "h": 82
+        "y": 699
     },
     {
         "id": "ef84962539f3aa00",
@@ -691,6 +693,57 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "e5fcd30fd8eeb781",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "88bdd6c17049698d",
+        "order": 3,
+        "disp": false,
+        "width": 27,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42a189433a986de6",
+        "type": "ui_group",
+        "name": "CINFIGS",
+        "tab": "88bdd6c17049698d",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "88bdd6c17049698d",
+        "type": "ui_tab",
+        "name": "TRAK-MAKER",
+        "icon": "fire",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aa33a612de85d228",
+        "type": "ui_spacer",
+        "z": "b358909e0825d509",
+        "name": "spacer",
+        "group": "42a189433a986de6",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a7f40d23ee1445c9",
+        "type": "ui_spacer",
+        "z": "b358909e0825d509",
+        "name": "spacer",
+        "group": "42a189433a986de6",
+        "order": 8,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "54ef025d.56fccc",
@@ -5739,5 +5792,1010 @@
         "x": 340,
         "y": 440,
         "wires": []
+    },
+    {
+        "id": "7db66f4f9e0d136f",
+        "type": "worldmap",
+        "z": "b358909e0825d509",
+        "name": "",
+        "lat": " -18.098287        ",
+        "lon": "-49.728768",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "false",
+        "showruler": "true",
+        "allowFileDrop": "true",
+        "path": "/fogo",
+        "overlist": "DR,CO",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1910,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4527a793bec27ab6",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "create speed points",
+        "func": "/**\n * Cria um marker no mapa para cada speed no array recebido\n */\ntry {\n    msg.payload.map(torre => {\n        const { name, coordinate, bearingStart, azimuteStart, bearing} = torre\n        node.send({\n        \n            payload: {\n                name,\n                layer: 'speeds',\n                icon: 'fa-camera',\n                iconColor: 'black',\n                lat: coordinate[0],\n                lon: coordinate[1],\n                // tooltip: name,\n                poped: true,\n                // popup: '<input name=\"slide1\" type=\"range\" min=\"1\" max=\"100\" value=\"50\" onchange=\\'feedback($name,this.value,this.name)\\' style=\"width:250px;\">'\n            }\n        });\n    })\n    \n} catch (error) {\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 520,
+        "wires": [
+            [
+                "eb7f6173cda3a619",
+                "7db66f4f9e0d136f"
+            ]
+        ]
+    },
+    {
+        "id": "63d7f4be9c8a8575",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "create-line-direction",
+        "func": "const [lon, lat] = msg.payload.geometry.coordinates\n\nmsg.payload = [{\n    name: msg.name+'-direction',\n    line: [[msg.origin[1], msg.origin[0]], [lat, lon]],\n    color: 'red',\n    layer: msg.name+' - linha',\n    weight: 2,\n    label: 'saaaaaaaaa',\n    tooltip: msg.name,\n    clicable: true\n    // dashArray: '5,20',\n},\n    {\n        name: msg.name,\n        layer: 'speeds',\n        icon: 'fa-camera',\n        iconColor: 'black',\n        lat: msg.origin[1],\n        lon: msg.origin[0],\n        label: `<h3>${msg.bearingCamera}</h3></hr><p>azm:${msg.bearing}</p>`,\n        // bearing: msg.bearingCamera,\n        azm: msg.bearing\n        // tooltip: name,\n        // poped: true,\n        // popup: '<input name=\"slide1\" type=\"range\" min=\"1\" max=\"100\" value=\"50\" onchange=\\'feedback($name,this.value,this.name)\\' style=\"width:250px;\">'\n    }]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 740,
+        "wires": [
+            [
+                "eb7f6173cda3a619",
+                "7db66f4f9e0d136f"
+            ]
+        ]
+    },
+    {
+        "id": "30d8b9ef84aee9bf",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "convert-grau-to-azimute",
+        "func": "const { name, bearingStart, azimuteStart, bearing, coordinate, lineDistance} = msg.payload\nlet grau = bearingStart\nlet azm = azimuteStart\nconst camera = {}\nfor (let index = 1; index < 360; index++) {\n\n    // console.log({\n    //     grau,\n    //     azm\n    // })\n    camera[grau] = azm\n    grau = grau + 1 > 359 ? 1 : grau + 1\n    azm = azm + 1 > 359 ? 1 : azm + 1\n}\n\n// node.warn(`${name} - grau: ${bearing} azm: ${camera[bearing]}`);\nmsg.bearing = camera[bearing] //aqui vai o grau convertido p/ azimuthe\nmsg.origin = [coordinate[1], coordinate[0]]\nmsg.name = name\nmsg.lineDistance = lineDistance\nmsg.bearingCamera = bearing // aqui vai o grau da camera\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 740,
+        "wires": [
+            [
+                "eb4d70d70b2edb04"
+            ]
+        ]
+    },
+    {
+        "id": "eb7f6173cda3a619",
+        "type": "ui_worldmap",
+        "z": "b358909e0825d509",
+        "group": "e5fcd30fd8eeb781",
+        "order": 1,
+        "width": 27,
+        "height": 15,
+        "name": "",
+        "lat": "-18.098287            ",
+        "lon": "-49.728768",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "0",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "false",
+        "showruler": "true",
+        "allowFileDrop": "true",
+        "path": "/fogo",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriDG,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1930,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "0e934d87e23efc57",
+        "type": "worldmap in",
+        "z": "b358909e0825d509",
+        "name": "",
+        "path": "/fogo",
+        "events": "connect,disconnect,point,layer,bounds,files,draw,other",
+        "x": 1790,
+        "y": 120,
+        "wires": [
+            [
+                "7db66f4f9e0d136f",
+                "1726442ae21bfdae",
+                "eb7f6173cda3a619"
+            ]
+        ]
+    },
+    {
+        "id": "7dd10c6a8bdf6773",
+        "type": "ui_slider",
+        "z": "b358909e0825d509",
+        "name": "",
+        "label": "Grau",
+        "tooltip": "",
+        "group": "42a189433a986de6",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "bearing",
+        "topicType": "str",
+        "min": "1",
+        "max": "359",
+        "step": 1,
+        "className": "",
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "cae7b561fc79889e",
+                "8e2b8199864788c7"
+            ]
+        ]
+    },
+    {
+        "id": "cae7b561fc79889e",
+        "type": "ui_text",
+        "z": "b358909e0825d509",
+        "group": "42a189433a986de6",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 470,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "384cfdc9f390d273",
+        "type": "ui_dropdown",
+        "z": "b358909e0825d509",
+        "name": "",
+        "label": "SPEED",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "42a189433a986de6",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 260,
+        "y": 660,
+        "wires": [
+            [
+                "a2abb81f0d08a297",
+                "539e08025a8f1db7"
+            ]
+        ]
+    },
+    {
+        "id": "967601afc4238b08",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "init setup",
+        "func": "/**\n * opcoes para combobox select\n *  */ \nconst torresOptions = []\n\n/**\n * infos iniciais para criar linha de direcao\n * inicia sem uma speed selecionada - sem infos\n * serý setado as infos ao seleciona uma speed/grau\n * */ \nflow.set('camera', {\n\n    name: undefined,\n    coordinate: undefined,\n    bearingStart: undefined,\n    azimuteStart: undefined,\n    bearing: undefined\n});\n\n/**\n * convert o array de speeds(torres) para um formato aceitývel pelo combobox\n */\nconst speeds = flow.get(\"speeds\");\nspeeds.map(torre => {\n    \n    const { name, coordinate, bearingStart, azimuteStart, bearing } = torre\n    const torres = {}\n\n    torres[name]={\n        name,\n        coordinate,\n        bearingStart,\n        azimuteStart,\n        // bearing\n    };\n    torresOptions.push(torres)\n\n})\n\n// msg.torres = msg.payload;\n\n// opcoes para combobox select\nmsg.payload = torresOptions;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 540,
+        "wires": [
+            [
+                "498a58365a00b7be"
+            ]
+        ]
+    },
+    {
+        "id": "498a58365a00b7be",
+        "type": "change",
+        "z": "b358909e0825d509",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "options",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 600,
+        "wires": [
+            [
+                "384cfdc9f390d273"
+            ]
+        ]
+    },
+    {
+        "id": "fb333c1ff0c0c863",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "set_properties_camera",
+        "func": "const speedSelected = flow.get('speedSelected');\n\nconst { \n\n    name,\n    coordinate,\n    bearingStart,\n    azimuteStart,\n    bearing,\n    lineDistance\n} = flow.get('speeds').filter(speed => speed.name === speedSelected)[0]\n\n// node.warn(flow.get('speeds').filter(speed => speed.name === speedSelected))\n\nflow.set('camera',{\n\n    name: name ? name : flow.get('camera')['name'],\n    coordinate:coordinate ? coordinate : flow.get('camera')['coordinate'],\n    bearingStart: bearingStart ? bearingStart : flow.get('camera')['bearingStart'],\n    azimuteStart: azimuteStart ? azimuteStart : flow.get('camera')['azimuteStart'],\n    bearing: bearing ? bearing : flow.get('camera')['bearing'],\n    lineDistance: lineDistance ? lineDistance : flow.get('camera')['lineDistance']\n})\n\nmsg.payload = flow.get('camera')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 740,
+        "wires": [
+            [
+                "30d8b9ef84aee9bf"
+            ]
+        ]
+    },
+    {
+        "id": "3be5e635af5c0f33",
+        "type": "catch",
+        "z": "b358909e0825d509",
+        "name": "",
+        "scope": [
+            "7db66f4f9e0d136f",
+            "eb7f6173cda3a619"
+        ],
+        "uncaught": false,
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "3c8e5e7d5b3274d4"
+            ]
+        ]
+    },
+    {
+        "id": "174b6093e3f2185c",
+        "type": "debug",
+        "z": "b358909e0825d509",
+        "name": "debug 86",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3c8e5e7d5b3274d4",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "function 61",
+        "func": "msg.payload = 'erroooooooooo'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "174b6093e3f2185c"
+            ]
+        ]
+    },
+    {
+        "id": "6aa9ce9e349bceb2",
+        "type": "inject",
+        "z": "b358909e0825d509",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "speeds",
+        "payloadType": "flow",
+        "x": 1330,
+        "y": 520,
+        "wires": [
+            [
+                "4527a793bec27ab6"
+            ]
+        ]
+    },
+    {
+        "id": "3ad5a73f3eb37341",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "set pointSelected",
+        "func": "flow.set('pointSelected', msg.payload || {})\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 200,
+        "wires": [
+            [
+                "0511666f7f780fc9"
+            ]
+        ]
+    },
+    {
+        "id": "1726442ae21bfdae",
+        "type": "switch",
+        "z": "b358909e0825d509",
+        "name": "",
+        "property": "payload.action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "connected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "a2634445fbf50b51",
+                "4672457e5b2b7b57"
+            ],
+            [
+                "3ad5a73f3eb37341"
+            ]
+        ]
+    },
+    {
+        "id": "0511666f7f780fc9",
+        "type": "template",
+        "z": "b358909e0825d509",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Direcionar foco de todas as cýmeras para: {{payload.name}} !",
+        "output": "str",
+        "x": 1120,
+        "y": 260,
+        "wires": [
+            [
+                "2d5efd1f2c83d960"
+            ]
+        ]
+    },
+    {
+        "id": "2d5efd1f2c83d960",
+        "type": "ui_button",
+        "z": "b358909e0825d509",
+        "name": "",
+        "group": "42a189433a986de6",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "pointSelected.lat",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1110,
+        "y": 320,
+        "wires": [
+            [
+                "20ed1e50b0431cf0"
+            ]
+        ]
+    },
+    {
+        "id": "20ed1e50b0431cf0",
+        "type": "ui_toast",
+        "z": "b358909e0825d509",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1270,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6b1954d8ec7d2175",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "set flow speeds",
+        "func": "flow.set(\"speeds\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 480,
+        "wires": [
+            [
+                "967601afc4238b08"
+            ]
+        ]
+    },
+    {
+        "id": "076ce8f7a672b8f9",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "direcionar speeds para um ponto",
+        "func": "flow.set('camera', {\n\n    name: flow.get('camera')['name'],\n    coordinate: coordinate ? coordinate : flow.get('camera')['coordinate'],\n    bearingStart: bearingStart ? bearingStart : flow.get('camera')['bearingStart'],\n    azimuteStart: azimuteStart ? azimuteStart : flow.get('camera')['azimuteStart'],\n    bearing: bearing ? bearing : flow.get('camera')['bearing']\n})\n\nmsg.payload = flow.get('camera')\nreturn msg;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 9,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1020,
+        "wires": [
+            [
+                "30d8b9ef84aee9bf"
+            ]
+        ]
+    },
+    {
+        "id": "243c9e462ccbb5a7",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "render kml map",
+        "func": "msg.payload = {\n    \"name\": msg.layer,\n    \"command\": {\n        \"map\":{\n            \"overlay\": msg.layer,\n            \"kml\": msg.payload\n        }\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 460,
+        "wires": [
+            [
+                "7db66f4f9e0d136f",
+                "eb7f6173cda3a619"
+            ]
+        ]
+    },
+    {
+        "id": "a2634445fbf50b51",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "read-dir-kmls",
+        "func": "\n/**\n * ready a file\n * @return a content of file\n */\ntry {\n    \n    const file = fs.readdirSync('./public/kmls');\n\n    msg.payload = file\n} catch (error) {\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "fs",
+                "module": "fs"
+            }
+        ],
+        "x": 1030,
+        "y": 460,
+        "wires": [
+            [
+                "f12e1faca1e17dd9"
+            ]
+        ]
+    },
+    {
+        "id": "f12e1faca1e17dd9",
+        "type": "split",
+        "z": "b358909e0825d509",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1170,
+        "y": 460,
+        "wires": [
+            [
+                "084bd7f3f846a046"
+            ]
+        ]
+    },
+    {
+        "id": "084bd7f3f846a046",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "read-file-kml",
+        "func": "\n/**\n * ready a file\n * @return a content of file\n */\ntry {\n    \n    msg.layer = msg.payload\n    const file = fs.readFileSync(`./public/kmls/${msg.payload}`, 'utf8');\n\n    msg.payload = file\n} catch (error) {\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "fs",
+                "module": "fs"
+            }
+        ],
+        "x": 1310,
+        "y": 460,
+        "wires": [
+            [
+                "243c9e462ccbb5a7"
+            ]
+        ]
+    },
+    {
+        "id": "8fe877c049784ae3",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "coords-line1",
+        "func": "const [lon, lat] = msg.payload.geometry.coordinates\n\nmsg.payload = [msg.origin, [lon, lat]]\nmsg.properties = {name: msg.name}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 800,
+        "wires": [
+            [
+                "f6af98fc6d2aa981"
+            ]
+        ]
+    },
+    {
+        "id": "0d0f7fa3423e6376",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "lines != atual-line",
+        "func": "const lineDirections = flow.get('lineDirections') || [];\n\nconst filterLines = lineDirections.filter(line => line.properties.name !== msg.name);\n\nmsg.actualLine = msg.payload\n\nfilterLines.push(msg.payload);\n\nflow.set('lineDirections', filterLines)\n\nmsg.payload = flow.get('lineDirections');\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 920,
+        "wires": [
+            [
+                "0bdd5c51d54feebe"
+            ]
+        ]
+    },
+    {
+        "id": "0bdd5c51d54feebe",
+        "type": "split",
+        "z": "b358909e0825d509",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1410,
+        "y": 920,
+        "wires": [
+            [
+                "0be1954d9c54c3a3"
+            ]
+        ]
+    },
+    {
+        "id": "0be1954d9c54c3a3",
+        "type": "switch",
+        "z": "b358909e0825d509",
+        "name": "",
+        "property": "payload.properties.name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "name",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1530,
+        "y": 920,
+        "wires": [
+            [
+                "09370ad54043c9c5"
+            ]
+        ]
+    },
+    {
+        "id": "2790988c3da782b9",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "create intersect point",
+        "func": "try {\n    \n    msg.payload = {\n                name: \"intersect\",\n                layer: 'intersects',\n                icon: 'fa-fire',\n                iconColor: 'red',\n                lat: msg.payload.features[0].geometry.coordinates[1],\n                lon: msg.payload.features[0].geometry.coordinates[0],\n                // tooltip: name,\n                // poped: true,\n                // popup: '<input name=\"slide1\" type=\"range\" min=\"1\" max=\"100\" value=\"50\" onchange=\\'feedback($name,this.value,this.name)\\' style=\"width:250px;\">'\n    }\n} catch (error) {\n    \n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 980,
+        "wires": [
+            [
+                "7db66f4f9e0d136f",
+                "eb7f6173cda3a619"
+            ]
+        ]
+    },
+    {
+        "id": "a2abb81f0d08a297",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "Set speedSelected context",
+        "func": "/**\n * Setar speed selecionada\n */\nflow.set(\"speedSelected\", msg.payload.name);\n\ntry {\n    /**\n     * Recupera ultima selecao de grau da speed\n     */\n    const {\n        bearing\n    } = flow.get('speeds').filter(speed => speed.name === msg.payload.name)[0];\n\n\n    /**\n     * envia o grau para o slider, evitando iniciar com grau de outra speed\n     */\n    msg.payload = bearing\n    \n} catch (error) {\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 720,
+        "wires": [
+            [
+                "7dd10c6a8bdf6773"
+            ]
+        ]
+    },
+    {
+        "id": "4672457e5b2b7b57",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "array speeds",
+        "func": "msg.payload = [\n    {\n        \"name\": \"BSA\",\n        \"coordinate\": [\n            -17.94909,\n            -49.85314\n        ],\n        \"bearingStart\": 72,\n        \"azimuteStart\": 125,\n        \"bearing\": 73,\n        \"lineDistance\": 100\n    },\n    {\n        \"name\": \"TBL\",\n        \"coordinate\": [\n            -18.098287,\n            -49.728768\n        ],\n        \"bearingStart\": 302,\n        \"azimuteStart\": 64,\n        \"bearing\": 302,\n        \"lineDistance\": 100\n    },\n    {\n        \"name\": \"TONDIN\",\n        \"coordinate\": [\n            -18.032808303833,\n            -49.9711303710938\n        ],\n        \"bearingStart\": 347,\n        \"azimuteStart\": 55,\n        \"bearing\": 347,\n        \"lineDistance\": 100\n    }\n]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "6b1954d8ec7d2175"
+            ]
+        ]
+    },
+    {
+        "id": "8e2b8199864788c7",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "Set grau speed",
+        "func": "const speeds = flow.get('speeds') || []\n\nconst speedSelected = flow.get('speedSelected');\n\nspeeds.filter((speed) => {\n    if (speed.name === speedSelected) {\n        // node.warn(speed[speedSelected]);\n        speed.bearing = msg.payload\n        // if (msg.lineDistance) speed.lineDistance = msg.lineDistance\n    }else {\n        // node.warn(\"my warning\");\n    }\n})\n\n// node.warn(speedOptions);\n\nflow.set('speeds', speeds);\nmsg.payload = flow.get('speeds')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 740,
+        "wires": [
+            [
+                "fb333c1ff0c0c863"
+            ]
+        ]
+    },
+    {
+        "id": "1ea4397e19b331a4",
+        "type": "ui_slider",
+        "z": "b358909e0825d509",
+        "name": "",
+        "label": "Comp. Linha",
+        "tooltip": "",
+        "group": "42a189433a986de6",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "lindeDistance",
+        "topicType": "msg",
+        "min": "0",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 250,
+        "y": 1040,
+        "wires": [
+            [
+                "8fa4fa6e18a85e78",
+                "3fdb576c24b09ac7"
+            ]
+        ]
+    },
+    {
+        "id": "8fa4fa6e18a85e78",
+        "type": "ui_text",
+        "z": "b358909e0825d509",
+        "group": "42a189433a986de6",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}} Km",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 370,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "539e08025a8f1db7",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "Set speedSelected context",
+        "func": "try {\n    \n    /**\n     * Recupera ultima selecao de grau da speed\n     */\n    const {\n        lineDistance\n    } = flow.get('speeds').filter(speed => speed.name === msg.payload.name)[0];\n\n\n    /**\n     * envia o grau para o slider, evitando iniciar com grau de outra speed\n     */\n    msg.payload = lineDistance\n} catch (error) {\n    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 960,
+        "wires": [
+            [
+                "1ea4397e19b331a4"
+            ]
+        ]
+    },
+    {
+        "id": "eb4d70d70b2edb04",
+        "type": "turf-module",
+        "z": "b358909e0825d509",
+        "name": "length & bearing - line",
+        "turf-module": "9",
+        "meta": {
+            "props": {
+                "turf-argument-0": {
+                    "p": "turf-argument-0",
+                    "vt": "msg",
+                    "n": "origin"
+                },
+                "turf-argument-1": {
+                    "p": "turf-argument-1",
+                    "vt": "msg",
+                    "n": "distance"
+                },
+                "turf-argument-2": {
+                    "p": "turf-argument-2",
+                    "vt": "msg",
+                    "n": "bearing"
+                },
+                "turf-option-0": {
+                    "p": "turf-option-0",
+                    "vt": "str",
+                    "n": "units"
+                },
+                "turf-option-1": {
+                    "p": "turf-option-1",
+                    "vt": "json",
+                    "n": "properties"
+                }
+            },
+            "module": "destination"
+        },
+        "turf-argument-0": "origin",
+        "turf-argument-1": "lineDistance",
+        "turf-argument-2": "bearing",
+        "turf-argument-3": null,
+        "turf-argument-4": null,
+        "turf-argument-5": null,
+        "turf-option-0": "kilometers",
+        "turf-option-1": "",
+        "turf-option-2": null,
+        "turf-option-3": null,
+        "turf-option-4": null,
+        "turf-option-5": null,
+        "x": 1260,
+        "y": 740,
+        "wires": [
+            [
+                "63d7f4be9c8a8575",
+                "8fe877c049784ae3"
+            ]
+        ]
+    },
+    {
+        "id": "f6af98fc6d2aa981",
+        "type": "turf-module",
+        "z": "b358909e0825d509",
+        "name": "create-line1",
+        "turf-module": "70",
+        "meta": {
+            "props": {
+                "turf-argument-0": {
+                    "p": "turf-argument-0",
+                    "vt": "msg",
+                    "n": "coordinates"
+                },
+                "turf-argument-1": {
+                    "p": "turf-argument-1",
+                    "vt": "msg",
+                    "n": "properties"
+                },
+                "turf-option-0": {
+                    "p": "turf-option-0",
+                    "vt": "json",
+                    "n": "bbox"
+                },
+                "turf-option-1": {
+                    "p": "turf-option-1",
+                    "vt": "str",
+                    "n": "id"
+                }
+            },
+            "module": "lineString"
+        },
+        "turf-argument-0": "payload",
+        "turf-argument-1": "properties",
+        "turf-argument-2": null,
+        "turf-argument-3": null,
+        "turf-argument-4": null,
+        "turf-argument-5": null,
+        "turf-option-0": "",
+        "turf-option-1": "",
+        "turf-option-2": null,
+        "turf-option-3": null,
+        "turf-option-4": null,
+        "turf-option-5": null,
+        "x": 1230,
+        "y": 860,
+        "wires": [
+            [
+                "0d0f7fa3423e6376"
+            ]
+        ]
+    },
+    {
+        "id": "09370ad54043c9c5",
+        "type": "turf-module",
+        "z": "b358909e0825d509",
+        "name": "",
+        "turf-module": "56",
+        "meta": {
+            "props": {
+                "turf-argument-0": {
+                    "p": "turf-argument-0",
+                    "vt": "msg",
+                    "n": "line1"
+                },
+                "turf-argument-1": {
+                    "p": "turf-argument-1",
+                    "vt": "msg",
+                    "n": "line2"
+                }
+            },
+            "module": "lineIntersect"
+        },
+        "turf-argument-0": "payload",
+        "turf-argument-1": "actualLine",
+        "turf-argument-2": null,
+        "turf-argument-3": null,
+        "turf-argument-4": null,
+        "turf-argument-5": null,
+        "turf-option-0": null,
+        "turf-option-1": null,
+        "turf-option-2": null,
+        "turf-option-3": null,
+        "turf-option-4": null,
+        "turf-option-5": null,
+        "x": 1570,
+        "y": 980,
+        "wires": [
+            [
+                "2790988c3da782b9"
+            ]
+        ]
+    },
+    {
+        "id": "3fdb576c24b09ac7",
+        "type": "function",
+        "z": "b358909e0825d509",
+        "name": "Set grau speed",
+        "func": "const speeds = flow.get('speeds') || []\n\nconst speedSelected = flow.get('speedSelected');\n\nspeeds.filter((speed) => {\n    if (speed.name === speedSelected) {\n        // node.warn(speed[speedSelected]);\n        // speed.bearing = msg.payload\n        speed.lineDistance = msg.payload\n    }else {\n        // node.warn(\"my warning\");\n    }\n})\n\n// node.warn(speedOptions);\n\nflow.set('speeds', speeds);\nmsg.payload = flow.get('speeds')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1040,
+        "wires": [
+            [
+                "fb333c1ff0c0c863"
+            ]
+        ]
     }
 ]
