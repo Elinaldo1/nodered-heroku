@@ -1,0 +1,630 @@
+[
+  {
+    "name": "FN01T",
+    "description": "Tabela Empresa do Financeiro"
+  },
+  {
+    "name": "FN01T1",
+    "description": "Usuarios de Autorização"
+  },
+  {
+    "name": "FN01T2",
+    "description": "Autorizações de Usuários"
+  },
+  {
+    "name": "FN01T4",
+    "description": "Prefixos para Adiantamento a Clientes/Fornecedores"
+  },
+  {
+    "name": "FN01T5",
+    "description": "Usuários para Aprovação"
+  },
+  {
+    "name": "FN01T6",
+    "description": "Orçamentos para Controle de Talão de Cheques"
+  },
+  {
+    "name": "FN01T7",
+    "description": "Banco/Operação para Protesto"
+  },
+  {
+    "name": "FN01T8",
+    "description": "Classe de Comissão para Item de Débito"
+  },
+  {
+    "name": "FN01T9",
+    "description": "Baixa Automática p/ Desconto de Qualidade p/ Grupo"
+  },
+  {
+    "name": "FN01TG",
+    "description": "Prefixos para Alçada"
+  },
+  {
+    "name": "FN02T",
+    "description": "Tabela de Agências Bancárias"
+  },
+  {
+    "name": "FN03T",
+    "description": "Grupos de Tipos Orçamentos no"
+  },
+  {
+    "name": "FN04T",
+    "description": "Orçamentos no Conta Corrente"
+  },
+  {
+    "name": "FN04T2",
+    "description": "Orçamentos no Conta Corrente"
+  },
+  {
+    "name": "FN05T",
+    "description": "Prefixo de Títulos"
+  },
+  {
+    "name": "FN06T",
+    "description": "Tabela de Títulos"
+  },
+  {
+    "name": "FN06T1",
+    "description": "Histórico Bancário Tit Receber"
+  },
+  {
+    "name": "FN06T2",
+    "description": "Itens de Baixas de Títulos"
+  },
+  {
+    "name": "FN06T21",
+    "description": "Adiantamentos da Baixa"
+  },
+  {
+    "name": "FN06T22",
+    "description": "Títulos de Tributos"
+  },
+  {
+    "name": "FN06T23",
+    "description": "Tabela Base de Tributos da Baixa"
+  },
+  {
+    "name": "FN06T24",
+    "description": "Titulos de Recebimento de Outras Moedas da Baixa"
+  },
+  {
+    "name": "FN06T3",
+    "description": "Alterações Ocorridas no Título"
+  },
+  {
+    "name": "FN06T4",
+    "description": "Rateio dos Titulos e C.Cust"
+  },
+  {
+    "name": "FN06T5",
+    "description": "Representantes Adicionais"
+  },
+  {
+    "name": "FN06T51",
+    "description": "Valores p/ Cálculo Comissões"
+  },
+  {
+    "name": "FN06T7",
+    "description": "Correção Cambial"
+  },
+  {
+    "name": "FN06T8",
+    "description": "Encerramento de Saldo de Adiantamentos"
+  },
+  {
+    "name": "FN06T9",
+    "description": "Histórico Serasa"
+  },
+  {
+    "name": "FN06TA",
+    "description": "Representantes Complementares"
+  },
+  {
+    "name": "FN06TB",
+    "description": "Títulos para Aprovação por Solicitação Comercial"
+  },
+  {
+    "name": "FN06TB1",
+    "description": "Aprovações - Títulos para Aprovação por Solicitação Comercial"
+  },
+  {
+    "name": "FN06TD",
+    "description": "Liberações do Título"
+  },
+  {
+    "name": "FN06TE",
+    "description": "Solicitação Estorno Baixa"
+  },
+  {
+    "name": "FN07T",
+    "description": "Tabela de Contas Correntes"
+  },
+  {
+    "name": "FN07T1",
+    "description": "Tabela de Empresas Autorizadas"
+  },
+  {
+    "name": "FN07T2",
+    "description": "Tab Nosso Numero por Empresa"
+  },
+  {
+    "name": "FN07T3",
+    "description": "Cadastro de Talão de Cheques"
+  },
+  {
+    "name": "FN08T",
+    "description": "Tabela de Borderôs"
+  },
+  {
+    "name": "FN08T1",
+    "description": "Tabela de Itens do Borderôs"
+  },
+  {
+    "name": "FN08T2",
+    "description": "Tabela de Autorização de Itens"
+  },
+  {
+    "name": "FN10T",
+    "description": "Tipos de Baixas"
+  },
+  {
+    "name": "FN10T1",
+    "description": "Tipos de Baixas - Tabela de In"
+  },
+  {
+    "name": "FN10T2",
+    "description": "Tipos de Baixas - Log de Alter"
+  },
+  {
+    "name": "FN10T3",
+    "description": "Tipos de Baixas - Log de Alter"
+  },
+  {
+    "name": "FN10T4",
+    "description": "Usuários do Tipo de Baixa"
+  },
+  {
+    "name": "FN10T5",
+    "description": "Tabela de Prefixos para Baixa"
+  },
+  {
+    "name": "FN11T",
+    "description": "Lote de Baixa"
+  },
+  {
+    "name": "FN12T",
+    "description": "Controle de Cheques"
+  },
+  {
+    "name": "FN12T1",
+    "description": "Itens Controle de Cheques"
+  },
+  {
+    "name": "FN12T2",
+    "description": "Vinculo Lancto Conta Corrente"
+  },
+  {
+    "name": "FN12T3",
+    "description": "Histórico Bancário do Cheque"
+  },
+  {
+    "name": "FN13T",
+    "description": "Movimentos Contas Correntes"
+  },
+  {
+    "name": "FN13T1",
+    "description": "Históricos de Lanç. CC"
+  },
+  {
+    "name": "FN13T2",
+    "description": "Tarifa de Lanç. CC"
+  },
+  {
+    "name": "FN13T3",
+    "description": "Alterações do Lançamento"
+  },
+  {
+    "name": "FN13T4",
+    "description": "Títulos Custas"
+  },
+  {
+    "name": "FN13T5",
+    "description": "Títulos de Encerramento de Saldo"
+  },
+  {
+    "name": "FN14T",
+    "description": "Classes de Lanctos Comissões"
+  },
+  {
+    "name": "FN14T1",
+    "description": "Contabilização por Marca"
+  },
+  {
+    "name": "FN15T",
+    "description": "Temporaria - Arq. Retorno"
+  },
+  {
+    "name": "FN15T1",
+    "description": "Temporaria - Arq. Retorno"
+  },
+  {
+    "name": "FN15T2",
+    "description": "Temporaria - Arq. Retorno"
+  },
+  {
+    "name": "FN15T3",
+    "description": "Temporaria - Arq. Retorno"
+  },
+  {
+    "name": "FN15T4",
+    "description": "Temporaria - Arq. Retorno"
+  },
+  {
+    "name": "FN17T",
+    "description": "Seleção de Cheques"
+  },
+  {
+    "name": "FN17T1",
+    "description": "Seleção de Cheques"
+  },
+  {
+    "name": "FN19T",
+    "description": "Tabela de Tarifas"
+  },
+  {
+    "name": "FN21T",
+    "description": "Grupo de Cheques"
+  },
+  {
+    "name": "FN21T1",
+    "description": "Empresas Autorizadas"
+  },
+  {
+    "name": "FN23T",
+    "description": "Impressão de Cheques"
+  },
+  {
+    "name": "FN23T1",
+    "description": "Impressão de Cheques"
+  },
+  {
+    "name": "FN24T",
+    "description": "Fechamento de Período"
+  },
+  {
+    "name": "FN26T",
+    "description": "Lançamentos de Comissões"
+  },
+  {
+    "name": "FN26T1",
+    "description": "Lançamentos de Comissões"
+  },
+  {
+    "name": "FN26T2",
+    "description": "Log de Estorno de Contab Comis"
+  },
+  {
+    "name": "FN26T3",
+    "description": "Representantes Complementares"
+  },
+  {
+    "name": "FN27T",
+    "description": "Previsão Despesas e Receitas"
+  },
+  {
+    "name": "FN27T1",
+    "description": "Previsão Despesas e Receitas"
+  },
+  {
+    "name": "FN27T2",
+    "description": "Previsão Despesas e Receitas"
+  },
+  {
+    "name": "FN28T",
+    "description": "Lote da Nota de Débito"
+  },
+  {
+    "name": "FN28T1",
+    "description": "Lote da Nota de Débito"
+  },
+  {
+    "name": "FN28T12",
+    "description": "Títulos Gerados por ND"
+  },
+  {
+    "name": "FN29T",
+    "description": " T965"
+  },
+  {
+    "name": "FN29T1",
+    "description": "FN29T1"
+  },
+  {
+    "name": "FN29T2",
+    "description": " T963"
+  },
+  {
+    "name": "FN29T3",
+    "description": " T964"
+  },
+  {
+    "name": "FN30T",
+    "description": "Periodo de Acerto de Comissões"
+  },
+  {
+    "name": "FN31T",
+    "description": "FN31T"
+  },
+  {
+    "name": "FN32T",
+    "description": "Referência de Lançamentos CTB."
+  },
+  {
+    "name": "FN35T",
+    "description": "FN35T"
+  },
+  {
+    "name": "FN36T",
+    "description": "FN36T"
+  },
+  {
+    "name": "FN36T1",
+    "description": "FN36T1"
+  },
+  {
+    "name": "FN36T2",
+    "description": "FN36T2"
+  },
+  {
+    "name": "FN37T",
+    "description": "FN37T"
+  },
+  {
+    "name": "FN38T",
+    "description": "Layouts - Conciliação Bancária"
+  },
+  {
+    "name": "FN38T1",
+    "description": "Lançamentos - Conciliação Banc"
+  },
+  {
+    "name": "FN38T2",
+    "description": "Categorias - Conciliação Bancá"
+  },
+  {
+    "name": "FN38T3",
+    "description": "Lançamentos no Banco - Concili"
+  },
+  {
+    "name": "FN39T",
+    "description": "Arquivo de conciliação"
+  },
+  {
+    "name": "FN39T1",
+    "description": "Lançamentos de Conciliação"
+  },
+  {
+    "name": "FN39T2",
+    "description": "Lançamentos Multiplos"
+  },
+  {
+    "name": "FN39T3",
+    "description": "Level3"
+  },
+  {
+    "name": "FN40T",
+    "description": "Agrupamento de Títulos"
+  },
+  {
+    "name": "FN40T1",
+    "description": "Títlos Agrupados/Cancelados"
+  },
+  {
+    "name": "FN41T",
+    "description": "FN41T"
+  },
+  {
+    "name": "FN41T1",
+    "description": "FN41T1"
+  },
+  {
+    "name": "FN42T",
+    "description": "FN42T"
+  },
+  {
+    "name": "FN42T1",
+    "description": "FN42T1"
+  },
+  {
+    "name": "FN43T",
+    "description": "Log de Estorno de Baixas"
+  },
+  {
+    "name": "FN44T",
+    "description": "FN44T"
+  },
+  {
+    "name": "FN44T1",
+    "description": "FN44T1"
+  },
+  {
+    "name": "FN44T2",
+    "description": "FN44T2"
+  },
+  {
+    "name": "FN45T",
+    "description": "Controle Despesas/Prefixos"
+  },
+  {
+    "name": "FN45T1",
+    "description": "Controle Despesas/Prefixos"
+  },
+  {
+    "name": "FN46T",
+    "description": "Log Remoção Vínculos Bancários"
+  },
+  {
+    "name": "FN47T",
+    "description": "Títulos de Integração com DDA"
+  },
+  {
+    "name": "FN48T",
+    "description": "Tabela de Log Titulos DDA"
+  },
+  {
+    "name": "FN49T",
+    "description": "Tabela de Integração Titulos CHB x CNBR WD"
+  },
+  {
+    "name": "FN50T",
+    "description": "Tabela de Integração Mvto CC CHB x CNBR WD"
+  },
+  {
+    "name": "FN51T",
+    "description": "Tabela Lote Custódia de Cheques"
+  },
+  {
+    "name": "FN51T1",
+    "description": "Itens do Lote Custódia de Cheques"
+  },
+  {
+    "name": "FN52T",
+    "description": "Tabela de Perfil de Prefixo"
+  },
+  {
+    "name": "FN53T",
+    "description": "Tabela de Controle de Cobrança"
+  },
+  {
+    "name": "FN53T1",
+    "description": "Tabela de Controle de Cobrança - Títulos"
+  },
+  {
+    "name": "FN53T2",
+    "description": "Tabela de Controle de Cobrança - Cheques"
+  },
+  {
+    "name": "FN54T",
+    "description": "Log Remoção Vínculos Custódia Cheque"
+  },
+  {
+    "name": "FN55T",
+    "description": "Período Juros Santinvest"
+  },
+  {
+    "name": "FN56T",
+    "description": "Liberação de Valores a Pagar por Fornecedor"
+  },
+  {
+    "name": "FN56T1",
+    "description": "Itens Liberação Judicial"
+  },
+  {
+    "name": "FN56T2",
+    "description": "Baixas da Liberação Judicial"
+  },
+  {
+    "name": "FN57T",
+    "description": "Alterações Ocorridas na Liberação Judicial"
+  },
+  {
+    "name": "FN58T",
+    "description": "Alterações Ocorridas na Previsão Despesas e Receitas"
+  },
+  {
+    "name": "FN59T",
+    "description": "Temp Santinvest"
+  },
+  {
+    "name": "FN60T",
+    "description": "Cadastro de Prorrogação de Títulos"
+  },
+  {
+    "name": "FN61T",
+    "description": "Carta de Prorrogação"
+  },
+  {
+    "name": "FN61T1",
+    "description": "Contas Carta de Prorrogação"
+  },
+  {
+    "name": "FN61T2",
+    "description": "Títulos Carta de Prorrogação"
+  },
+  {
+    "name": "FN62T",
+    "description": "Lote de Solicitação para Fechamento de Câmbio"
+  },
+  {
+    "name": "FN62T1",
+    "description": "Títulos do Lote de Solicitação para Fechamento de Câmbio"
+  },
+  {
+    "name": "FN63T",
+    "description": "Cadastro de Solicitação Comercial"
+  },
+  {
+    "name": "FN64T",
+    "description": "Perfil de Prefixo Web"
+  },
+  {
+    "name": "FN64T1",
+    "description": "Prefixos do Perfil"
+  },
+  {
+    "name": "FN65T",
+    "description": "Perfil de Contas Correntes"
+  },
+  {
+    "name": "FN65T1",
+    "description": "Contas do Perfil"
+  },
+  {
+    "name": "FN65T2",
+    "description": "Perfil Contas Corrente por empresa "
+  },
+  {
+    "name": "FN68T",
+    "description": "Autorizações Necessárias para Liberação de Título"
+  },
+  {
+    "name": "FN68T1",
+    "description": "Usuários Autorizações Necessárias para Liberação de Título"
+  },
+  {
+    "name": "FN69T",
+    "description": "Filtro contas correntes"
+  },
+  {
+    "name": "FN69T1",
+    "description": "Contas do Perfil"
+  },
+  {
+    "name": "FN70T",
+    "description": "Á Faturar no Período"
+  },
+  {
+    "name": "FN71T",
+    "description": "Outros Créditos"
+  },
+  {
+    "name": "FN72T",
+    "description": "Outros Débitos"
+  },
+  {
+    "name": "FN73T",
+    "description": "Dados do Arquivo de Conciliação"
+  },
+  {
+    "name": "FN73T1",
+    "description": "Dados do Arquivo de Conciliação"
+  },
+  {
+    "name": "FN73T2",
+    "description": "Registros conciliados"
+  },
+  {
+    "name": "FN74T",
+    "description": "Log da WS da Finnet"
+  }
+]

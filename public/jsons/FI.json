@@ -1,0 +1,1134 @@
+[
+  {
+    "name": "FI01T",
+    "description": "Tabela da Empresa Fiscal"
+  },
+  {
+    "name": "FI01T1",
+    "description": "Período de Apuração SPED"
+  },
+  {
+    "name": "FI01T2",
+    "description": "Tabela de Partilha do ICMS"
+  },
+  {
+    "name": "FI01T3",
+    "description": " T1807"
+  },
+  {
+    "name": "FI01TA1",
+    "description": "Usuários de Liberação do Fornecedor"
+  },
+  {
+    "name": "FI02T",
+    "description": "Tabela de Estados"
+  },
+  {
+    "name": "FI03T",
+    "description": "Tabela de Códigos Fiscais"
+  },
+  {
+    "name": "FI04T",
+    "description": "Tabela de Regiões"
+  },
+  {
+    "name": "FI05T",
+    "description": "Tabela de Clas. de Clientes"
+  },
+  {
+    "name": "FI05T1",
+    "description": "Tabela de Usuários de Liberação do Limite de Crédito"
+  },
+  {
+    "name": "FI06T",
+    "description": "Tabela de Bancos"
+  },
+  {
+    "name": "FI06T1",
+    "description": "Tabela de Bancos"
+  },
+  {
+    "name": "FI06T2",
+    "description": "Tabela de Bancos"
+  },
+  {
+    "name": "FI06T3",
+    "description": "Tabela de Bancos"
+  },
+  {
+    "name": "FI06T4",
+    "description": "Tabela de Bancos"
+  },
+  {
+    "name": "FI06T5",
+    "description": "Tabela de Configuração de Cheque"
+  },
+  {
+    "name": "FI06T6",
+    "description": "Tabela Código de Barras"
+  },
+  {
+    "name": "FI06T61",
+    "description": "Tabela Código de Barras"
+  },
+  {
+    "name": "FI07T",
+    "description": "Tabela de Operações Bancárias"
+  },
+  {
+    "name": "FI08T",
+    "description": "Tabela Operações Tributárias"
+  },
+  {
+    "name": "FI08T1",
+    "description": "Tabela Operações Tributárias"
+  },
+  {
+    "name": "FI08T2",
+    "description": "Tabela de Contabilização Emp."
+  },
+  {
+    "name": "FI08T3",
+    "description": "Tabela Referência Op. X Emp."
+  },
+  {
+    "name": "FI08T4",
+    "description": "Tabela Liberações p/ Empresa"
+  },
+  {
+    "name": "FI08T5",
+    "description": "Tabela de Cont. da Incidência"
+  },
+  {
+    "name": "FI08T6",
+    "description": "Tabela de Alíquotas de ISS por Cidade"
+  },
+  {
+    "name": "FI08T7",
+    "description": "Tabela de Centros de Custo por Marca"
+  },
+  {
+    "name": "FI08T8",
+    "description": "Tabela de Escrituração Emp."
+  },
+  {
+    "name": "FI08T81",
+    "description": "Tabela de Números de Processos"
+  },
+  {
+    "name": "FI08T9",
+    "description": "Referência de Operações de Venda para Clientes Super Simples"
+  },
+  {
+    "name": "FI08TE",
+    "description": "Operação para não Contribuinte"
+  },
+  {
+    "name": "FI09T",
+    "description": "Tabela Origem Despesa/Receita"
+  },
+  {
+    "name": "FI10T",
+    "description": "Tabela Condições de Pagamento"
+  },
+  {
+    "name": "FI10T1",
+    "description": "Tabela de Dias da Condição"
+  },
+  {
+    "name": "FI10T2",
+    "description": "Tabela Períodos de Vencimento"
+  },
+  {
+    "name": "FI10TA",
+    "description": "Tabela de Log de Campos"
+  },
+  {
+    "name": "FI10TB",
+    "description": "Tabela de Venctos Fixos"
+  },
+  {
+    "name": "FI11T",
+    "description": "Tabela de Receitas para DARF"
+  },
+  {
+    "name": "FI11T1",
+    "description": "FI11T1"
+  },
+  {
+    "name": "FI12T",
+    "description": "Tabela de Índice para Guias"
+  },
+  {
+    "name": "FI13T",
+    "description": "Tabela de Representantes"
+  },
+  {
+    "name": "FI13T1",
+    "description": " T1642"
+  },
+  {
+    "name": "FI13T2",
+    "description": "Tabela de Comissões do Rep."
+  },
+  {
+    "name": "FI13T3",
+    "description": "Tabela de Cond. Pagto do Rep."
+  },
+  {
+    "name": "FI13T4",
+    "description": "Tabela Admissão/Demissão Repre"
+  },
+  {
+    "name": "FI13T5",
+    "description": "Tabela de Alterações do Representante"
+  },
+  {
+    "name": "FI13T6",
+    "description": "Tabela de Observações"
+  },
+  {
+    "name": "FI13TA",
+    "description": "Tabela de Prepostos"
+  },
+  {
+    "name": "FI13TB",
+    "description": "Tabela de Comissões por Marca"
+  },
+  {
+    "name": "FI13TB1",
+    "description": "Tabela de Comissões por Marca"
+  },
+  {
+    "name": "FI13TB2",
+    "description": "Tabela de Planos de Pa por Marca/Fab"
+  },
+  {
+    "name": "FI13TSD",
+    "description": "Tabela de Representantes"
+  },
+  {
+    "name": "FI14T",
+    "description": "Tabela de Cidades"
+  },
+  {
+    "name": "FI15T",
+    "description": "Tabela Clientes/Fornecedores"
+  },
+  {
+    "name": "FI15T1",
+    "description": "Tabela de Contatos"
+  },
+  {
+    "name": "FI15T2",
+    "description": "Tabela de Observações"
+  },
+  {
+    "name": "FI15T3",
+    "description": "Tabela de Concorrentes"
+  },
+  {
+    "name": "FI15T4",
+    "description": "Representantes Adicionais"
+  },
+  {
+    "name": "FI15T5",
+    "description": "Tabela de Sócios"
+  },
+  {
+    "name": "FI15T7",
+    "description": "Tabela de Consts do Cliente"
+  },
+  {
+    "name": "FI15T8",
+    "description": "Tabela de Mapa de Comissões"
+  },
+  {
+    "name": "FI15T81",
+    "description": "Tabela de Comissões do Rep./Cliente (PAI)"
+  },
+  {
+    "name": "FI15T9",
+    "description": "FI15T9"
+  },
+  {
+    "name": "FI15TB",
+    "description": "Tabela de Condições do Cliente"
+  },
+  {
+    "name": "FI15TBSD",
+    "description": "Tabela de Condições de Pagamento do Cliente"
+  },
+  {
+    "name": "FI15TC",
+    "description": "Tabela de Descontos do Cliente"
+  },
+  {
+    "name": "FI15TCSD",
+    "description": "Tabela de Descontos do Cliente - iPad"
+  },
+  {
+    "name": "FI15TD",
+    "description": "Tabela de Consts. por Linha"
+  },
+  {
+    "name": "FI15TE",
+    "description": " T1924"
+  },
+  {
+    "name": "FI15TF",
+    "description": "FI15TF"
+  },
+  {
+    "name": "FI15TG",
+    "description": "FI15TG"
+  },
+  {
+    "name": "FI15TGSD",
+    "description": "Descontos da Condição de Pagamento do Cliente"
+  },
+  {
+    "name": "FI15TI",
+    "description": "Tabela de Des. por Tamanho"
+  },
+  {
+    "name": "FI15TI1",
+    "description": "Tabela de Des. por Tamanho"
+  },
+  {
+    "name": "FI15TJ",
+    "description": "Tabela de Empresas p Faturar"
+  },
+  {
+    "name": "FI15TK",
+    "description": "FI15TK"
+  },
+  {
+    "name": "FI15TN",
+    "description": "Tabela de Comissões por Cond P"
+  },
+  {
+    "name": "FI15TO",
+    "description": "Vigencia Inf ANP"
+  },
+  {
+    "name": "FI15TP",
+    "description": "Arquivos Digitais Anexados"
+  },
+  {
+    "name": "FI15TSD",
+    "description": "Tabela de Clientes"
+  },
+  {
+    "name": "FI15TT",
+    "description": "Contrato de Serviço por Empresa"
+  },
+  {
+    "name": "FI15TU1",
+    "description": "Produtos Criticos"
+  },
+  {
+    "name": "FI15TU2",
+    "description": "Avaliações de Fornecedores"
+  },
+  {
+    "name": "FI15TV",
+    "description": "Tabela de Frete do Cliente"
+  },
+  {
+    "name": "FI15TX",
+    "description": "Tabela de Representeantes porMarca"
+  },
+  {
+    "name": "FI15TXA1",
+    "description": "Tabela de Comissões por Marca"
+  },
+  {
+    "name": "FI15TXA2",
+    "description": " T1647"
+  },
+  {
+    "name": "FI15TXA2SD",
+    "description": "Tabela de Descontos Por Marca"
+  },
+  {
+    "name": "FI15TXSD",
+    "description": "Marcas do Cliente"
+  },
+  {
+    "name": "FI15TYA",
+    "description": "Tabela de Lojas de Exportação"
+  },
+  {
+    "name": "FI15TYASD",
+    "description": "Tabela de Lojas de Exportação"
+  },
+  {
+    "name": "FI15TZ",
+    "description": "FI15 TZ"
+  },
+  {
+    "name": "FI15TZ8",
+    "description": "Cadastro de clientes/fornecedores - Formulários Recebidos"
+  },
+  {
+    "name": "FI15TZ81",
+    "description": "Perguntas do Formulário do Fornecedor"
+  },
+  {
+    "name": "FI16T",
+    "description": "Tabela de Tipos de Documento"
+  },
+  {
+    "name": "FI16T1",
+    "description": "Tabela de Empresas do Modelo"
+  },
+  {
+    "name": "FI16T2",
+    "description": "Tabela de Usuários do Modelo"
+  },
+  {
+    "name": "FI16T3",
+    "description": "Tabela de Prefixos por Empresa"
+  },
+  {
+    "name": "FI17T",
+    "description": "Lançamentos Livro de Saída"
+  },
+  {
+    "name": "FI17T1",
+    "description": "Itens Lancto Livro de Saída"
+  },
+  {
+    "name": "FI18T",
+    "description": "Lançamentos Livro de Entrada"
+  },
+  {
+    "name": "FI18T1",
+    "description": "Itens Lancto Livro de Entrada"
+  },
+  {
+    "name": "FI19T",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T1",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T10",
+    "description": "FI19T10"
+  },
+  {
+    "name": "FI19T2",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T3",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T4",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T5",
+    "description": "FI19T5"
+  },
+  {
+    "name": "FI19T6",
+    "description": "FI19T6"
+  },
+  {
+    "name": "FI19T7",
+    "description": "Temporária para Gia"
+  },
+  {
+    "name": "FI19T8",
+    "description": "FI19T8"
+  },
+  {
+    "name": "FI19T9",
+    "description": "FI19T9"
+  },
+  {
+    "name": "FI20T",
+    "description": "Temporária Resumo Operações"
+  },
+  {
+    "name": "FI20T1",
+    "description": "Temporária Resumo Operações"
+  },
+  {
+    "name": "FI20T2",
+    "description": "Temporária Resumo Operações"
+  },
+  {
+    "name": "FI21T",
+    "description": "Temporária Resumo Operações UF"
+  },
+  {
+    "name": "FI21T1",
+    "description": "Temporária Resumo Operações UF"
+  },
+  {
+    "name": "FI22T",
+    "description": "Temp. Maiores Vendas/Compras"
+  },
+  {
+    "name": "FI22T1",
+    "description": "Temp. Maiores Vendas/Compras"
+  },
+  {
+    "name": "FI23T",
+    "description": "Temp. Lista de Código Fiscal"
+  },
+  {
+    "name": "FI23T1",
+    "description": "Temp. Lista de Código Fiscal"
+  },
+  {
+    "name": "FI24T",
+    "description": "Tabela de SubItens Válidos"
+  },
+  {
+    "name": "FI25T",
+    "description": "Log de Usuários Reinf"
+  },
+  {
+    "name": "FI26T",
+    "description": "Tabela de Ocorrência IPI"
+  },
+  {
+    "name": "FI26T1",
+    "description": "Tabela de Ocorrência IPI"
+  },
+  {
+    "name": "FI26T2",
+    "description": "Notas Fiscais da Ocorrência de IPI"
+  },
+  {
+    "name": "FI26T21",
+    "description": "Itens da Nota Fiscal da Ocorrência de IPI"
+  },
+  {
+    "name": "FI27T",
+    "description": "Tabela de Ocorrência ICMS"
+  },
+  {
+    "name": "FI27T1",
+    "description": "Lançamentos Ocorrência ICMS"
+  },
+  {
+    "name": "FI27T2",
+    "description": "Tabela de Ocorrência ICMS"
+  },
+  {
+    "name": "FI28T",
+    "description": "Tipo de Classificação Contábil"
+  },
+  {
+    "name": "FI29T",
+    "description": "Tabela de Bairros"
+  },
+  {
+    "name": "FI30T",
+    "description": "Tabela de Logradouros"
+  },
+  {
+    "name": "FI31T",
+    "description": "Tabela de CEPs Especiais"
+  },
+  {
+    "name": "FI32T",
+    "description": "Tabela de Tipos de Logradouros"
+  },
+  {
+    "name": "FI33T",
+    "description": "Tabela de Segmentos"
+  },
+  {
+    "name": "FI34T",
+    "description": "Tabela de Tipos de Empresas"
+  },
+  {
+    "name": "FI35T",
+    "description": "Tabela de Concorrentes"
+  },
+  {
+    "name": "FI36T",
+    "description": "Tabela de Profissões"
+  },
+  {
+    "name": "FI37T",
+    "description": "Tabela de Escritório Regional"
+  },
+  {
+    "name": "FI37T1",
+    "description": "Cidades do Escritório Regional"
+  },
+  {
+    "name": "FI38T",
+    "description": "Tabela de Representantes Ad."
+  },
+  {
+    "name": "FI39T",
+    "description": "Grupos de Tipos de Desp./Rec."
+  },
+  {
+    "name": "FI40T",
+    "description": "Carta de Correção"
+  },
+  {
+    "name": "FI40T1",
+    "description": "Carta de Correção"
+  },
+  {
+    "name": "FI42T",
+    "description": "Tabela de Rotas de Entrega"
+  },
+  {
+    "name": "FI43T",
+    "description": "Configuração de Operação Tributária"
+  },
+  {
+    "name": "FI43T1",
+    "description": "Configuração de Operação Tributária"
+  },
+  {
+    "name": "FI44T",
+    "description": "FI44T"
+  },
+  {
+    "name": "FI46T",
+    "description": "FI46T"
+  },
+  {
+    "name": "FI46T1",
+    "description": "fi46 Cod"
+  },
+  {
+    "name": "FI47T",
+    "description": "FI47T"
+  },
+  {
+    "name": "FI48T",
+    "description": "Operações Tribuitárias ANP"
+  },
+  {
+    "name": "FI48TA",
+    "description": "UF Operações Anp"
+  },
+  {
+    "name": "FI49T",
+    "description": "FI49T"
+  },
+  {
+    "name": "FI51T",
+    "description": "FI51T"
+  },
+  {
+    "name": "FI51T1",
+    "description": "FI51T1"
+  },
+  {
+    "name": "FI51T2",
+    "description": "Estoque Terceiros"
+  },
+  {
+    "name": "FI52T",
+    "description": "Cadastro de Produtos ANP"
+  },
+  {
+    "name": "FI52T1",
+    "description": "Itens do produto ANP"
+  },
+  {
+    "name": "FI52T2",
+    "description": "Fator de Conversão (A Partir De)"
+  },
+  {
+    "name": "FI53T",
+    "description": "FI53T"
+  },
+  {
+    "name": "FI53T1",
+    "description": "FI53T1"
+  },
+  {
+    "name": "FI54T",
+    "description": "Encerramento IPI/ICMS"
+  },
+  {
+    "name": "FI56T",
+    "description": "FI56T"
+  },
+  {
+    "name": "FI57T",
+    "description": "FI57T"
+  },
+  {
+    "name": "FI58T",
+    "description": "FI58T"
+  },
+  {
+    "name": "FI59T",
+    "description": "FI59T"
+  },
+  {
+    "name": "FI60T",
+    "description": "FI60T"
+  },
+  {
+    "name": "FI61T",
+    "description": "Tabela de Seq. de NSU"
+  },
+  {
+    "name": "FI62T",
+    "description": "Classificação de Segmentos"
+  },
+  {
+    "name": "FI63T",
+    "description": "FI63T"
+  },
+  {
+    "name": "FI64T",
+    "description": "ANP GATEC"
+  },
+  {
+    "name": "FI65T",
+    "description": "Cadastro de Clima da Região"
+  },
+  {
+    "name": "FI66T",
+    "description": "Cadastro de Distancias do Cliente."
+  },
+  {
+    "name": "FI68T",
+    "description": "Lançamento de Ocorrências DAE"
+  },
+  {
+    "name": "FI69T",
+    "description": "Notas para Apuração Simplificada do Crédito Acumulado"
+  },
+  {
+    "name": "FI69T1",
+    "description": "Log Notas para Apuração Simplificada do Crédito Acumulado"
+  },
+  {
+    "name": "FI70T",
+    "description": "Tabela de Redução de Pis/Cofins para Nota de Cana"
+  },
+  {
+    "name": "FI71T",
+    "description": "Lançamento de Outros Créditos - e-CredRural"
+  },
+  {
+    "name": "FI71T1",
+    "description": "FI71T1"
+  },
+  {
+    "name": "FI72T",
+    "description": "Configurador de Situação Tributária"
+  },
+  {
+    "name": "FI72T1",
+    "description": "Configurador de Situação Tributária"
+  },
+  {
+    "name": "FI73T",
+    "description": "Lote de Controle PROAPI"
+  },
+  {
+    "name": "FI73T1",
+    "description": "Itens Lote de Controle PROAPI"
+  },
+  {
+    "name": "FI73T12",
+    "description": "Contratos do Item"
+  },
+  {
+    "name": "FI74T",
+    "description": "Dados para Conferência da ANP-17"
+  },
+  {
+    "name": "FI75T",
+    "description": "Tabela de Códigos de Situações Tributárias"
+  },
+  {
+    "name": "FI76T",
+    "description": "Tabela de Replicação de Operações Tributárias"
+  },
+  {
+    "name": "FI77T",
+    "description": "Tabela de Liberação de Alíquotas"
+  },
+  {
+    "name": "FI77T1",
+    "description": "Tabela de Liberação de Alíquotas"
+  },
+  {
+    "name": "FI78T",
+    "description": "Tabela de Vitrines"
+  },
+  {
+    "name": "FI79T",
+    "description": "Cadastro de DE/PARA de Séries da Notas Fiscal na ANP"
+  },
+  {
+    "name": "FI80T",
+    "description": "Cadastro de Tipo de Desconto de Franquia"
+  },
+  {
+    "name": "FI81T",
+    "description": "Perfil de Condições de Pagamento Web"
+  },
+  {
+    "name": "FI81T1",
+    "description": "Fi10 Codigo"
+  },
+  {
+    "name": "FI82T",
+    "description": "Perfil de Grupos de Operação Tributária"
+  },
+  {
+    "name": "FI82T1",
+    "description": "fi56 Cod Gru"
+  },
+  {
+    "name": "FI83T",
+    "description": "Perfil de Estados"
+  },
+  {
+    "name": "FI83T1",
+    "description": "fi02uf"
+  },
+  {
+    "name": "FI84T",
+    "description": "TFI84 T"
+  },
+  {
+    "name": "FI84T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FI85T",
+    "description": "TFI85 T"
+  },
+  {
+    "name": "FI85T1",
+    "description": "FI65 Cod"
+  },
+  {
+    "name": "FI86T",
+    "description": "Perfil de Distancias do Cliente"
+  },
+  {
+    "name": "FI86T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FI87T",
+    "description": "Perfil de Regiões"
+  },
+  {
+    "name": "FI87T1",
+    "description": "Perfil de Regiões"
+  },
+  {
+    "name": "FI88T",
+    "description": "Perfil de Rotas"
+  },
+  {
+    "name": "FI88T1",
+    "description": "Perfil de Rotas"
+  },
+  {
+    "name": "FI89T",
+    "description": "Filtro operação tributária"
+  },
+  {
+    "name": "FI89T1",
+    "description": "Filtro operação tributária - Item"
+  },
+  {
+    "name": "FI90T",
+    "description": "Tabela de Parâmetros para Títulos de Tributos"
+  },
+  {
+    "name": "FI91T",
+    "description": " T1801"
+  },
+  {
+    "name": "FI92T",
+    "description": " T1800"
+  },
+  {
+    "name": "FI93T",
+    "description": "Tabela de Processos Administrativos/Judiciais - EFD-REINF"
+  },
+  {
+    "name": "FI93T1",
+    "description": "Tabela de Processos Adm/Judiciais (Decisões)"
+  },
+  {
+    "name": "FI94T",
+    "description": "Apuração R2050 - EFD-REINF"
+  },
+  {
+    "name": "FI94T1",
+    "description": "Apuração R2050 - EFD-REINF"
+  },
+  {
+    "name": "FI95T",
+    "description": "Apuração R2060 - EFD-REINF"
+  },
+  {
+    "name": "FI95T2",
+    "description": "Apuração R2060 - EFD-REINF - Atividade Econômica"
+  },
+  {
+    "name": "FI95T21",
+    "description": "Apuração R2060 - EFD-REINF - Ajustes"
+  },
+  {
+    "name": "FI95T22",
+    "description": "Apuração R2060 - EFD-REINF"
+  },
+  {
+    "name": "FI96T",
+    "description": "Classificação de Serviços Prestados"
+  },
+  {
+    "name": "FI97T",
+    "description": "Apuração R2010 - EFD-REINF"
+  },
+  {
+    "name": "FI97T1",
+    "description": "Contribuinte"
+  },
+  {
+    "name": "FI97T2",
+    "description": "Notas Fiscais"
+  },
+  {
+    "name": "FI97T21",
+    "description": "Itens"
+  },
+  {
+    "name": "FI97T3",
+    "description": "Processos"
+  },
+  {
+    "name": "FI98T",
+    "description": "Retorno - EFD-REINF"
+  },
+  {
+    "name": "FI98T1",
+    "description": "Status"
+  },
+  {
+    "name": "FI98T11",
+    "description": "Ocorrencias"
+  },
+  {
+    "name": "FI98T2",
+    "description": "RTom"
+  },
+  {
+    "name": "FI98T21",
+    "description": "info CRTom"
+  },
+  {
+    "name": "FI98T3",
+    "description": "RPrest"
+  },
+  {
+    "name": "FI98T4",
+    "description": "RComl"
+  },
+  {
+    "name": "FI98T5",
+    "description": "RCPRB"
+  },
+  {
+    "name": "FI98T6",
+    "description": "RRecRepAD"
+  },
+  {
+    "name": "FI98T7",
+    "description": "tot Apur Men"
+  },
+  {
+    "name": "FI98T8",
+    "description": "tot Apur Qui"
+  },
+  {
+    "name": "FI98T9",
+    "description": "tot Apur Sem"
+  },
+  {
+    "name": "FI98TA",
+    "description": "tot Apur Dec"
+  },
+  {
+    "name": "FI98TB",
+    "description": "tot Apur Dia"
+  },
+  {
+    "name": "FI98TC",
+    "description": "RAquis"
+  },
+  {
+    "name": "FI99T",
+    "description": "Apuração R2040 - EFD-REINF"
+  },
+  {
+    "name": "FI99T1",
+    "description": "Apuração R2040 - EFD-REINF - Recursos"
+  },
+  {
+    "name": "FI99T11",
+    "description": "Apuração R2040 - EFD-REINF - Tipo Repasse"
+  },
+  {
+    "name": "FI99T12",
+    "description": "Processos"
+  },
+  {
+    "name": "FIAAT",
+    "description": "Tabela de Construção por Marca no Cliente"
+  },
+  {
+    "name": "FIABT",
+    "description": "Tabela de Marca do Cliente por Marca"
+  },
+  {
+    "name": "FIACT",
+    "description": "Tabela 01 - Natureza de Rendimentos - Reinf"
+  },
+  {
+    "name": "FIADT",
+    "description": "R-4010 - Retenções na Fonte - Pessoa Física"
+  },
+  {
+    "name": "FIADT1",
+    "description": "Level1"
+  },
+  {
+    "name": "FIADT11",
+    "description": "Level11"
+  },
+  {
+    "name": "FIADT111",
+    "description": "Level111"
+  },
+  {
+    "name": "FIADT112",
+    "description": "Level112"
+  },
+  {
+    "name": "FIADT113",
+    "description": "Level113"
+  },
+  {
+    "name": "FIADT1131",
+    "description": "Level1131"
+  },
+  {
+    "name": "FIADT114",
+    "description": "Level114"
+  },
+  {
+    "name": "FIADT115",
+    "description": "Level115"
+  },
+  {
+    "name": "FIADT116",
+    "description": "Level116"
+  },
+  {
+    "name": "FIADT1161",
+    "description": "Level1161"
+  },
+  {
+    "name": "FIADT117",
+    "description": "Level117"
+  },
+  {
+    "name": "FIADT1171",
+    "description": "Level1171"
+  },
+  {
+    "name": "FIADT12",
+    "description": "Level12"
+  },
+  {
+    "name": "FIADT2",
+    "description": "Level2"
+  },
+  {
+    "name": "FIADT21",
+    "description": "Level21"
+  },
+  {
+    "name": "FIADT212",
+    "description": "Level212"
+  },
+  {
+    "name": "FIADT2121",
+    "description": "Level2121"
+  },
+  {
+    "name": "FIAET",
+    "description": "R-4020 - Retenções na Fonte - Pessoa Jurídica"
+  },
+  {
+    "name": "FIAET1",
+    "description": "Level1"
+  },
+  {
+    "name": "FIAET11",
+    "description": "Level11"
+  },
+  {
+    "name": "FIAET111",
+    "description": "Level111"
+  },
+  {
+    "name": "FIAET112",
+    "description": "Level112"
+  },
+  {
+    "name": "FIAET1121",
+    "description": "Level1121"
+  },
+  {
+    "name": "FIAET2",
+    "description": "Level2"
+  },
+  {
+    "name": "FIAFT",
+    "description": "Grupo Econômico de Fornecedores"
+  },
+  {
+    "name": "FIAFT1",
+    "description": "Grupo Econômico de Fornecedores"
+  },
+  {
+    "name": "FIAHT",
+    "description": "R-2055 - Aquisição de Produção Rural"
+  },
+  {
+    "name": "FIAHT1",
+    "description": "Level1"
+  },
+  {
+    "name": "FIAHT12",
+    "description": "Level2"
+  },
+  {
+    "name": "FIAIT",
+    "description": "Exceção de Fornecedor Aquisição"
+  }
+]

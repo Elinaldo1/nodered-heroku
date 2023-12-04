@@ -1,0 +1,86 @@
+[
+  {
+    "name": "AF01T",
+    "description": "Cadastro Empresa - Contrato de Agricultura Familiar"
+  },
+  {
+    "name": "AF01T1",
+    "description": "Operações Tributárias de Venda"
+  },
+  {
+    "name": "AF01T2",
+    "description": "Operações Tributárias de Compra"
+  },
+  {
+    "name": "AF01T3",
+    "description": "Operações Tributárias de Compra a Fixar"
+  },
+  {
+    "name": "AF02T",
+    "description": "Contrato de Agricultura Familiar"
+  },
+  {
+    "name": "AF02T1",
+    "description": "Aditivos do Contrato de Agr. Familiar"
+  },
+  {
+    "name": "AF02T12",
+    "description": "Títulos a Receber (Adiantamento)"
+  },
+  {
+    "name": "AF02T2",
+    "description": "Insumos Contrato"
+  },
+  {
+    "name": "AF02T21",
+    "description": "Pedidos do Insumo no Contrato"
+  },
+  {
+    "name": "AF02T3",
+    "description": "Armazém do Contrato Agr. Familiar"
+  },
+  {
+    "name": "AF02T4",
+    "description": "Anexos do Contrato Agr. Familiar"
+  },
+  {
+    "name": "AF02T5",
+    "description": "Propriedades do Contrato de Agr. Familiar"
+  },
+  {
+    "name": "AF02T6",
+    "description": "Fixações de Dívida do Contrato/Aditivo"
+  },
+  {
+    "name": "AF02T7",
+    "description": "Laudos do Contrato"
+  },
+  {
+    "name": "AF03T",
+    "description": "Pesagem de Produto - Agr. Familiar"
+  },
+  {
+    "name": "AF03T1",
+    "description": "Anexos da Pesagem AF"
+  },
+  {
+    "name": "AF04T",
+    "description": "Descontos da Pesagem"
+  },
+  {
+    "name": "AF04T1",
+    "description": "Fator de Ponderação"
+  },
+  {
+    "name": "AF05T",
+    "description": "Fixação de Preço"
+  },
+  {
+    "name": "AF06T",
+    "description": "Compra sem Fixação de Preço"
+  },
+  {
+    "name": "AF07T",
+    "description": "Tabela de Preço por Data do Armazém"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "FB01T",
+    "description": "Tabela de Configuração (CFOP ,Op Trib , totais da Redução Z)"
+  },
+  {
+    "name": "FB02T",
+    "description": "Tabela de Configuração ( Depara de Produtos - Importação )"
+  }
+]

@@ -1,0 +1,634 @@
+[
+  {
+    "name": "CA02T",
+    "description": "CA02T"
+  },
+  {
+    "name": "CA03T",
+    "description": "CA03T"
+  },
+  {
+    "name": "CA03T1",
+    "description": "CA03T1"
+  },
+  {
+    "name": "CA03T2",
+    "description": "CA03T2"
+  },
+  {
+    "name": "CA04T",
+    "description": "CA04T"
+  },
+  {
+    "name": "CA05T",
+    "description": "CA05T"
+  },
+  {
+    "name": "CA06T",
+    "description": "Rateio do Custo Administrativo"
+  },
+  {
+    "name": "CA06T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA06T2",
+    "description": "Level2"
+  },
+  {
+    "name": "CA06T3",
+    "description": "Level3"
+  },
+  {
+    "name": "CA06T4",
+    "description": "Level4"
+  },
+  {
+    "name": "CA06T5",
+    "description": "Level5"
+  },
+  {
+    "name": "CA06T6",
+    "description": "Level6"
+  },
+  {
+    "name": "CA06T7",
+    "description": "Level7"
+  },
+  {
+    "name": "CA06T8",
+    "description": "Level8"
+  },
+  {
+    "name": "CA06T9",
+    "description": "Level9"
+  },
+  {
+    "name": "CA07T",
+    "description": "Custo da Oficina"
+  },
+  {
+    "name": "CA07T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA07T11",
+    "description": "Level2"
+  },
+  {
+    "name": "CA07T3",
+    "description": "Tradutores que não entraram no Rateio"
+  },
+  {
+    "name": "CA08T",
+    "description": "Custo Hora Mecânico e Operador"
+  },
+  {
+    "name": "CA09T",
+    "description": "Custo Departamento"
+  },
+  {
+    "name": "CA10T",
+    "description": "Metros Cortados pela Usina"
+  },
+  {
+    "name": "CA11T",
+    "description": "Lançamento de Plantio"
+  },
+  {
+    "name": "CA11T1",
+    "description": "Informação da Muda no Plantio"
+  },
+  {
+    "name": "CA11T2",
+    "description": "Insumos do Lançamento de Plantio"
+  },
+  {
+    "name": "CA11T3",
+    "description": "Plantio - Gemas"
+  },
+  {
+    "name": "CA11T4",
+    "description": "Plantio - Profundidade"
+  },
+  {
+    "name": "CA12T",
+    "description": "ATR do Talhão na Safra"
+  },
+  {
+    "name": "CA13T",
+    "description": "Custo INSS Patronal"
+  },
+  {
+    "name": "CA14T",
+    "description": "Classes de Locais de Produção"
+  },
+  {
+    "name": "CA15T",
+    "description": "Tipo de Local de Produção"
+  },
+  {
+    "name": "CA17T",
+    "description": "Apuração Custo Rurícula"
+  },
+  {
+    "name": "CA18T",
+    "description": "Configuração Produção de Alcool"
+  },
+  {
+    "name": "CA19T",
+    "description": "Lançamento de Produção de Alcool"
+  },
+  {
+    "name": "CA20T",
+    "description": "Laudo de Açúcar"
+  },
+  {
+    "name": "CA20T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA21T",
+    "description": "Lançamento Análise Levedura"
+  },
+  {
+    "name": "CA21T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA22T",
+    "description": "Diferença Custo Cobrado X Custo Médio dos Produtos"
+  },
+  {
+    "name": "CA22T1",
+    "description": "Diferença Custo Cobrado X Custo Médio dos Produtos"
+  },
+  {
+    "name": "CA23T",
+    "description": "Rateio abastecimento não cobrado"
+  },
+  {
+    "name": "CA23T1",
+    "description": "Rateio abastecimento não cobrado"
+  },
+  {
+    "name": "CA24T",
+    "description": "Bonificação de Operadores"
+  },
+  {
+    "name": "CA25T",
+    "description": "Nota Fiscal Cana Int. GATEC"
+  },
+  {
+    "name": "CA25T1",
+    "description": "Toneladas Dia"
+  },
+  {
+    "name": "CA25T2",
+    "description": "Taxas"
+  },
+  {
+    "name": "CA25T3",
+    "description": "Observação"
+  },
+  {
+    "name": "CA25T4",
+    "description": "Obsevação ao Fisco"
+  },
+  {
+    "name": "CA26T",
+    "description": "Tabela CCT por Ordem de Queima"
+  },
+  {
+    "name": "CA26T1",
+    "description": "Tabela de Data CCT"
+  },
+  {
+    "name": "CA26T2",
+    "description": "Tabela de Valor por KM CCT"
+  },
+  {
+    "name": "CA27T",
+    "description": "Ordem de Serviço Agrícola"
+  },
+  {
+    "name": "CA27T1",
+    "description": "Preco de servico da O.S."
+  },
+  {
+    "name": "CA28T",
+    "description": "Lançamento de Perdas na Colheita"
+  },
+  {
+    "name": "CA28TSD",
+    "description": "Lançamento de Perdas na Colheita"
+  },
+  {
+    "name": "CA28TSDE",
+    "description": "Erros de Sincronização - CA28TSD"
+  },
+  {
+    "name": "CA29T",
+    "description": "Parâmetros Citrucultura"
+  },
+  {
+    "name": "CA29T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA30T",
+    "description": "Cadastro de Tipo de Serviço"
+  },
+  {
+    "name": "CA31T",
+    "description": "Controle de Saldo Fiscal do Contrato"
+  },
+  {
+    "name": "CA33T",
+    "description": "Apontamento de Produção"
+  },
+  {
+    "name": "CA34T",
+    "description": "Levantamento de Brocas"
+  },
+  {
+    "name": "CA34TSD",
+    "description": "TCA34 TSD"
+  },
+  {
+    "name": "CA34TSDE",
+    "description": "Erros de Sincronização - CA34TSD"
+  },
+  {
+    "name": "CA35T",
+    "description": "Manut. de Dados - Operações Agrícolas"
+  },
+  {
+    "name": "CA35T1",
+    "description": "Log. de Usuário - Manut. de Dados - Op. Agr."
+  },
+  {
+    "name": "CA36T",
+    "description": "Int. Custo Rural - PIMS"
+  },
+  {
+    "name": "CA37T",
+    "description": "Par. de Serviços Rurais - PIMS"
+  },
+  {
+    "name": "CA38T",
+    "description": "Interface de Integração - Balança"
+  },
+  {
+    "name": "CA39T",
+    "description": "Cadastro de Indicadores"
+  },
+  {
+    "name": "CA39T1",
+    "description": "Indicador de Conservação/Pontuação"
+  },
+  {
+    "name": "CA39T11",
+    "description": "Indicador de Conservação/Valorização"
+  },
+  {
+    "name": "CA39T12",
+    "description": "Indicador de Apontamentos"
+  },
+  {
+    "name": "CA39T13",
+    "description": "Indicador de Desempenho Diesel/Ton"
+  },
+  {
+    "name": "CA39T14",
+    "description": "Indicador de Desempenho Km/Lt"
+  },
+  {
+    "name": "CA39T16",
+    "description": "Indicador de Impureza Mineral"
+  },
+  {
+    "name": "CA39T17",
+    "description": "Indicador de Impureza Vegetal"
+  },
+  {
+    "name": "CA39T18",
+    "description": "Indicador de Desempenho Óleo Hidr/Ton"
+  },
+  {
+    "name": "CA40T",
+    "description": "Lançamento de Indicadores"
+  },
+  {
+    "name": "CA41T",
+    "description": "Interface NF CANA PIMS"
+  },
+  {
+    "name": "CA41T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA41T2",
+    "description": "Level2"
+  },
+  {
+    "name": "CA42T",
+    "description": "Tabela intermediária CHBXPIMS FRETE"
+  },
+  {
+    "name": "CA42T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA43T",
+    "description": "Tabela Intermediaria PIMSxCHB Adiantamento Fornece"
+  },
+  {
+    "name": "CA44T",
+    "description": "Cadastro de Cultura"
+  },
+  {
+    "name": "CA45T",
+    "description": "Lançamento de Produção de Grãos"
+  },
+  {
+    "name": "CA45T1",
+    "description": "Rateio de Talhões na Prod. Grãos"
+  },
+  {
+    "name": "CA45T2",
+    "description": "Colhedoras para Rateio na Produção de Grãos"
+  },
+  {
+    "name": "CA46T",
+    "description": "Apontamento de Liberação de Cotésia"
+  },
+  {
+    "name": "CA46T1",
+    "description": "Talhões Liberação Cotésia"
+  },
+  {
+    "name": "CA47T",
+    "description": "De Para Produto e Serviço PIMS"
+  },
+  {
+    "name": "CA48T",
+    "description": "Operação Por Fornecedor - PIMS"
+  },
+  {
+    "name": "CA49T",
+    "description": "Metas de Eficiência das Colhedoras - Safra"
+  },
+  {
+    "name": "CA49T1",
+    "description": "Metas de Eficiência das Colhedoras - Mês"
+  },
+  {
+    "name": "CA49T2",
+    "description": "Metas de Eficiência das Colhedoras - Dia"
+  },
+  {
+    "name": "CA50T",
+    "description": "Lançamento de Perdas na Colheita"
+  },
+  {
+    "name": "CA51T",
+    "description": "KM Médio para Referência"
+  },
+  {
+    "name": "CA52T",
+    "description": "Apura Custo Hora Mecanico e Operador"
+  },
+  {
+    "name": "CA53T",
+    "description": "Tabela intermediaria PIMS X NF VENDA"
+  },
+  {
+    "name": "CA54T",
+    "description": "Tabela Intermediaria NF Cana x PIMS"
+  },
+  {
+    "name": "CA54T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA54T2",
+    "description": "Level2"
+  },
+  {
+    "name": "CA54T3",
+    "description": "Level3"
+  },
+  {
+    "name": "CA55T",
+    "description": "AUTEQ - De/Para de Operação"
+  },
+  {
+    "name": "CA55T1",
+    "description": "AUTEQ - Parâmetro Genérico"
+  },
+  {
+    "name": "CA56T",
+    "description": "Controle de Etiquetas De Pesagem Impressas"
+  },
+  {
+    "name": "CA56T1",
+    "description": "Seq. de Impressões de Etiqueta"
+  },
+  {
+    "name": "CA56T2",
+    "description": "Estorno da impressão de etiquetas p/ pesagem"
+  },
+  {
+    "name": "CA57T",
+    "description": "Vínculo entre Departamentos"
+  },
+  {
+    "name": "CA58T",
+    "description": "Parametro Bonificação Fornecedor"
+  },
+  {
+    "name": "CA58T1",
+    "description": "Resultado do Calculo de Bonificação"
+  },
+  {
+    "name": "CA60T",
+    "description": "Entrada de Cana"
+  },
+  {
+    "name": "CA61T",
+    "description": "Tabela de Rateio de Custo de Notas Entrada e Baixas Estoque"
+  },
+  {
+    "name": "CA61T1",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Integração"
+  },
+  {
+    "name": "CA61T2",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Operações"
+  },
+  {
+    "name": "CA61T3",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Prefixo"
+  },
+  {
+    "name": "CA61T4",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Etapas"
+  },
+  {
+    "name": "CA61T5",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Grupo Produto\n                            "
+  },
+  {
+    "name": "CA61T6",
+    "description": "Rateio de Custo de Notas Entrada e Baixas Estoque - Modelo Doc"
+  },
+  {
+    "name": "CA62T",
+    "description": "Temporário para Integração de Depreciação na Op. Agrícola"
+  },
+  {
+    "name": "CA63T",
+    "description": "Depreciação na Operação Agrícola"
+  },
+  {
+    "name": "CA63T1",
+    "description": "Propriedade/Etapa da Integr. Depreciação na Oper. Agrícola"
+  },
+  {
+    "name": "CA64T",
+    "description": "Saldo de Cana no Chão no Mês/Ano"
+  },
+  {
+    "name": "CA65T",
+    "description": "Controle de Praga - Sphenophorus Levis"
+  },
+  {
+    "name": "CA65T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA65T1SD",
+    "description": "Sphenophorus Levis - Levantamentos"
+  },
+  {
+    "name": "CA65TSD",
+    "description": "Sphenophorus Levis"
+  },
+  {
+    "name": "CA65TSDE",
+    "description": "Erros de Sincronização - CA65TSD"
+  },
+  {
+    "name": "CA66T",
+    "description": "Contas Analíticas que não tem Rateio"
+  },
+  {
+    "name": "CA67T",
+    "description": "Unidade Industrial"
+  },
+  {
+    "name": "CA68T",
+    "description": "Controle de Etiquetas De Ordem de Queima Impressas"
+  },
+  {
+    "name": "CA68T1",
+    "description": "Seq. de Impressões de Etiqueta"
+  },
+  {
+    "name": "CA69T",
+    "description": "Cadastro de Perfil de Rateio"
+  },
+  {
+    "name": "CA69T1",
+    "description": "Perfil de Rateio - Centro de Custo"
+  },
+  {
+    "name": "CA69T2",
+    "description": "Cadastro de Perfil de Rateio - Operação"
+  },
+  {
+    "name": "CA69T3",
+    "description": "Level3"
+  },
+  {
+    "name": "CA69T4",
+    "description": "Perfil de Rateio - Propriedade"
+  },
+  {
+    "name": "CA69T5",
+    "description": "Cadastro de Perfil de Rateio - Grupo de Operação"
+  },
+  {
+    "name": "CA69T6",
+    "description": "Cadastro de Perfil de Rateio - Empresa"
+  },
+  {
+    "name": "CA69T7",
+    "description": "Cadastro de Perfil de Rateio - Prefixo"
+  },
+  {
+    "name": "CA70T",
+    "description": "Configurador p/ Importador TXT de Amostra de Solo"
+  },
+  {
+    "name": "CA70T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CA71T",
+    "description": " Tabela de Transferência de Cana entre Talhões da Ordem de Queima\n                            "
+  },
+  {
+    "name": "CA71T1",
+    "description": "Propd/Talhões da Transferência de Cana da OQ"
+  },
+  {
+    "name": "CA72T",
+    "description": "Parâmetros de Colheitabilidade"
+  },
+  {
+    "name": "CA72T1",
+    "description": "Capacidade Operacional"
+  },
+  {
+    "name": "CA73T",
+    "description": "Cadastro de Perfil de Operações Agrícolas"
+  },
+  {
+    "name": "CA73T1",
+    "description": "Operações do Perfil "
+  },
+  {
+    "name": "CA74T",
+    "description": "Exaustão de Custo Agrícola na Contabilidade"
+  },
+  {
+    "name": "CA74T1",
+    "description": "Exaustão por Centro de Custo na Contabilidade"
+  },
+  {
+    "name": "CA74T2",
+    "description": "OS de Exaustão Indo para Transitório na CT"
+  },
+  {
+    "name": "CA75T",
+    "description": "Agrupamento de Propriedades"
+  },
+  {
+    "name": "CA75T1",
+    "description": "Propriedades do Agrupamento"
+  },
+  {
+    "name": "CA76T",
+    "description": "Dados Safra da Pureza"
+  },
+  {
+    "name": "CA76T1",
+    "description": "Dados Quinzenais da Pureza"
+  },
+  {
+    "name": "CA76T2",
+    "description": "Log das Sequencias Pureza"
+  }
+]

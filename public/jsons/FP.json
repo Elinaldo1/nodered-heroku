@@ -1,0 +1,1302 @@
+[
+  {
+    "name": "FP01T",
+    "description": "Empresa"
+  },
+  {
+    "name": "FP01T3",
+    "description": "Replicação do Cad. Eventos"
+  },
+  {
+    "name": "FP01T4",
+    "description": "Empresas Agrupadas Sefip"
+  },
+  {
+    "name": "FP01T6",
+    "description": "Encargos e Contribuições Empr."
+  },
+  {
+    "name": "FP01T9",
+    "description": "Dados da Empresa - Por FPAS"
+  },
+  {
+    "name": "FP01TA1",
+    "description": "Verificação de Pendências na Folha de Pagamento - Usuário"
+  },
+  {
+    "name": "FP01TC",
+    "description": "Empresa - Faixas para Vale Transporte"
+  },
+  {
+    "name": "FP01TF",
+    "description": "Empresa para Pecistas e Tarefeiros"
+  },
+  {
+    "name": "FP01TH",
+    "description": "Replica de Função p/ Empresa"
+  },
+  {
+    "name": "FP01TI",
+    "description": "Level1"
+  },
+  {
+    "name": "FP01TM",
+    "description": "Level1"
+  },
+  {
+    "name": "FP01TP",
+    "description": "Processos Judiciais de Recolhimento de Encargos de Terceiros"
+  },
+  {
+    "name": "FP01TS",
+    "description": "Level1"
+  },
+  {
+    "name": "FP02T",
+    "description": "Marcações Pré Assinaladas"
+  },
+  {
+    "name": "FP02T1",
+    "description": "Funcionário: Afastamento"
+  },
+  {
+    "name": "FP02T11",
+    "description": "Retificação de Afastamento"
+  },
+  {
+    "name": "FP02T2",
+    "description": "Horas In Intinere"
+  },
+  {
+    "name": "FP02T3",
+    "description": "Funcionário"
+  },
+  {
+    "name": "FP02T3D",
+    "description": "Histórico Contrato Prazo Determinado"
+  },
+  {
+    "name": "FP02T4",
+    "description": "Horas Extras Automáticas"
+  },
+  {
+    "name": "FP02T5",
+    "description": "Log Cadastro de Funcionarios"
+  },
+  {
+    "name": "FP02T7",
+    "description": "Funcionário: Requisição de Combustivel"
+  },
+  {
+    "name": "FP02TA",
+    "description": "Funcionários:Vias do Crachá"
+  },
+  {
+    "name": "FP02TB",
+    "description": "Funcionário: Tipo de Marcação"
+  },
+  {
+    "name": "FP02TC",
+    "description": "Funcionário: Cursos"
+  },
+  {
+    "name": "FP02TE",
+    "description": "Ano do PPR - (FP02TE)"
+  },
+  {
+    "name": "FP02TF",
+    "description": "Localizações do Funcionário"
+  },
+  {
+    "name": "FP02TO",
+    "description": "Ocorrências do Funcionário"
+  },
+  {
+    "name": "FP03T1",
+    "description": "Departamento/Seção"
+  },
+  {
+    "name": "FP03T2",
+    "description": "Depto/Eventos"
+  },
+  {
+    "name": "FP03T3",
+    "description": "Departamento: P.P.P."
+  },
+  {
+    "name": "FP03T4",
+    "description": "Departamentos / Seções - Funções"
+  },
+  {
+    "name": "FP03TE",
+    "description": "Departamentos - PPR Mês/Ano"
+  },
+  {
+    "name": "FP03TF1",
+    "description": "Estrutura Departamento/Secção"
+  },
+  {
+    "name": "FP03TG",
+    "description": "Departamentos - PPR Mensal - Mês/Ano"
+  },
+  {
+    "name": "FP03TH",
+    "description": "Departamentos - PPR Mês/Ano"
+  },
+  {
+    "name": "FP03TI",
+    "description": "Departamentos - PPR Mês/Ano"
+  },
+  {
+    "name": "FP03TL",
+    "description": "Departamento - Eventos Fixos"
+  },
+  {
+    "name": "FP03TM",
+    "description": "Eventos Base por Departamento"
+  },
+  {
+    "name": "FP03TR",
+    "description": "Departamentos para Regravação da Tabela de Integração Contábil"
+  },
+  {
+    "name": "FP03TS",
+    "description": "Departamento - Fator Acidentário de Prevenção - FAP"
+  },
+  {
+    "name": "FP03TU",
+    "description": "Processos Judiciais de Terceiros"
+  },
+  {
+    "name": "FP03TV",
+    "description": "Dados do Estabelecimento eSocial"
+  },
+  {
+    "name": "FP03TZ",
+    "description": "Departamento - Salário Família Tomador"
+  },
+  {
+    "name": "FP04T",
+    "description": "Questões"
+  },
+  {
+    "name": "FP05T",
+    "description": "Estado Civil"
+  },
+  {
+    "name": "FP06T",
+    "description": "Nacionalidade"
+  },
+  {
+    "name": "FP07T",
+    "description": "Raça"
+  },
+  {
+    "name": "FP08T",
+    "description": "Tipo de Pagamento"
+  },
+  {
+    "name": "FP09T",
+    "description": "Ocorrência Agentes Nocivos"
+  },
+  {
+    "name": "FP10T",
+    "description": "Função"
+  },
+  {
+    "name": "FP10T1",
+    "description": "Cadastro de Função - P.P.P."
+  },
+  {
+    "name": "FP10T2",
+    "description": "Classificação do Exame"
+  },
+  {
+    "name": "FP10T3",
+    "description": "Level3"
+  },
+  {
+    "name": "FP10T4",
+    "description": "Level4"
+  },
+  {
+    "name": "FP10T5",
+    "description": "Cadastro de Perfil da Função"
+  },
+  {
+    "name": "FP10T6",
+    "description": "Eventos Fixos por Função"
+  },
+  {
+    "name": "FP10TB",
+    "description": "Cuidados da Função"
+  },
+  {
+    "name": "FP10TC",
+    "description": "Level1"
+  },
+  {
+    "name": "FP10TD",
+    "description": "Proibições da Função"
+  },
+  {
+    "name": "FP10TE",
+    "description": "PPRA - Função - Classificação da Orientação (FP10TE)"
+  },
+  {
+    "name": "FP11T",
+    "description": "CBO"
+  },
+  {
+    "name": "FP12T",
+    "description": "Grau de Instrução"
+  },
+  {
+    "name": "FP13T",
+    "description": "Vinculo Empregaticio"
+  },
+  {
+    "name": "FP14T",
+    "description": "Sindicato"
+  },
+  {
+    "name": "FP14T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FP14T3",
+    "description": "Sindicatos ( Contribuicoes )"
+  },
+  {
+    "name": "FP14T4",
+    "description": "Sindicato - Funções"
+  },
+  {
+    "name": "FP14T5",
+    "description": "Valores pra Vale Alimentação"
+  },
+  {
+    "name": "FP15T",
+    "description": "Faixa Salarial"
+  },
+  {
+    "name": "FP16T",
+    "description": "Categoria do Trabalhador"
+  },
+  {
+    "name": "FP17T",
+    "description": "Tipo de Admissão"
+  },
+  {
+    "name": "FP18T",
+    "description": "Classificação"
+  },
+  {
+    "name": "FP18T2",
+    "description": "Level1"
+  },
+  {
+    "name": "FP18T3",
+    "description": "Tabela de Valor Minimo para Premio"
+  },
+  {
+    "name": "FP19T",
+    "description": "Eventos"
+  },
+  {
+    "name": "FP19T1",
+    "description": "Eventos - Composição"
+  },
+  {
+    "name": "FP19T2",
+    "description": "Eventos - Faixa de Salários"
+  },
+  {
+    "name": "FP19T3",
+    "description": "Eventos - Análise p/ Fórmulas"
+  },
+  {
+    "name": "FP19T4",
+    "description": "Eventos: Serviços p/ Análise"
+  },
+  {
+    "name": "FP19T5",
+    "description": "Eventos - Faixa Qtd. Serviços"
+  },
+  {
+    "name": "FP19T6",
+    "description": "Eventos: Qtde. por Serviço"
+  },
+  {
+    "name": "FP19T7",
+    "description": "Campo Termo de Rescisão Homolognet"
+  },
+  {
+    "name": "FP19T71",
+    "description": "Level1"
+  },
+  {
+    "name": "FP19T9",
+    "description": "Level1"
+  },
+  {
+    "name": "FP20T",
+    "description": "Tipo de Documento"
+  },
+  {
+    "name": "FP21T",
+    "description": "Exames"
+  },
+  {
+    "name": "FP21T1",
+    "description": "Classificação do Exame"
+  },
+  {
+    "name": "FP22T",
+    "description": "Tipo de Afastamento e Retorno"
+  },
+  {
+    "name": "FP22T2",
+    "description": "Serviços Rurais Afastamento"
+  },
+  {
+    "name": "FP23T",
+    "description": "Causa de Rescisão"
+  },
+  {
+    "name": "FP23T1",
+    "description": "Eventos da Causa de Rescisão"
+  },
+  {
+    "name": "FP23T2",
+    "description": "Level1"
+  },
+  {
+    "name": "FP24T",
+    "description": "Instituição"
+  },
+  {
+    "name": "FP25T",
+    "description": "Beneficio"
+  },
+  {
+    "name": "FP25T1",
+    "description": "Modalidades do Benefício"
+  },
+  {
+    "name": "FP25T2",
+    "description": "Modalidade por Vigência"
+  },
+  {
+    "name": "FP25T3",
+    "description": "Benefício - Permissão Usuários"
+  },
+  {
+    "name": "FP25T4",
+    "description": "Level1"
+  },
+  {
+    "name": "FP25T5",
+    "description": "Faixas do Benefício"
+  },
+  {
+    "name": "FP25T51",
+    "description": "fp25seq"
+  },
+  {
+    "name": "FP25T6",
+    "description": "TFP25 T6"
+  },
+  {
+    "name": "FP25T61",
+    "description": "FP25T61"
+  },
+  {
+    "name": "FP26T",
+    "description": "Curso"
+  },
+  {
+    "name": "FP27T",
+    "description": "Hora Aula"
+  },
+  {
+    "name": "FP28T",
+    "description": "Aula"
+  },
+  {
+    "name": "FP29T",
+    "description": "Empresa para Férias"
+  },
+  {
+    "name": "FP30T",
+    "description": "Recrutamento Identificação"
+  },
+  {
+    "name": "FP30T1",
+    "description": "Recrutado Contatos"
+  },
+  {
+    "name": "FP30T2",
+    "description": "Recrutado Experiência Profissional"
+  },
+  {
+    "name": "FP30T3",
+    "description": "Recrutamento - Formação"
+  },
+  {
+    "name": "FP30T5",
+    "description": "Recrutado Exames"
+  },
+  {
+    "name": "FP30T7",
+    "description": "Recrutado Dependentes"
+  },
+  {
+    "name": "FP30T8",
+    "description": "Recrutado: Benefícios"
+  },
+  {
+    "name": "FP30T9",
+    "description": "Recrutado: Benefícios Depend."
+  },
+  {
+    "name": "FP30TA",
+    "description": "Recrutado Observação"
+  },
+  {
+    "name": "FP30TB",
+    "description": "Recrutado Celular"
+  },
+  {
+    "name": "FP30TC",
+    "description": "FP30TC"
+  },
+  {
+    "name": "FP30TD",
+    "description": "Recrutado Avaliação"
+  },
+  {
+    "name": "FP30TE",
+    "description": "Recrutado Cursos"
+  },
+  {
+    "name": "FP30TF",
+    "description": "Recrutamento: Documentação: Outros"
+  },
+  {
+    "name": "FP30TG",
+    "description": "Formação do Recrutado"
+  },
+  {
+    "name": "FP30TH",
+    "description": "Inconsistências da Importação da Q. Cadastral"
+  },
+  {
+    "name": "FP32T",
+    "description": "Funcionário: Documentação"
+  },
+  {
+    "name": "FP32T3",
+    "description": "Funcionário: Aposentadoria "
+  },
+  {
+    "name": "FP32T4",
+    "description": "Funcionário: Benefícios"
+  },
+  {
+    "name": "FP32T5",
+    "description": "Funcionário: Dependente"
+  },
+  {
+    "name": "FP32T6",
+    "description": "Dependente - Benefícios"
+  },
+  {
+    "name": "FP32T7",
+    "description": "Funcionario - Estabilidade"
+  },
+  {
+    "name": "FP32T9",
+    "description": "Dependente: Outros Documentos"
+  },
+  {
+    "name": "FP32TA",
+    "description": "Dependente: Vacinas"
+  },
+  {
+    "name": "FP32TB",
+    "description": "Dependente: Grau de Instrução"
+  },
+  {
+    "name": "FP32TC",
+    "description": "Funcionário: Sequência dos Beneficios do Estoque"
+  },
+  {
+    "name": "FP32TD",
+    "description": "Funcionário: Prêmio"
+  },
+  {
+    "name": "FP33T",
+    "description": "Advertencia"
+  },
+  {
+    "name": "FP33T1",
+    "description": "Tabela de Documentos da Advertencia"
+  },
+  {
+    "name": "FP34T",
+    "description": "Funcionário: Suspensões"
+  },
+  {
+    "name": "FP34T1",
+    "description": "Tabela de Documentos de Suspensão"
+  },
+  {
+    "name": "FP35T",
+    "description": "Lançamento Folha"
+  },
+  {
+    "name": "FP35T1",
+    "description": "Lançamento Folha-Eventos"
+  },
+  {
+    "name": "FP35T2",
+    "description": "Tabela de Memória de Calculo"
+  },
+  {
+    "name": "FP35T4",
+    "description": "Valores Vale Alimentação Malosso"
+  },
+  {
+    "name": "FP36T",
+    "description": "Faltas de Férias"
+  },
+  {
+    "name": "FP36T1",
+    "description": "Eventos de Faltas de Férias"
+  },
+  {
+    "name": "FP37T",
+    "description": "Eventos de Férias"
+  },
+  {
+    "name": "FP38T3",
+    "description": "Funcionário: Vacinas"
+  },
+  {
+    "name": "FP38T3B",
+    "description": "Notificações Vacinas"
+  },
+  {
+    "name": "FP38T4",
+    "description": "Funcionário: Riscos"
+  },
+  {
+    "name": "FP38T5",
+    "description": "Funcionário: EPI"
+  },
+  {
+    "name": "FP38T6",
+    "description": "Funcionário: Exame II"
+  },
+  {
+    "name": "FP38TC",
+    "description": "Qualificação Cadastral - Funcionário"
+  },
+  {
+    "name": "FP39T1",
+    "description": "Funcionário: Exames"
+  },
+  {
+    "name": "FP42T",
+    "description": "Tabela de Alçadas"
+  },
+  {
+    "name": "FP42T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FP44T1",
+    "description": "Afastamento: Valores Base"
+  },
+  {
+    "name": "FP45T",
+    "description": "Funcionário: Eventos Fixos"
+  },
+  {
+    "name": "FP45TA",
+    "description": "Funcionário: Eventos de Exceções"
+  },
+  {
+    "name": "FP47T1",
+    "description": "Funcionário: Processos Trab."
+  },
+  {
+    "name": "FP47T11",
+    "description": "Funcionário: Processos Trabalhista Anexos"
+  },
+  {
+    "name": "FP47T2",
+    "description": "Funcionário: Obs Processos"
+  },
+  {
+    "name": "FP47T3",
+    "description": "Funcionário: Audiência do Processo"
+  },
+  {
+    "name": "FP47T4",
+    "description": " Desdobramento das Parcelas - Sequencia (FP47T4)"
+  },
+  {
+    "name": "FP47T51",
+    "description": "Funcionário: Vale Transporte"
+  },
+  {
+    "name": "FP47T6",
+    "description": "Trabalhista - Vale Transporte por Mês - (FP47T6)"
+  },
+  {
+    "name": "FP47T8",
+    "description": "Desdobramento das Parcelas (FP47T8)"
+  },
+  {
+    "name": "FP47T9",
+    "description": "Desdobramento das Parcelas (FP47T9)"
+  },
+  {
+    "name": "FP47TA",
+    "description": "Desdobramento das Parcelas - Custas Processuais (FP47TA)"
+  },
+  {
+    "name": "FP47TB",
+    "description": "Desdobramento das Parcelas - Parcela da Sentença (FP47TB)"
+  },
+  {
+    "name": "FP48TC",
+    "description": "Resultado do Perfil do Cargo"
+  },
+  {
+    "name": "FP49T",
+    "description": "FP49T- RECRUTADO : DADOS DA VAGA"
+  },
+  {
+    "name": "FP49T2",
+    "description": "Resultado do Perfil do Cargo Pretendido"
+  },
+  {
+    "name": "FP49T3",
+    "description": "Recrutado Funções Pretendidas"
+  },
+  {
+    "name": "FP52T",
+    "description": "Recrutamento : Questões"
+  },
+  {
+    "name": "FP54T",
+    "description": "Controle de Log da Folha"
+  },
+  {
+    "name": "FP55T",
+    "description": "Fechamento folha"
+  },
+  {
+    "name": "FP56T",
+    "description": "Férias Individuais"
+  },
+  {
+    "name": "FP57T",
+    "description": "Questionário"
+  },
+  {
+    "name": "FP57T1",
+    "description": "Questões do Questionario"
+  },
+  {
+    "name": "FP58T",
+    "description": "Natureza do Estabelecimento"
+  },
+  {
+    "name": "FP60T",
+    "description": "Vale Transporte"
+  },
+  {
+    "name": "FP60T1",
+    "description": "Salário Mínimo - FP60T1"
+  },
+  {
+    "name": "FP60T2",
+    "description": "Salário Familia - FP60T2"
+  },
+  {
+    "name": "FP60T4",
+    "description": "Tabela de INSS - FP60T4"
+  },
+  {
+    "name": "FP60T5",
+    "description": "Level1"
+  },
+  {
+    "name": "FP61T",
+    "description": "Tabela de IRRF"
+  },
+  {
+    "name": "FP61T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FP61T2",
+    "description": "Level1"
+  },
+  {
+    "name": "FP62T",
+    "description": "Lançamento Manual do Lote"
+  },
+  {
+    "name": "FP62T1",
+    "description": "Lançamento de Lote - (FP62T1)"
+  },
+  {
+    "name": "FP62T2",
+    "description": "fp62 Aut"
+  },
+  {
+    "name": "FP62T3",
+    "description": "Movimentos Liberados para Lançamento de Lote"
+  },
+  {
+    "name": "FP63TD",
+    "description": "Pré Assinaladas por Periodo"
+  },
+  {
+    "name": "FP63TD1",
+    "description": "Pré Assinaladas por Periodo - Horários"
+  },
+  {
+    "name": "FP65T",
+    "description": "Pré Programação de Férias"
+  },
+  {
+    "name": "FP69T",
+    "description": "Funcionário: Historico Salaria"
+  },
+  {
+    "name": "FP69TA",
+    "description": " Autorização de Atualização Salarial (FP69TA)"
+  },
+  {
+    "name": "FP69TA1",
+    "description": " Autorização de Atualização Salarial Data/Hora (FP69TA1)"
+  },
+  {
+    "name": "FP70T",
+    "description": "Cadastro de Turmas"
+  },
+  {
+    "name": "FP71T",
+    "description": "Funcionário: Historico de Carg"
+  },
+  {
+    "name": "FP72T",
+    "description": "Paramêtros da Quinzena"
+  },
+  {
+    "name": "FP73T",
+    "description": "Parametros de Rescisão"
+  },
+  {
+    "name": "FP74T",
+    "description": "Rescisão"
+  },
+  {
+    "name": "FP74T1",
+    "description": "Eventos Futuros p/ Rescisão (FP74T1)"
+  },
+  {
+    "name": "FP74T2",
+    "description": "Rescisão - Valores GRRF p/ TXT"
+  },
+  {
+    "name": "FP74T3",
+    "description": "Configurador de Tipo de Contrato para Recisão"
+  },
+  {
+    "name": "FP74TD",
+    "description": "Dados da Rescisão Complementar"
+  },
+  {
+    "name": "FP74TR",
+    "description": "Rescisão - Reintegração"
+  },
+  {
+    "name": "FP74TR1",
+    "description": "Capa dos valores"
+  },
+  {
+    "name": "FP74TR11",
+    "description": "Valores"
+  },
+  {
+    "name": "FP75T",
+    "description": "Eventos que Integram a Rescisã"
+  },
+  {
+    "name": "FP76T",
+    "description": "Tabela de Faltas da Rescisão"
+  },
+  {
+    "name": "FP77T",
+    "description": "Eventos de Faltas da Rescisão"
+  },
+  {
+    "name": "FP79T",
+    "description": "Lcto pre definidos"
+  },
+  {
+    "name": "FP80T",
+    "description": "Funcionário: Lcto Obrigatorios"
+  },
+  {
+    "name": "FP81T",
+    "description": "Outros Recolhimentos INSS"
+  },
+  {
+    "name": "FP81T1",
+    "description": "Outros Recolhimentos INSS - Empregador (FP81T1)"
+  },
+  {
+    "name": "FP81T2",
+    "description": "Tabela de Recolhimento 13 para Rescisão"
+  },
+  {
+    "name": "FP82T",
+    "description": "FP82T"
+  },
+  {
+    "name": "FP82T1",
+    "description": "FP82T1"
+  },
+  {
+    "name": "FP83T",
+    "description": "Parâmetros da Folha"
+  },
+  {
+    "name": "FP83T1",
+    "description": "Eventos que Integram Salário"
+  },
+  {
+    "name": "FP83T2",
+    "description": "Level1"
+  },
+  {
+    "name": "FP83T3",
+    "description": "Eventos para Análise de Referência"
+  },
+  {
+    "name": "FP84T",
+    "description": "Parâmetros da Folha Rural"
+  },
+  {
+    "name": "FP84T1",
+    "description": "FP84T1"
+  },
+  {
+    "name": "FP84T5",
+    "description": "Level1"
+  },
+  {
+    "name": "FP85T",
+    "description": "Cadastro de Serviços - Rural"
+  },
+  {
+    "name": "FP85T1",
+    "description": "FP85T1"
+  },
+  {
+    "name": "FP85T2",
+    "description": "FP85T2"
+  },
+  {
+    "name": "FP85T3",
+    "description": "FP85T3"
+  },
+  {
+    "name": "FP85T4",
+    "description": "Serviços p/ Analisar Fórmulas"
+  },
+  {
+    "name": "FP85T5",
+    "description": "Serviços Secundário p/ Coletor"
+  },
+  {
+    "name": "FP85T6",
+    "description": "Level1"
+  },
+  {
+    "name": "FP86T",
+    "description": "Tabela de Referência/Datas"
+  },
+  {
+    "name": "FP86T1",
+    "description": "Valores do Tomador de Serviços"
+  },
+  {
+    "name": "FP86T2",
+    "description": "Valores por FPAS"
+  },
+  {
+    "name": "FP86T3",
+    "description": "Level1"
+  },
+  {
+    "name": "FP87T",
+    "description": "Lançamento de Serviços Rurais"
+  },
+  {
+    "name": "FP87T1",
+    "description": "Motivos de Alteração no Mobile"
+  },
+  {
+    "name": "FP87TSD",
+    "description": "Tabela de Lançamento de Serviços SD"
+  },
+  {
+    "name": "FP87TSD1",
+    "description": "Level1"
+  },
+  {
+    "name": "FP88T",
+    "description": "Tipos de Corte de Cana"
+  },
+  {
+    "name": "FP88T1",
+    "description": "Tipos de Corte de Cana"
+  },
+  {
+    "name": "FP89T",
+    "description": "Transferência entre Depart."
+  },
+  {
+    "name": "FP90T",
+    "description": "Cadastro de Sócios"
+  },
+  {
+    "name": "FP90T1",
+    "description": "Sócios - Valores por Ref."
+  },
+  {
+    "name": "FP90T2",
+    "description": "Eventos"
+  },
+  {
+    "name": "FP91T",
+    "description": "Valores da Sefip"
+  },
+  {
+    "name": "FP92T",
+    "description": "Sefip - Ordenação por PIS"
+  },
+  {
+    "name": "FP93T",
+    "description": "Parâmetros do Layout"
+  },
+  {
+    "name": "FP94T",
+    "description": "Parâmetros da Integ. Contábil"
+  },
+  {
+    "name": "FP94T1",
+    "description": "FP94T1"
+  },
+  {
+    "name": "FP94T2",
+    "description": "Eventos Fixos p/ Provisão"
+  },
+  {
+    "name": "FP95T",
+    "description": "Integração Contábil (Deptos)"
+  },
+  {
+    "name": "FP95T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FP95T2",
+    "description": "Tabela Integ. Contábil Função"
+  },
+  {
+    "name": "FP95T3",
+    "description": "Tabela Integ. Contábil Função"
+  },
+  {
+    "name": "FP96T",
+    "description": "Lançamento de Benefícios"
+  },
+  {
+    "name": "FP96T1",
+    "description": "Requisicoes de Beneficios"
+  },
+  {
+    "name": "FP96T2",
+    "description": "Motivo - (FP96T2)"
+  },
+  {
+    "name": "FP97T",
+    "description": "Param. Importação Benefícios"
+  },
+  {
+    "name": "FP98T",
+    "description": "Causa da Estabilidade"
+  },
+  {
+    "name": "FP99T",
+    "description": "FP99T"
+  },
+  {
+    "name": "FPABT",
+    "description": "Perfil de Serviços"
+  },
+  {
+    "name": "FPABT1",
+    "description": "Perfil de Serviços"
+  },
+  {
+    "name": "FPACT",
+    "description": "Perfil de Departamento"
+  },
+  {
+    "name": "FPACT1",
+    "description": "Perfil de Departamento"
+  },
+  {
+    "name": "FPADT",
+    "description": "Perfil de Eventos"
+  },
+  {
+    "name": "FPADT1",
+    "description": "Perfil de Eventos"
+  },
+  {
+    "name": "FPAET",
+    "description": "Layout Importação"
+  },
+  {
+    "name": "FPAFT",
+    "description": "Padrão Fornecedor Aquisição Rural"
+  },
+  {
+    "name": "FPAFT1",
+    "description": "Histórico Padrão de Fornecedores"
+  },
+  {
+    "name": "FPAHT",
+    "description": "Tabela de Ambiente de Trabalho"
+  },
+  {
+    "name": "FPAIT",
+    "description": "Tabela de Comunicação de Acidente de Trabalho"
+  },
+  {
+    "name": "FPAIT1",
+    "description": "Comunicação de Acidente de Trabalho - Parte Atingida (FPAIT1)"
+  },
+  {
+    "name": "FPAIT2",
+    "description": "Comunicação de Acidente de Trabalho - Causador do Acidente (FPAIT2)\n                            "
+  },
+  {
+    "name": "FPAJT",
+    "description": "Tabela de Monitoramento da Saúde do Trabalhador"
+  },
+  {
+    "name": "FPAJT1",
+    "description": "Monitoramento da Saúde do Trabalhador- Exames (FPAKT1)"
+  },
+  {
+    "name": "FPAKT",
+    "description": "Tabela de Exame Toxicológico do Motorista Profissional"
+  },
+  {
+    "name": "FPALT",
+    "description": "Tabela de Condições Ambientais do Trabalho - Fatores de Risco"
+  },
+  {
+    "name": "FPALT1",
+    "description": "Condições Ambientais do Trabalho - Fatores de Risco / Ambientes\n                              (FPALT1)"
+  },
+  {
+    "name": "FPALT11",
+    "description": "Condições Ambientais do Trabalho - Fatores de Risco / Atividades\n                              (FPALT11)"
+  },
+  {
+    "name": "FPALT2",
+    "description": "Condições Ambientais do Trabalho - Fatores de Risco / Avaliação\n                              (FPALT2)"
+  },
+  {
+    "name": "FPALT21",
+    "description": "Equipamento de Proteção Individual - (FPALT21)"
+  },
+  {
+    "name": "FPALT3",
+    "description": "Condições Ambientais do Trabalho - Fatores de Risco / Responsável\n                              (FPALT3)"
+  },
+  {
+    "name": "FPALT4",
+    "description": "TFPALTFPALT4"
+  },
+  {
+    "name": "FPALT5",
+    "description": "Permissão - Condições Ambientais de Trabalho - Fatores de Risco"
+  },
+  {
+    "name": "FPAMT",
+    "description": "Tabela de Treinamentos, Capacitações, Exercícios Simulados e Outras\n                              Anotações"
+  },
+  {
+    "name": "FPAMT1",
+    "description": "Tabela de Treinamentos, Capacitações, Exercícios Simulados e Outras\n                              Anotações - Profissional (FPAMT1)"
+  },
+  {
+    "name": "FPANT",
+    "description": "Departamento de Obra"
+  },
+  {
+    "name": "FPAOT",
+    "description": "Alocação de Despesas"
+  },
+  {
+    "name": "FPAPT",
+    "description": "Padrão de e-Mail"
+  },
+  {
+    "name": "FPAQT",
+    "description": "Destinatários de e-Mail"
+  },
+  {
+    "name": "FPAQT1",
+    "description": "Departamento de pessoas a serem notificadas"
+  },
+  {
+    "name": "FPATT",
+    "description": "Fases do Processo Trabalhista"
+  },
+  {
+    "name": "FPAUT",
+    "description": "Acordo de Benefício Extraordinário"
+  },
+  {
+    "name": "FPAUT1",
+    "description": "Alterações Acordo Benefício Emergencial"
+  },
+  {
+    "name": "FPAVT",
+    "description": "Parâmetros de Parcelamento de Lote"
+  },
+  {
+    "name": "FPAVTB",
+    "description": "Geração Lote"
+  },
+  {
+    "name": "FPAWT",
+    "description": "Tabela de Saldo Intermitentes"
+  },
+  {
+    "name": "FPAXT",
+    "description": "Lançamento de Convocação para Trabalho Intermitente"
+  },
+  {
+    "name": "FPAYT",
+    "description": "Beneficios de Funcionário"
+  },
+  {
+    "name": "FPAYTB",
+    "description": "Benefícios do Dependente"
+  },
+  {
+    "name": "FPAYTC",
+    "description": "Benefícios Lançados"
+  },
+  {
+    "name": "FPAYTL",
+    "description": "Log da rotina de liberação de beneficios"
+  },
+  {
+    "name": "FPAZT",
+    "description": "Pessoas a serem notificadas"
+  },
+  {
+    "name": "FPAZT1",
+    "description": "Departamentos Pessoas a Serem notificadas Folha de Pagamento"
+  },
+  {
+    "name": "FPBAT",
+    "description": "Permissões de Acesso por Usuário"
+  },
+  {
+    "name": "FPBAT1",
+    "description": "Permissão de Acesso ao Funcionário por Usuário"
+  },
+  {
+    "name": "FPBBT",
+    "description": "Importador XML - S2240 Condições Ambientais do Trabalho"
+  },
+  {
+    "name": "FPBBT1",
+    "description": "infoExpRisco "
+  },
+  {
+    "name": "FPBBT2",
+    "description": "agNoc "
+  },
+  {
+    "name": "FPBBT3",
+    "description": "epcEpi "
+  },
+  {
+    "name": "FPBBT4",
+    "description": "epiCompl"
+  },
+  {
+    "name": "FPBCT",
+    "description": "Importador XML - S2220 Monitoramento de Saude"
+  },
+  {
+    "name": "FPBCT1",
+    "description": "Exame"
+  },
+  {
+    "name": "FPBDT",
+    "description": "Configurador Baldan"
+  },
+  {
+    "name": "FPBDT1A",
+    "description": "Level1"
+  },
+  {
+    "name": "FPBDT1B",
+    "description": "Level1"
+  },
+  {
+    "name": "FPBET",
+    "description": "Level1"
+  },
+  {
+    "name": "FPBFT",
+    "description": "FUNÇÃO PRINCIPAL - Cadastro"
+  },
+  {
+    "name": "FPBGT",
+    "description": "Tabela de Integração do Sistema Néctar"
+  },
+  {
+    "name": "FPBHT",
+    "description": "Configuração de e-Mail padrão"
+  },
+  {
+    "name": "FPBIT",
+    "description": "Pessoas a Serem Notificadas"
+  },
+  {
+    "name": "FPBIT1",
+    "description": "Departamentos Pessoas a Serem notificadas"
+  }
+]

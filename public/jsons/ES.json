@@ -1,0 +1,530 @@
+[
+  {
+    "name": "ES01T",
+    "description": "Tabela de Empresa do Estoque"
+  },
+  {
+    "name": "ES01T1",
+    "description": "ES01T1"
+  },
+  {
+    "name": "ES01T2",
+    "description": "ES01T2"
+  },
+  {
+    "name": "ES01T3",
+    "description": "Padrão para Transferências entre Empresas"
+  },
+  {
+    "name": "ES01T4",
+    "description": "Tipo de Documentos para Encerramento de Requisições"
+  },
+  {
+    "name": "ES01T5",
+    "description": "Transferência entre Empresas (Grupo de Produtos/Produtos)"
+  },
+  {
+    "name": "ES01TB",
+    "description": "ES01TB"
+  },
+  {
+    "name": "ES01TE",
+    "description": "Tipo de Documento para Encerramento na Transferência de Almoxarifado\n                            "
+  },
+  {
+    "name": "ES02T",
+    "description": "Tabela de Localizações"
+  },
+  {
+    "name": "ES03T",
+    "description": "Tabela de Saldos do Produto"
+  },
+  {
+    "name": "ES03T1",
+    "description": "Tabela de Saldos do Produto"
+  },
+  {
+    "name": "ES03T3",
+    "description": "Localizações dos Produtos almoxarifado"
+  },
+  {
+    "name": "ES04T",
+    "description": "Tabela de Saldos por Lote"
+  },
+  {
+    "name": "ES04T1",
+    "description": "Tabela de Saldos por Lote"
+  },
+  {
+    "name": "ES05T",
+    "description": "Tabela de Saldos Mensais"
+  },
+  {
+    "name": "ES05T1",
+    "description": "Tabela de Saldos Mensais"
+  },
+  {
+    "name": "ES06T",
+    "description": "Tabela de Saldos em Poder Terc"
+  },
+  {
+    "name": "ES06T1",
+    "description": "Tabela de Saldos em Poder Terc"
+  },
+  {
+    "name": "ES07T",
+    "description": "Tabela de Saldos em Poder Emp."
+  },
+  {
+    "name": "ES07T1",
+    "description": "Tabela de Saldos em Poder Emp."
+  },
+  {
+    "name": "ES08T",
+    "description": "Tabela de Tipos de Documento"
+  },
+  {
+    "name": "ES08T1",
+    "description": "Tabela Usuários do Documento"
+  },
+  {
+    "name": "ES09T",
+    "description": "Tabela de Requisições Consumo"
+  },
+  {
+    "name": "ES09T1",
+    "description": "Itens de Requisição Consumo"
+  },
+  {
+    "name": "ES09T11",
+    "description": "Embalagens vinculadas na requisição"
+  },
+  {
+    "name": "ES09T2",
+    "description": "Item de Req. de Consumo p/ Tam"
+  },
+  {
+    "name": "ES09T3",
+    "description": "ES09T3"
+  },
+  {
+    "name": "ES09T4",
+    "description": "Documentos da Requisição"
+  },
+  {
+    "name": "ES10T",
+    "description": "Tabela de Movimentos Internos"
+  },
+  {
+    "name": "ES10T_DTV",
+    "description": "ES10T_DTV"
+  },
+  {
+    "name": "ES10T1",
+    "description": "Itens de Movimentos Internos"
+  },
+  {
+    "name": "ES10T1_DTV",
+    "description": "ES10T1_DTV"
+  },
+  {
+    "name": "ES10T2",
+    "description": "Item de Mov. Internos p/ Tam."
+  },
+  {
+    "name": "ES10T2_DTV",
+    "description": "ES10T2_DTV"
+  },
+  {
+    "name": "ES10T3",
+    "description": "Tabela de Origens do Documento"
+  },
+  {
+    "name": "ES10T31",
+    "description": "Tabela de Origens do Movimento por Item"
+  },
+  {
+    "name": "ES11T",
+    "description": "Tabela de Inventário"
+  },
+  {
+    "name": "ES11T1",
+    "description": "Itens de Inventário"
+  },
+  {
+    "name": "ES11T11",
+    "description": "ES11T11"
+  },
+  {
+    "name": "ES11T2",
+    "description": "Itens de Inventário p/ Tamanho"
+  },
+  {
+    "name": "ES11T21",
+    "description": "ES11T21"
+  },
+  {
+    "name": "ES12T",
+    "description": "Tabela Temporária de Movtos"
+  },
+  {
+    "name": "ES13T",
+    "description": "Tabela Temporária de Movtos"
+  },
+  {
+    "name": "ES14T",
+    "description": "Tabela de Integração - Estoque"
+  },
+  {
+    "name": "ES14T1",
+    "description": "Tabela de Integração - Estoque"
+  },
+  {
+    "name": "ES15T",
+    "description": "Tabela de Lotes de Inventário"
+  },
+  {
+    "name": "ES15T1",
+    "description": "Itens de Lote de Inventário"
+  },
+  {
+    "name": "ES15T11",
+    "description": "ES15T11"
+  },
+  {
+    "name": "ES15T2",
+    "description": "Tabela Lotes de Tamanhos Inv."
+  },
+  {
+    "name": "ES15T21",
+    "description": "ES15T21"
+  },
+  {
+    "name": "ES15T3",
+    "description": "Lotes de Inventário - LOG IMPORTAÇÃO"
+  },
+  {
+    "name": "ES16T",
+    "description": "Tabela de Áreas da Empresa"
+  },
+  {
+    "name": "ES17T",
+    "description": "Tabela de Inventário Rotativo"
+  },
+  {
+    "name": "ES17T1",
+    "description": "Tabela de Prod. do Inventário"
+  },
+  {
+    "name": "ES17T2",
+    "description": "Tabela de Saldos do Inventário"
+  },
+  {
+    "name": "ES17T21",
+    "description": "ES17T21"
+  },
+  {
+    "name": "ES17T3",
+    "description": "Tabel de Qtde de Contagens por Almox"
+  },
+  {
+    "name": "ES17T4",
+    "description": "Tabel de Qtde de Contagens por Lote"
+  },
+  {
+    "name": "ES17T5",
+    "description": "Log Movimentos do Inventário"
+  },
+  {
+    "name": "ES18T",
+    "description": "ES18T"
+  },
+  {
+    "name": "ES19T",
+    "description": "ES19T"
+  },
+  {
+    "name": "ES20T",
+    "description": "Int. PeçasOS. - ASSISTE"
+  },
+  {
+    "name": "ES21T",
+    "description": "ES21T"
+  },
+  {
+    "name": "ES21T1",
+    "description": "ES21T1"
+  },
+  {
+    "name": "ES22T",
+    "description": "ES22T"
+  },
+  {
+    "name": "ES23T",
+    "description": "Tabela de Transf. entre Prod"
+  },
+  {
+    "name": "ES23T1",
+    "description": "Tabela de Transf. por Tamanho"
+  },
+  {
+    "name": "ES24T",
+    "description": "ES24T"
+  },
+  {
+    "name": "ES24T1",
+    "description": "ES24T1"
+  },
+  {
+    "name": "ES24T2",
+    "description": "ES24T2"
+  },
+  {
+    "name": "ES24T21",
+    "description": "ES24T21"
+  },
+  {
+    "name": "ES24T22",
+    "description": "ES24T22"
+  },
+  {
+    "name": "ES25T",
+    "description": "Tabela de DePara / MSM"
+  },
+  {
+    "name": "ES25T1",
+    "description": "Tabela DePara /MSM"
+  },
+  {
+    "name": "ES26T",
+    "description": "ES26T"
+  },
+  {
+    "name": "ES26T1",
+    "description": "ES26T1"
+  },
+  {
+    "name": "ES26T2",
+    "description": "ES26T2"
+  },
+  {
+    "name": "ES26T3",
+    "description": "ES26T3"
+  },
+  {
+    "name": "ES26T4",
+    "description": "ES26T4"
+  },
+  {
+    "name": "ES27T",
+    "description": "ES27T"
+  },
+  {
+    "name": "ES27T1",
+    "description": "ES27T1"
+  },
+  {
+    "name": "ES28T",
+    "description": "Int. Estoque - PIMS"
+  },
+  {
+    "name": "ES29T",
+    "description": "Int. de Requisição - PIMS"
+  },
+  {
+    "name": "ES30T",
+    "description": "Tabela Preço Ind.Quimica"
+  },
+  {
+    "name": "ES30T1",
+    "description": "LOG da Tabela de Preço Ind.Qui."
+  },
+  {
+    "name": "ES30TA",
+    "description": "Tabela Representante Tabela Preço"
+  },
+  {
+    "name": "ES30TB",
+    "description": "Tabela Produto Tabela Preço"
+  },
+  {
+    "name": "ES30TC",
+    "description": "Tabela Cond. Pagto Tabela Preço"
+  },
+  {
+    "name": "ES30TD",
+    "description": "D"
+  },
+  {
+    "name": "ES31T",
+    "description": "Tabela de Parametros Critica"
+  },
+  {
+    "name": "ES32T",
+    "description": "Tabela de Fases"
+  },
+  {
+    "name": "ES32T1",
+    "description": "Tabela de Fases"
+  },
+  {
+    "name": "ES33T",
+    "description": "Tabela de Seq. de Liberação"
+  },
+  {
+    "name": "ES34T",
+    "description": "Configuração de Produtos Orçamento Web"
+  },
+  {
+    "name": "ES34T1",
+    "description": "Produtos da Configuração"
+  },
+  {
+    "name": "ES35T",
+    "description": "Tabela de produtos integrados off-line"
+  },
+  {
+    "name": "ES38T",
+    "description": "Movimentos para Calc. CM"
+  },
+  {
+    "name": "ES39T",
+    "description": "Movimentos p/ Calculo de Saldos"
+  },
+  {
+    "name": "ES40T",
+    "description": "Saldos na Data"
+  },
+  {
+    "name": "ES40T1",
+    "description": "Level1"
+  },
+  {
+    "name": "ES41T",
+    "description": "Operações para Serviço Proman"
+  },
+  {
+    "name": "ES42T",
+    "description": "Operações para Imobilizado Proman"
+  },
+  {
+    "name": "ES43T",
+    "description": "Integr. de Peças_OS - ASSISTE"
+  },
+  {
+    "name": "ES44T",
+    "description": "TEMP SPED FISCAL BLOCO HO20"
+  },
+  {
+    "name": "ES45T",
+    "description": "Agrupamento de Ficha Aux"
+  },
+  {
+    "name": "ES45T1",
+    "description": "Fichas do Agrupamento"
+  },
+  {
+    "name": "ES46T",
+    "description": "Tabela de Configuração de CFOP ( Dela Coletta )"
+  },
+  {
+    "name": "ES47T",
+    "description": "Tabela de Configuração de CFOP - Posto"
+  },
+  {
+    "name": "ES48T",
+    "description": "Indicadores - Grupos de Produtos"
+  },
+  {
+    "name": "ES48T1",
+    "description": "Grupos do Indicador"
+  },
+  {
+    "name": "ES49T",
+    "description": "Configurador de CFOP/Op. Tributaria ( Dela Coletta - Posto )"
+  },
+  {
+    "name": "ES50T",
+    "description": "Tabela de Impressora Fiscal ( Dela Coleta )"
+  },
+  {
+    "name": "ES51T",
+    "description": "Tabela de CFOP por CNPJ Matriz ( Jussara )"
+  },
+  {
+    "name": "ES52T",
+    "description": "Tabela de Usuários para Conferência do Estoque"
+  },
+  {
+    "name": "ES53T",
+    "description": "Tabela de Inconsistência de Produtos"
+  },
+  {
+    "name": "ES53T1",
+    "description": "Tabela de Usuários da Inconsistência de Produtos"
+  },
+  {
+    "name": "ES54T",
+    "description": "Fornecimento Materiais II"
+  },
+  {
+    "name": "ES54T1",
+    "description": "Level1"
+  },
+  {
+    "name": "ES54T2",
+    "description": "Level2"
+  },
+  {
+    "name": "ES54T3",
+    "description": "ES54 T3"
+  },
+  {
+    "name": "ES55T",
+    "description": "Base Rateio Ficha Técnica"
+  },
+  {
+    "name": "ES55T1",
+    "description": "Level1"
+  },
+  {
+    "name": "ES56T",
+    "description": "Registro 0210 - Produto Acabado"
+  },
+  {
+    "name": "ES56T1",
+    "description": "Registro 0210 - Insumo"
+  },
+  {
+    "name": "ES57T",
+    "description": "Tabela K230 - Bloco K - Itens Produzidos"
+  },
+  {
+    "name": "ES57T1",
+    "description": "Tabela K235 - Bloco K - Insumos Consumidos"
+  },
+  {
+    "name": "ES58T",
+    "description": "Insumos Consumidos"
+  },
+  {
+    "name": "ES58T1",
+    "description": "Produto acabado referento ao consumo"
+  },
+  {
+    "name": "ES59T",
+    "description": "Tabela de Artigos Produzidos no Mês"
+  },
+  {
+    "name": "ES59T1",
+    "description": "Tabela de Produtos Consumidos no Mês"
+  },
+  {
+    "name": "ES60T",
+    "description": "Grupos Integração OffLine"
+  },
+  {
+    "name": "ES61T",
+    "description": "Log Encerramento de Produtos"
+  }
+]

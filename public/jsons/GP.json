@@ -1,0 +1,294 @@
+[
+  {
+    "name": "GP01T",
+    "description": "Parâmetros do Processo de Seleção"
+  },
+  {
+    "name": "GP04T",
+    "description": "Parâmetros de Cargos e Salários"
+  },
+  {
+    "name": "GP05TA",
+    "description": "Cadastro de Termo de Aceite"
+  },
+  {
+    "name": "GP07T",
+    "description": "Empresas Replicas Eventos Corporativos"
+  },
+  {
+    "name": "GP11T",
+    "description": "Classificação de Eventos Corporativos"
+  },
+  {
+    "name": "GP12T",
+    "description": "Externos"
+  },
+  {
+    "name": "GP13T",
+    "description": "Temas de Eventos Corporativos"
+  },
+  {
+    "name": "GP14T",
+    "description": "Categoria de Notificação"
+  },
+  {
+    "name": "GP15T",
+    "description": "Pessoas a serem notificadas"
+  },
+  {
+    "name": "GP15T1",
+    "description": "Departamentos Pessoas a serem notificadas"
+  },
+  {
+    "name": "GP15T2",
+    "description": "Notificação Gestão de Pessoas"
+  },
+  {
+    "name": "GP16T",
+    "description": "Classificação de questões"
+  },
+  {
+    "name": "GP17T",
+    "description": "Questões para pesquisa"
+  },
+  {
+    "name": "GP18T",
+    "description": "Pesquisas"
+  },
+  {
+    "name": "GP18T1",
+    "description": "Questões"
+  },
+  {
+    "name": "GP19T",
+    "description": "Banco de Talentos"
+  },
+  {
+    "name": "GP19TA",
+    "description": "Dicionário de Dados para Importação - Banco de Talentos"
+  },
+  {
+    "name": "GP19TB",
+    "description": "Funções Pretendidas - Banco de Talentos"
+  },
+  {
+    "name": "GP20T",
+    "description": "Ocorrências do Processo de Seleção"
+  },
+  {
+    "name": "GP21T",
+    "description": "Processo de Seleção"
+  },
+  {
+    "name": "GP21T1",
+    "description": "Candidatos - GP21T1"
+  },
+  {
+    "name": "GP21T2",
+    "description": "Ocorrências dos Selecionados"
+  },
+  {
+    "name": "GP21TB",
+    "description": "Anexos do Processo Seletivo"
+  },
+  {
+    "name": "GP22T",
+    "description": "Cadastro de Eventos Corporativos"
+  },
+  {
+    "name": "GP22T1",
+    "description": "gp13 Cod"
+  },
+  {
+    "name": "GP23T",
+    "description": "Lançamento de Eventos Corporativos"
+  },
+  {
+    "name": "GP23T2",
+    "description": "Level2"
+  },
+  {
+    "name": "GP23T3",
+    "description": "Lançamento de Eventos Corporativos - Participantes"
+  },
+  {
+    "name": "GP23T4",
+    "description": "Lançamento de Eventos Corporativos - Anexos"
+  },
+  {
+    "name": "GP23T5",
+    "description": "Eventos Corporativos - Ausências"
+  },
+  {
+    "name": "GP24T",
+    "description": "Períodos do Lotacionograma"
+  },
+  {
+    "name": "GP25T",
+    "description": " T1621"
+  },
+  {
+    "name": "GP25TA",
+    "description": " T1622"
+  },
+  {
+    "name": "GP25TB",
+    "description": " T1623"
+  },
+  {
+    "name": "GP27T",
+    "description": "Função Pretendida"
+  },
+  {
+    "name": "GP27T1",
+    "description": "TGP27 T1"
+  },
+  {
+    "name": "GP28T",
+    "description": "Lançamento da Pesquisa"
+  },
+  {
+    "name": "GP28T1",
+    "description": "Lançamento da Pesquisa - Questões"
+  },
+  {
+    "name": "GP28T3",
+    "description": "Lançamento de Pesquisa - Respostas - Participantes"
+  },
+  {
+    "name": "GP29T",
+    "description": "Referencia do Cronograma"
+  },
+  {
+    "name": "GP29T1",
+    "description": "Cronograma de Atividades"
+  },
+  {
+    "name": "GP29T2",
+    "description": "Pessoas a Serem Notificadas - Atividades"
+  },
+  {
+    "name": "GP31T",
+    "description": "Solicitação de Eventos Corporativos"
+  },
+  {
+    "name": "GP31T1",
+    "description": "gp31seq"
+  },
+  {
+    "name": "GP31T2",
+    "description": "Solic. Eventos Corporativos - Participantes"
+  },
+  {
+    "name": "GP32T",
+    "description": "Grupos Ocupacionais"
+  },
+  {
+    "name": "GP32T1",
+    "description": "Competências por Grupo Ocupacional"
+  },
+  {
+    "name": "GP32T2",
+    "description": "Fatores por Grau"
+  },
+  {
+    "name": "GP32T3",
+    "description": "Classificações do Grupo Ocupacional"
+  },
+  {
+    "name": "GP32T4",
+    "description": "Pontuação por Afirmações"
+  },
+  {
+    "name": "GP33T",
+    "description": "Dimensões"
+  },
+  {
+    "name": "GP34T",
+    "description": "Competências"
+  },
+  {
+    "name": "GP35T",
+    "description": "Geração"
+  },
+  {
+    "name": "GP38T",
+    "description": "Avaliadores"
+  },
+  {
+    "name": "GP39T",
+    "description": "Avaliações"
+  },
+  {
+    "name": "GP39T1",
+    "description": "Avaliadores"
+  },
+  {
+    "name": "GP39T2",
+    "description": "Avaliados"
+  },
+  {
+    "name": "GP39T3",
+    "description": "Pontuação do Avaliado (GP39T3)"
+  },
+  {
+    "name": "GP39T4",
+    "description": "Pontuação por Afirmações"
+  },
+  {
+    "name": "GP40T",
+    "description": "Documentais"
+  },
+  {
+    "name": "GP41T",
+    "description": "Avisos"
+  },
+  {
+    "name": "GP41T2",
+    "description": "Avisos - Destinatários"
+  },
+  {
+    "name": "GP42T",
+    "description": "Diário de Bordo"
+  },
+  {
+    "name": "GP42T1",
+    "description": "Diário de Bordo - Anexos"
+  },
+  {
+    "name": "GP44T",
+    "description": "Gestão de Documentos"
+  },
+  {
+    "name": "GP45T",
+    "description": "Device (Tabela para dispositivos do APP FOLHA)"
+  },
+  {
+    "name": "GP46T",
+    "description": "Acessos"
+  },
+  {
+    "name": "GP47T",
+    "description": "Avaliações"
+  },
+  {
+    "name": "GP47T1",
+    "description": "Comentario"
+  },
+  {
+    "name": "GP48T",
+    "description": "Configurador de Mensagens"
+  },
+  {
+    "name": "GP48T1",
+    "description": "Configurador de Mensagens - Destinatários"
+  },
+  {
+    "name": "GP49T",
+    "description": "Métrica para Interpretação do Resultado da Avaliação"
+  },
+  {
+    "name": "GP49T1",
+    "description": "Interpretações"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "name": "EX01T",
+    "description": "Tabela de Modalidade de Embarq"
+  },
+  {
+    "name": "EX02T",
+    "description": "Tabela de Contrato de Câmbio"
+  },
+  {
+    "name": "EX02TA",
+    "description": "Tabela de Orde de Pagamento Invoice"
+  },
+  {
+    "name": "EX03T",
+    "description": "Tabela de Atos Concessórios"
+  },
+  {
+    "name": "EX03TA",
+    "description": "Tabela de NCM do Ato Concessório"
+  },
+  {
+    "name": "EX03TA1",
+    "description": "Tabela de Invoice/Pedidos Vinculados ao NCM do Ato Concessório"
+  },
+  {
+    "name": "EX04T",
+    "description": "Tabela de Invoice"
+  },
+  {
+    "name": "EX04T1",
+    "description": "Tabela de Atos Concessórios"
+  },
+  {
+    "name": "EX04T2",
+    "description": "Tabela de Pedidos da Invoice"
+  },
+  {
+    "name": "EX04T21",
+    "description": "Tabela de Runs do Item"
+  },
+  {
+    "name": "EX04T22",
+    "description": "Agrupamento de Runs"
+  },
+  {
+    "name": "EX04T221",
+    "description": "Grade Agrupadas na Run"
+  },
+  {
+    "name": "EX04T3",
+    "description": "Tabela de Contratos da Invoice"
+  },
+  {
+    "name": "EX04T4",
+    "description": "Tabela de Despesas da Invoice"
+  },
+  {
+    "name": "EX04T5",
+    "description": "Tabela de Adiantamentos"
+  },
+  {
+    "name": "EX04T6",
+    "description": "Descontos da Invoice"
+  },
+  {
+    "name": "EX04T7",
+    "description": "Acréscimos da Invoice"
+  },
+  {
+    "name": "EX04T9",
+    "description": "Tabela de Lançamentos de RE - Invoice"
+  },
+  {
+    "name": "EX04TA",
+    "description": "Tabela de Run"
+  },
+  {
+    "name": "EX04TA1",
+    "description": "Tabela de Run - Filha"
+  },
+  {
+    "name": "EX04TB",
+    "description": "Tabela de Log"
+  },
+  {
+    "name": "EX04TC",
+    "description": "Tabela de Grade Digitada"
+  },
+  {
+    "name": "EX04TD",
+    "description": "Tabela de Geração de Runs por Tipo de Produto"
+  },
+  {
+    "name": "EX04TE",
+    "description": "Tabela de Exportação Indireta - Invoice"
+  },
+  {
+    "name": "EX04TF",
+    "description": "Tabela de Pallets da Invoice"
+  },
+  {
+    "name": "EX04TI",
+    "description": " T1551"
+  },
+  {
+    "name": "EX04TI1",
+    "description": "Tabela de Volumes da Invoice"
+  },
+  {
+    "name": "EX04TI11",
+    "description": "Tabela de Tamanhos por Volume"
+  },
+  {
+    "name": "EX04TJ",
+    "description": "Tabela de Proformas Vinculadas a Invoice"
+  },
+  {
+    "name": "EX04TK",
+    "description": "Tabela de Pallets Vinculados ao Item da Invoice"
+  },
+  {
+    "name": "EX05T",
+    "description": "Tabela de Ordenação"
+  },
+  {
+    "name": "EX06T",
+    "description": "Tabela de Empresa"
+  },
+  {
+    "name": "EX06T1",
+    "description": "Composição Sequencial Inv/Prof"
+  },
+  {
+    "name": "EX06T2",
+    "description": "Tabela de Parametros da Empresa de Exportação"
+  },
+  {
+    "name": "EX06T3",
+    "description": "Tabela de Seções de Exportação"
+  },
+  {
+    "name": "EX07T",
+    "description": "Tabela de Proforma"
+  },
+  {
+    "name": "EX07T1",
+    "description": "EX07T1"
+  },
+  {
+    "name": "EX07T2",
+    "description": "Tabela de Pedidos da Proforma"
+  },
+  {
+    "name": "EX07T21",
+    "description": "Tabela de Runs do Item"
+  },
+  {
+    "name": "EX07T22",
+    "description": "Agrupamento de Runs"
+  },
+  {
+    "name": "EX07T221",
+    "description": " T1560"
+  },
+  {
+    "name": "EX07T3",
+    "description": "Descontos da Proforma"
+  },
+  {
+    "name": "EX07T4",
+    "description": "Acréscimos da Proforma"
+  },
+  {
+    "name": "EX07T5",
+    "description": "Tabela de Geração de Runs por Tipo de Produto"
+  },
+  {
+    "name": "EX07T6",
+    "description": "Tabela de Caixas da Proforma"
+  },
+  {
+    "name": "EX07T61",
+    "description": "Tabela de Volumes da Proforma"
+  },
+  {
+    "name": "EX07T611",
+    "description": "Tabela de Tamanhos por Volume"
+  },
+  {
+    "name": "EX07T9",
+    "description": "Tabela de Lançamentos de RE - Proforma"
+  },
+  {
+    "name": "EX07TA",
+    "description": "Tabela de Run"
+  },
+  {
+    "name": "EX07TA1",
+    "description": "Tabela de Run - Filha"
+  },
+  {
+    "name": "EX07TB",
+    "description": "Tabela de Log da Proforma"
+  },
+  {
+    "name": "EX07TE",
+    "description": "Tabela de Exportação Indireta"
+  },
+  {
+    "name": "EX07TF",
+    "description": "Tabela de Pallets da Proforma"
+  },
+  {
+    "name": "EX07TG",
+    "description": "Tabela de Ficha Vinculadas Pallet do Item da Proforma"
+  },
+  {
+    "name": "EX08T",
+    "description": "Tabela de Despesas de Exporta."
+  },
+  {
+    "name": "EX09T",
+    "description": "Tabela de Rotinas de Exportaçã"
+  },
+  {
+    "name": "EX10T",
+    "description": "Cadastro Descrição do NBM"
+  },
+  {
+    "name": "EX11T",
+    "description": "Tabela de Idioma de Logradouro"
+  },
+  {
+    "name": "EX11T1",
+    "description": "Tabela de Idioma de Logradouro"
+  },
+  {
+    "name": "EX12T",
+    "description": "Tabela de Agrupamento de Tipo de Produtos"
+  },
+  {
+    "name": "EX12T1",
+    "description": "Tabela de Classificações do Grupo"
+  },
+  {
+    "name": "EX13T",
+    "description": "Tabela de Incoterms"
+  },
+  {
+    "name": "EX14T",
+    "description": "Tabela de Tipo de Produto Por Classificação de Itens"
+  },
+  {
+    "name": "EX14T1",
+    "description": "Tabela de Classificações de Itens por Tipo de Produto"
+  },
+  {
+    "name": "EX15T",
+    "description": "Tabela de Tipo de Produto/NBM"
+  },
+  {
+    "name": "EX15T1",
+    "description": "Tabela de Tipo de Produto/NBM"
+  },
+  {
+    "name": "EX16T",
+    "description": "Tabela de Observações da Exportação"
+  },
+  {
+    "name": "EX16T1",
+    "description": "Tabela de Observações da Exportação"
+  },
+  {
+    "name": "EX16T2",
+    "description": "Tabela de Observações por Banco Operação"
+  },
+  {
+    "name": "EX16T3",
+    "description": "Tabela de Observações por Condições de Pagamento"
+  },
+  {
+    "name": "EX17T",
+    "description": "Tabela de Local de Embarque"
+  },
+  {
+    "name": "EX18T",
+    "description": "Tabela de Memorandos"
+  },
+  {
+    "name": "EX19T",
+    "description": "Tabela de Runs Geradas por Tipo de Produção"
+  },
+  {
+    "name": "EX19T1",
+    "description": "Tabela de Grade das Runs Geradas por Tipo de Produção"
+  },
+  {
+    "name": "EX20T",
+    "description": "Cadastro de Descrição do NBM / Classificação Gestor"
+  },
+  {
+    "name": "EX21T",
+    "description": "Cadastro de Tipo de Frete"
+  }
+]

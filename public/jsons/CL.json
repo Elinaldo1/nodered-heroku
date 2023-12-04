@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CL01T",
+    "description": "Cadastro de Propriedade"
+  },
+  {
+    "name": "CL02T",
+    "description": "Cadastro de Funcionário"
+  },
+  {
+    "name": "CL03T",
+    "description": "Cadastro de Serviço"
+  },
+  {
+    "name": "CL04T",
+    "description": "Tabela de Lançamento de Serviço"
+  },
+  {
+    "name": "CL05T",
+    "description": "Cadastro de Empresa"
+  },
+  {
+    "name": "CL06T",
+    "description": "Tabela de Log"
+  },
+  {
+    "name": "CL06T1",
+    "description": "Tabela de Log"
+  }
+]

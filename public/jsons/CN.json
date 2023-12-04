@@ -1,0 +1,158 @@
+[
+  {
+    "name": "CN01T",
+    "description": "CN01T"
+  },
+  {
+    "name": "CN01T1",
+    "description": "CN01T1"
+  },
+  {
+    "name": "CN02T",
+    "description": "Cadastro de Propriedades"
+  },
+  {
+    "name": "CN02T1",
+    "description": "CN02T1"
+  },
+  {
+    "name": "CN02T10",
+    "description": "Cota Cooperados"
+  },
+  {
+    "name": "CN02T11",
+    "description": "Level1"
+  },
+  {
+    "name": "CN02T12",
+    "description": "Código SICAR"
+  },
+  {
+    "name": "CN02T13",
+    "description": "Período da Qualificação"
+  },
+  {
+    "name": "CN02T2",
+    "description": "CN02T2"
+  },
+  {
+    "name": "CN02T3",
+    "description": "Tabela de Proprietários Adicio"
+  },
+  {
+    "name": "CN02T4",
+    "description": "Orgao Associado (Propriedade)"
+  },
+  {
+    "name": "CN02T5",
+    "description": "CN02T5"
+  },
+  {
+    "name": "CN02T6",
+    "description": "Registro do Imóvel"
+  },
+  {
+    "name": "CN02T7",
+    "description": "CN02T7"
+  },
+  {
+    "name": "CN02T9",
+    "description": "CN02T9"
+  },
+  {
+    "name": "CN03T",
+    "description": "Contratos"
+  },
+  {
+    "name": "CN03T1",
+    "description": "CN03T1"
+  },
+  {
+    "name": "CN03T2",
+    "description": "CN03T2"
+  },
+  {
+    "name": "CN03T3",
+    "description": "Duplicatas"
+  },
+  {
+    "name": "CN03T4",
+    "description": "CN03T4"
+  },
+  {
+    "name": "CN03T5",
+    "description": "Observações do Contrato de Fornecedor"
+  },
+  {
+    "name": "CN03T6",
+    "description": "Participação de Fornecedores da Propriedade no Contrato"
+  },
+  {
+    "name": "CN04T",
+    "description": "CN04T"
+  },
+  {
+    "name": "CN04T4",
+    "description": "CN04T4"
+  },
+  {
+    "name": "CN05T",
+    "description": "CN05T"
+  },
+  {
+    "name": "CN10T",
+    "description": "CN10T"
+  },
+  {
+    "name": "CN11T",
+    "description": "CN11T"
+  },
+  {
+    "name": "CN12T",
+    "description": "CN12T"
+  },
+  {
+    "name": "CN13T",
+    "description": "CN13T"
+  },
+  {
+    "name": "CN14T",
+    "description": "Acerto Final de Safra por Contrato"
+  },
+  {
+    "name": "CN15T",
+    "description": "CN15T"
+  },
+  {
+    "name": "CN15T1",
+    "description": "Análise Econômicas - ATR Dif."
+  },
+  {
+    "name": "CN15T2",
+    "description": "ATR e TCH por Safra"
+  },
+  {
+    "name": "CN17T",
+    "description": "Adiantamento de Contratos"
+  },
+  {
+    "name": "CN17T1",
+    "description": "Duplicatas com Descontos"
+  },
+  {
+    "name": "CN18T",
+    "description": "Parâmetros de Autorização de Contrato"
+  },
+  {
+    "name": "CN18T1",
+    "description": "Usuários de Autorização"
+  },
+  {
+    "name": "CN19T",
+    "description": "Registro de Autorização do Contrato"
+  },
+  {
+    "name": "CN19T1",
+    "description": "Registro dos Usuários"
+  }
+]

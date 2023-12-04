@@ -1,0 +1,338 @@
+[
+  {
+    "name": "AM01T",
+    "description": "AM01T"
+  },
+  {
+    "name": "AM01T1",
+    "description": "AM01T1"
+  },
+  {
+    "name": "AM02T",
+    "description": "AM02T"
+  },
+  {
+    "name": "AM03T",
+    "description": "AM03T"
+  },
+  {
+    "name": "AM04T",
+    "description": "AM04T"
+  },
+  {
+    "name": "AM04T1",
+    "description": "Produtos do Estoque"
+  },
+  {
+    "name": "AM05T",
+    "description": "Cadastro de Lotes"
+  },
+  {
+    "name": "AM05T1",
+    "description": "AM05T1"
+  },
+  {
+    "name": "AM05T2",
+    "description": "Produtos do Lote"
+  },
+  {
+    "name": "AM05T3",
+    "description": "Armazéns do Lote"
+  },
+  {
+    "name": "AM06T",
+    "description": "AM06T"
+  },
+  {
+    "name": "AM07T",
+    "description": "AM07T"
+  },
+  {
+    "name": "AM08T",
+    "description": "AM08T"
+  },
+  {
+    "name": "AM08T1",
+    "description": "AM08T1"
+  },
+  {
+    "name": "AM09T",
+    "description": "AM09T"
+  },
+  {
+    "name": "AM09T1",
+    "description": "AM09T1"
+  },
+  {
+    "name": "AM10T",
+    "description": "AM10T"
+  },
+  {
+    "name": "AM10T1",
+    "description": "AM10T1"
+  },
+  {
+    "name": "AM10T2",
+    "description": "AM10T2"
+  },
+  {
+    "name": "AM10T3",
+    "description": "AM10T3"
+  },
+  {
+    "name": "AM10T4",
+    "description": "AM10T4"
+  },
+  {
+    "name": "AM11T",
+    "description": "AM11T"
+  },
+  {
+    "name": "AM11T1",
+    "description": "AM11T1"
+  },
+  {
+    "name": "AM11T2",
+    "description": "AM11T2"
+  },
+  {
+    "name": "AM11T3",
+    "description": "Reclassificação de Estocagem 50 kg"
+  },
+  {
+    "name": "AM12T",
+    "description": "AM12T"
+  },
+  {
+    "name": "AM12T1",
+    "description": "AM12T1"
+  },
+  {
+    "name": "AM12T2",
+    "description": "AM12T2"
+  },
+  {
+    "name": "AM13T",
+    "description": "AM13T"
+  },
+  {
+    "name": "AM13T1",
+    "description": "AM13T1"
+  },
+  {
+    "name": "AM13T2",
+    "description": "AM13T2"
+  },
+  {
+    "name": "AM14T",
+    "description": "AM14T"
+  },
+  {
+    "name": "AM14T1",
+    "description": "AM14T1"
+  },
+  {
+    "name": "AM14T2",
+    "description": "AM14T2"
+  },
+  {
+    "name": "AM14T3",
+    "description": "AM14T3"
+  },
+  {
+    "name": "AM15T",
+    "description": "AM15T"
+  },
+  {
+    "name": "AM15T1",
+    "description": "AM15T1"
+  },
+  {
+    "name": "AM15T2",
+    "description": "AM15T2"
+  },
+  {
+    "name": "AM15TA",
+    "description": "Lançamento Produção a Granel"
+  },
+  {
+    "name": "AM16T",
+    "description": "AM16T"
+  },
+  {
+    "name": "AM17T",
+    "description": "AM17T"
+  },
+  {
+    "name": "AM18T",
+    "description": "AM18T"
+  },
+  {
+    "name": "AM18T1",
+    "description": "AM18T1"
+  },
+  {
+    "name": "AM19T",
+    "description": "AM19T"
+  },
+  {
+    "name": "AM20T",
+    "description": "AM20T"
+  },
+  {
+    "name": "AM21T",
+    "description": "AM21T"
+  },
+  {
+    "name": "AM22T",
+    "description": "AM22T"
+  },
+  {
+    "name": "AM23T",
+    "description": "AM23T"
+  },
+  {
+    "name": "AM24T",
+    "description": "AM24T"
+  },
+  {
+    "name": "AM24T1",
+    "description": "AM24T1"
+  },
+  {
+    "name": "AM26T",
+    "description": "AM26T"
+  },
+  {
+    "name": "AM26T1",
+    "description": "AM26T1"
+  },
+  {
+    "name": "AM26T2",
+    "description": "AM26T2"
+  },
+  {
+    "name": "AM27T",
+    "description": "AM27T"
+  },
+  {
+    "name": "AM27T1",
+    "description": "AM27T1"
+  },
+  {
+    "name": "AM27T2",
+    "description": "AM27T2"
+  },
+  {
+    "name": "AM28T",
+    "description": "AM28T"
+  },
+  {
+    "name": "AM29T",
+    "description": "AM29T"
+  },
+  {
+    "name": "AM30T",
+    "description": "AM30T"
+  },
+  {
+    "name": "AM30T1",
+    "description": "AM30T1"
+  },
+  {
+    "name": "AM31T",
+    "description": "AM31T"
+  },
+  {
+    "name": "AM31T1",
+    "description": "AM31T1"
+  },
+  {
+    "name": "AM32T",
+    "description": "AM32T"
+  },
+  {
+    "name": "AM32T1",
+    "description": "AM32T1"
+  },
+  {
+    "name": "AM33T",
+    "description": "Cadastro de Pilhas"
+  },
+  {
+    "name": "AM34T",
+    "description": "AM34T"
+  },
+  {
+    "name": "AM34T1",
+    "description": "AM34T1"
+  },
+  {
+    "name": "AM35T",
+    "description": "Posição de Silos"
+  },
+  {
+    "name": "AM36T",
+    "description": "Cadastro de Silo"
+  },
+  {
+    "name": "AM37T",
+    "description": "Apuração de Saldo"
+  },
+  {
+    "name": "AM38T",
+    "description": "Lacres Importados do Coletor"
+  },
+  {
+    "name": "AM38T1",
+    "description": "Lacres Importados do Coletor"
+  },
+  {
+    "name": "AM39T",
+    "description": "Controle de Saldo de Armazém"
+  },
+  {
+    "name": "AM40T",
+    "description": "Produção de Açúcar"
+  },
+  {
+    "name": "AM40T1",
+    "description": "Lacres da Produção de Açúcar"
+  },
+  {
+    "name": "AM40T2",
+    "description": "Embalagens da Producão de Açúcar"
+  },
+  {
+    "name": "AM41T",
+    "description": "Carregamento de Açúcar"
+  },
+  {
+    "name": "AM41T1",
+    "description": "Lacres do Carregamento de Açúcar"
+  },
+  {
+    "name": "AM41T2",
+    "description": "Embalagens do Carregamento de Açúcar"
+  },
+  {
+    "name": "AM42T",
+    "description": "Tipos de Perdas de Produto"
+  },
+  {
+    "name": "AM43T",
+    "description": "Controle de Perdas de Produto"
+  },
+  {
+    "name": "AM44T",
+    "description": "Controle de Reprocessamento de Produto"
+  },
+  {
+    "name": "AM44T1",
+    "description": "Entradas do Reprocesso"
+  },
+  {
+    "name": "AM45T",
+    "description": "Cadastro de Metas de Produção de Açucar por Produto"
+  }
+]

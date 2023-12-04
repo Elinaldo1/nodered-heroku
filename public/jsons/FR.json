@@ -1,0 +1,858 @@
+[
+  {
+    "name": "FR01T",
+    "description": "Cadastro de Empresa"
+  },
+  {
+    "name": "FR01T2",
+    "description": "Empresa Saldo Estoque"
+  },
+  {
+    "name": "FR01T3",
+    "description": "Empresas Espelho do Frota"
+  },
+  {
+    "name": "FR01T6",
+    "description": "FR01T6"
+  },
+  {
+    "name": "FR01T7",
+    "description": "Atividades de Motorista"
+  },
+  {
+    "name": "FR01T8",
+    "description": "Atividades de Mecânico"
+  },
+  {
+    "name": "FR01T9",
+    "description": "Empresas Folha p/ Cadastrar Pessoas no Frota"
+  },
+  {
+    "name": "FR02T",
+    "description": "Veiculo"
+  },
+  {
+    "name": "FR02T1",
+    "description": "Pneu do Veiculo"
+  },
+  {
+    "name": "FR02T10",
+    "description": "FR02T10"
+  },
+  {
+    "name": "FR02T11",
+    "description": "FR02T11"
+  },
+  {
+    "name": "FR02T13",
+    "description": "Cadastro de Custo/Hora do Veículo"
+  },
+  {
+    "name": "FR02T14",
+    "description": "Ordem de Produção do Veículo"
+  },
+  {
+    "name": "FR02T16",
+    "description": "Veículo - Dados de Alienação"
+  },
+  {
+    "name": "FR02T18",
+    "description": "Classificação CVC"
+  },
+  {
+    "name": "FR02T19",
+    "description": "Acessórios/Agregados do Veículo"
+  },
+  {
+    "name": "FR02T2",
+    "description": "Emprestimo"
+  },
+  {
+    "name": "FR02T21",
+    "description": "Seq. Empréstimos de Veículo na Data"
+  },
+  {
+    "name": "FR02T3",
+    "description": "FR02T3"
+  },
+  {
+    "name": "FR02T4",
+    "description": "Documentação"
+  },
+  {
+    "name": "FR02T5",
+    "description": "Especialidade"
+  },
+  {
+    "name": "FR02T6",
+    "description": "FR02T6"
+  },
+  {
+    "name": "FR02T7",
+    "description": "Classificação de Frete"
+  },
+  {
+    "name": "FR02T81",
+    "description": "Proprietario adicional"
+  },
+  {
+    "name": "FR02T9",
+    "description": "Sub Classe"
+  },
+  {
+    "name": "FR03T",
+    "description": "Evento de Pneus"
+  },
+  {
+    "name": "FR04T",
+    "description": "Atividades"
+  },
+  {
+    "name": "FR04T1",
+    "description": "Funções da Atividade"
+  },
+  {
+    "name": "FR05T",
+    "description": "Pessoas"
+  },
+  {
+    "name": "FR05T1",
+    "description": "Pessoas\\Atividades"
+  },
+  {
+    "name": "FR05T2",
+    "description": "Custo na Data"
+  },
+  {
+    "name": "FR05T3",
+    "description": "Folguista na Data"
+  },
+  {
+    "name": "FR05T4",
+    "description": "Usuários na Execução de Mecânico"
+  },
+  {
+    "name": "FR05T5",
+    "description": "Oficinas do Mecânico"
+  },
+  {
+    "name": "FR06T",
+    "description": "Cadastro de Cobertura do Seguro"
+  },
+  {
+    "name": "FR07T",
+    "description": "Posto/Comboio"
+  },
+  {
+    "name": "FR07T1",
+    "description": "Serviços do Comboio"
+  },
+  {
+    "name": "FR07T2",
+    "description": "Produtos do Comboio"
+  },
+  {
+    "name": "FR07T3",
+    "description": "Cadastro de Tanques"
+  },
+  {
+    "name": "FR07T31",
+    "description": "Medidas do Tanque"
+  },
+  {
+    "name": "FR07T4",
+    "description": "Grupos de Serviços"
+  },
+  {
+    "name": "FR07T5",
+    "description": "Grupos de Produtos"
+  },
+  {
+    "name": "FR07T6",
+    "description": "Cadastro de Usuários do Posto"
+  },
+  {
+    "name": "FR08T",
+    "description": "Tipo de Veiculo"
+  },
+  {
+    "name": "FR09T",
+    "description": "Tipo de Combustivel"
+  },
+  {
+    "name": "FR09T1",
+    "description": "Valores do Combustível"
+  },
+  {
+    "name": "FR10T",
+    "description": "Entrada de Combustivel"
+  },
+  {
+    "name": "FR11T",
+    "description": "Especialidade do Veiculo"
+  },
+  {
+    "name": "FR11T1",
+    "description": "Classe da Atividade"
+  },
+  {
+    "name": "FR11T2",
+    "description": "Etapas da Especialidade p/ Custo"
+  },
+  {
+    "name": "FR12T",
+    "description": "Proprietario Veiculo"
+  },
+  {
+    "name": "FR13T",
+    "description": "Saida do Combustivel"
+  },
+  {
+    "name": "FR13T1",
+    "description": "Sequancia de Saida"
+  },
+  {
+    "name": "FR13T2",
+    "description": "Tabela de Integração de Abaste"
+  },
+  {
+    "name": "FR13T3",
+    "description": "Baixa do Abastecimento"
+  },
+  {
+    "name": "FR13T4",
+    "description": "Log de Usuário para Abastecime"
+  },
+  {
+    "name": "FR13TSD",
+    "description": "Abastecimento"
+  },
+  {
+    "name": "FR13TSDE",
+    "description": " Erro"
+  },
+  {
+    "name": "FR14T",
+    "description": "Execução de OS do Pátio"
+  },
+  {
+    "name": "FR15T",
+    "description": "Local de Estoque"
+  },
+  {
+    "name": "FR16T",
+    "description": "Pneu"
+  },
+  {
+    "name": "FR16T1",
+    "description": "Fornecedores Recapagem"
+  },
+  {
+    "name": "FR16T2",
+    "description": "Observações do Cadastro de Pneus"
+  },
+  {
+    "name": "FR17T",
+    "description": "Movimento de Pneus"
+  },
+  {
+    "name": "FR18T",
+    "description": "Oficina"
+  },
+  {
+    "name": "FR18T1",
+    "description": "Custo da Oficina"
+  },
+  {
+    "name": "FR18T2",
+    "description": "Gestores da Oficina"
+  },
+  {
+    "name": "FR18T3",
+    "description": "Produtos da Oficina - MI"
+  },
+  {
+    "name": "FR19T",
+    "description": "Lançamento de Remonta"
+  },
+  {
+    "name": "FR19T1",
+    "description": "Sequência do Lançamento"
+  },
+  {
+    "name": "FR19T2",
+    "description": "Lançamento de Serv. Prev. - Mecânicos"
+  },
+  {
+    "name": "FR20T",
+    "description": "Serviços"
+  },
+  {
+    "name": "FR20T1",
+    "description": "Mão de Obra Prevista"
+  },
+  {
+    "name": "FR20T2",
+    "description": "Peças Previstas"
+  },
+  {
+    "name": "FR20T3",
+    "description": "Grupo de Produto no Serviço"
+  },
+  {
+    "name": "FR20T4",
+    "description": "Custo por Data"
+  },
+  {
+    "name": "FR20T5",
+    "description": "Inspeções de Check List"
+  },
+  {
+    "name": "FR20TB",
+    "description": "Classificação de Serviços"
+  },
+  {
+    "name": "FR21T",
+    "description": "Problemas"
+  },
+  {
+    "name": "FR22T",
+    "description": "Os - Abertura"
+  },
+  {
+    "name": "FR22T1",
+    "description": "OS Problemas"
+  },
+  {
+    "name": "FR22T10",
+    "description": "Componentes Trocados do Agregado"
+  },
+  {
+    "name": "FR22T2",
+    "description": "Serviço na OS"
+  },
+  {
+    "name": "FR22T3",
+    "description": "Peças Previstas"
+  },
+  {
+    "name": "FR22T3SD",
+    "description": "Produtos da Ordem de Serviço"
+  },
+  {
+    "name": "FR22T4",
+    "description": "Tabela Integração - OS"
+  },
+  {
+    "name": "FR22T5",
+    "description": "Compartimentos na OS"
+  },
+  {
+    "name": "FR22T51",
+    "description": "Produtos Compartimento OS"
+  },
+  {
+    "name": "FR22T6",
+    "description": "Baixa OS"
+  },
+  {
+    "name": "FR22T7",
+    "description": "Exaustão de Veiculo"
+  },
+  {
+    "name": "FR22T8",
+    "description": "Anexos da OS Frota"
+  },
+  {
+    "name": "FR22T9",
+    "description": "Paradas da OS"
+  },
+  {
+    "name": "FR22TSD",
+    "description": "Ordem de Serviço"
+  },
+  {
+    "name": "FR22TSDE",
+    "description": "TFR22 TSDE"
+  },
+  {
+    "name": "FR23T1",
+    "description": "OS- Programação"
+  },
+  {
+    "name": "FR23T2",
+    "description": "OS - Programação - Serviços"
+  },
+  {
+    "name": "FR24T1",
+    "description": "Execução de OS"
+  },
+  {
+    "name": "FR24T2",
+    "description": "OS - Movimentação Pneu"
+  },
+  {
+    "name": "FR24T3",
+    "description": "Check List de Serviço"
+  },
+  {
+    "name": "FR26T",
+    "description": "Execução OS por Mecânico"
+  },
+  {
+    "name": "FR26T1",
+    "description": " T1894"
+  },
+  {
+    "name": "FR27T",
+    "description": "Manutenção de Velocimetro"
+  },
+  {
+    "name": "FR30T",
+    "description": "Pessoa /Veiculo"
+  },
+  {
+    "name": "FR32T",
+    "description": "Cadastro de Grupo de Serviço"
+  },
+  {
+    "name": "FR33T",
+    "description": "Cadastro de Modelo de Veículo"
+  },
+  {
+    "name": "FR33T1",
+    "description": "Serviços do Plano de Manutençã"
+  },
+  {
+    "name": "FR33T2",
+    "description": "Produto Serviço Modelo"
+  },
+  {
+    "name": "FR33T3",
+    "description": "FR33T3"
+  },
+  {
+    "name": "FR33T4",
+    "description": "FR33T4"
+  },
+  {
+    "name": "FR33T5",
+    "description": "Data de Operações Agrícolas do"
+  },
+  {
+    "name": "FR33T6",
+    "description": "FR33T6"
+  },
+  {
+    "name": "FR33T61",
+    "description": "FR33T61"
+  },
+  {
+    "name": "FR33T7",
+    "description": "Eixos do Modelo"
+  },
+  {
+    "name": "FR33T8",
+    "description": "Operações Agrícolas do Modelo"
+  },
+  {
+    "name": "FR33T9",
+    "description": "Pneus do Modelo do Veículo"
+  },
+  {
+    "name": "FR34T",
+    "description": "Cadastro de Horas Adicionais"
+  },
+  {
+    "name": "FR34T1",
+    "description": "Horas % Adicional"
+  },
+  {
+    "name": "FR35T",
+    "description": "Cadastro de Marcas de Pneu"
+  },
+  {
+    "name": "FR36T",
+    "description": "Cadastro de Marcas do Veículo"
+  },
+  {
+    "name": "FR36T1",
+    "description": "Cadastro de Modelos das Marcas"
+  },
+  {
+    "name": "FR37T",
+    "description": "Tabela de Alerta de Garantias"
+  },
+  {
+    "name": "FR38T",
+    "description": "Tabela de Tipo de Acessório"
+  },
+  {
+    "name": "FR39T",
+    "description": "Tabela de Acessórios"
+  },
+  {
+    "name": "FR39T1",
+    "description": "FR39T1"
+  },
+  {
+    "name": "FR39T2",
+    "description": "Compartimentos Adicionais do A"
+  },
+  {
+    "name": "FR39T3",
+    "description": "Componentes do Agregado"
+  },
+  {
+    "name": "FR39T4",
+    "description": "Sequências de Reforma do Agregado"
+  },
+  {
+    "name": "FR40T",
+    "description": "Tabela de Movimentos de Acessó"
+  },
+  {
+    "name": "FR40T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FR41T",
+    "description": "FR41T"
+  },
+  {
+    "name": "FR42T",
+    "description": "FR42T"
+  },
+  {
+    "name": "FR42T1",
+    "description": "Centros de Custo/LP do Cadastro de Custo de Custo"
+  },
+  {
+    "name": "FR43T",
+    "description": "FR43T"
+  },
+  {
+    "name": "FR43T1",
+    "description": "FR43T1"
+  },
+  {
+    "name": "FR44T",
+    "description": "Lançamento do Sulco do Pneu"
+  },
+  {
+    "name": "FR44T1",
+    "description": "FR44T1"
+  },
+  {
+    "name": "FR45T",
+    "description": "FR45T"
+  },
+  {
+    "name": "FR46T",
+    "description": "FR46T"
+  },
+  {
+    "name": "FR47T",
+    "description": "FR47T"
+  },
+  {
+    "name": "FR48T",
+    "description": "FR48T"
+  },
+  {
+    "name": "FR49T",
+    "description": "FR49T"
+  },
+  {
+    "name": "FR50T",
+    "description": "FR50T"
+  },
+  {
+    "name": "FR50T1",
+    "description": "FR50T1"
+  },
+  {
+    "name": "FR51T",
+    "description": "FR51T"
+  },
+  {
+    "name": "FR52T",
+    "description": "FR52T"
+  },
+  {
+    "name": "FR52T1",
+    "description": "FR52T1"
+  },
+  {
+    "name": "FR53T",
+    "description": "FR53T"
+  },
+  {
+    "name": "FR55T",
+    "description": "FR55T"
+  },
+  {
+    "name": "FR56T",
+    "description": "FR56T"
+  },
+  {
+    "name": "FR57T1",
+    "description": "FR57T1"
+  },
+  {
+    "name": "FR58T",
+    "description": "FR58T"
+  },
+  {
+    "name": "FR59T",
+    "description": "Compartimentos"
+  },
+  {
+    "name": "FR60T",
+    "description": "Compartimentos do Veículo"
+  },
+  {
+    "name": "FR60T1",
+    "description": "FR60T1"
+  },
+  {
+    "name": "FR60T2",
+    "description": "FR60T2"
+  },
+  {
+    "name": "FR60T3",
+    "description": "FR60T3"
+  },
+  {
+    "name": "FR61T",
+    "description": "FR61T"
+  },
+  {
+    "name": "FR62T",
+    "description": "FR62T"
+  },
+  {
+    "name": "FR62TSD",
+    "description": "Análise de Óleo"
+  },
+  {
+    "name": "FR62TSDE",
+    "description": "Erros de Sincronização FR62TSD"
+  },
+  {
+    "name": "FR63T",
+    "description": "FR63T"
+  },
+  {
+    "name": "FR64T",
+    "description": "FR64T"
+  },
+  {
+    "name": "FR65T",
+    "description": "FR65T"
+  },
+  {
+    "name": "FR66T",
+    "description": "Agendamento de OS e Análise"
+  },
+  {
+    "name": "FR67T",
+    "description": "FR67T"
+  },
+  {
+    "name": "FR68T",
+    "description": "FR68T"
+  },
+  {
+    "name": "FR69T",
+    "description": "FR69T"
+  },
+  {
+    "name": "FR70T",
+    "description": "FR70T"
+  },
+  {
+    "name": "FR71T",
+    "description": "FR71T"
+  },
+  {
+    "name": "FR72T",
+    "description": "FR72T"
+  },
+  {
+    "name": "FR73T",
+    "description": "FR73T"
+  },
+  {
+    "name": "FR74T",
+    "description": "FR74T"
+  },
+  {
+    "name": "FR75T",
+    "description": "FR75T"
+  },
+  {
+    "name": "FR76T",
+    "description": "FR76T"
+  },
+  {
+    "name": "FR77T",
+    "description": "FR77T"
+  },
+  {
+    "name": "FR78T",
+    "description": "FR78T"
+  },
+  {
+    "name": "FR78T1",
+    "description": "FR78T1"
+  },
+  {
+    "name": "FR79T",
+    "description": "FR79T"
+  },
+  {
+    "name": "FR80T",
+    "description": "FR80T"
+  },
+  {
+    "name": "FR81T",
+    "description": "FR81T"
+  },
+  {
+    "name": "FR82T",
+    "description": "FR82T"
+  },
+  {
+    "name": "FR83T",
+    "description": "FR83T"
+  },
+  {
+    "name": "FR88T",
+    "description": "FR88T"
+  },
+  {
+    "name": "FR88T1",
+    "description": "FR88T1"
+  },
+  {
+    "name": "FR89T",
+    "description": "FR89T"
+  },
+  {
+    "name": "FR90T",
+    "description": "Manutenção dos Dados - OS"
+  },
+  {
+    "name": "FR92T",
+    "description": "Documentacao"
+  },
+  {
+    "name": "FR93T",
+    "description": "FR93T"
+  },
+  {
+    "name": "FR93T1",
+    "description": "FR93T1"
+  },
+  {
+    "name": "FR94T",
+    "description": "Cadastro de Motivos de Evento"
+  },
+  {
+    "name": "FR95T",
+    "description": "Custo Veículo"
+  },
+  {
+    "name": "FR96T",
+    "description": "Tabela de Motoristas do Veículo na Data"
+  },
+  {
+    "name": "FR96T1",
+    "description": "Tabela de Motoristas de Veículos na Data"
+  },
+  {
+    "name": "FR97T",
+    "description": "Propriedades / Veículo na Data"
+  },
+  {
+    "name": "FR98T",
+    "description": "Lotes de Baixa de Combustível"
+  },
+  {
+    "name": "FR98T1",
+    "description": "Abastecimento do Lote"
+  },
+  {
+    "name": "FR99T",
+    "description": "Seguro de Veículos"
+  },
+  {
+    "name": "FR99T1",
+    "description": "Coberturas do Seguro"
+  },
+  {
+    "name": "FR99T2",
+    "description": "Parcelas do Seguro"
+  },
+  {
+    "name": "FR99T3",
+    "description": "Dados das Franquias da Apólice"
+  },
+  {
+    "name": "FRAAT",
+    "description": "Perfil de Atividades"
+  },
+  {
+    "name": "FRAAT1",
+    "description": "Perfil de Atividades"
+  },
+  {
+    "name": "FRABT",
+    "description": "Perfil de Paradas do Mecaânico"
+  },
+  {
+    "name": "FRABT1",
+    "description": "Perfil de Paradas do Mecaânico"
+  },
+  {
+    "name": "FRACT",
+    "description": "Lançamento de Garantia do Acessório"
+  },
+  {
+    "name": "FRADT",
+    "description": "De/Para Classificação de Veículos "
+  },
+  {
+    "name": "FRAET",
+    "description": "De/Para Combustiveis"
+  },
+  {
+    "name": "FRAFT",
+    "description": "De/Para Classificação de Equipamentos"
+  },
+  {
+    "name": "FRAGT",
+    "description": "Vínculo de Veículo com Implementos"
+  },
+  {
+    "name": "FRAHT",
+    "description": "Lançamento de Aferição das Bombas de Combustíveis"
+  },
+  {
+    "name": "FRAIT",
+    "description": "De/Para Veículos - Integração de Abastecimentos GTFrota"
+  },
+  {
+    "name": "FRAJT",
+    "description": "Log Inconsistências da Integração de Abastecimentos GTFrota"
+  },
+  {
+    "name": "FRAKT",
+    "description": "Rastreabilidade da Integração GTFrota"
+  },
+  {
+    "name": "FRALT",
+    "description": "Posições do Pneu no Veículo"
+  }
+]

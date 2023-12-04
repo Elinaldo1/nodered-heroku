@@ -1,0 +1,978 @@
+[
+  {
+    "name": "CF01T",
+    "description": "Tabela de Empresa"
+  },
+  {
+    "name": "CF01T1",
+    "description": "Tabela de Estados Conveniados"
+  },
+  {
+    "name": "CF01T2A",
+    "description": "Modelos de DANFE Utilizados pela Empresa"
+  },
+  {
+    "name": "CF01T2B",
+    "description": "Tabela de Autorizações para Download"
+  },
+  {
+    "name": "CF01T3",
+    "description": "CNPJs para Gerar Gia Zerada"
+  },
+  {
+    "name": "CF01TSD",
+    "description": "Tabela de Empresa - IPAD"
+  },
+  {
+    "name": "CF02T",
+    "description": "Tabela de Usuários"
+  },
+  {
+    "name": "CF02T1",
+    "description": "Restrição de Empresas"
+  },
+  {
+    "name": "CF02T10",
+    "description": "Despesas do Usuario"
+  },
+  {
+    "name": "CF02T2",
+    "description": "Restrição de Compradores"
+  },
+  {
+    "name": "CF02T3",
+    "description": "Restrição de Áreas da Empresa"
+  },
+  {
+    "name": "CF02T4",
+    "description": "Restrição de Ordens de Prod."
+  },
+  {
+    "name": "CF02T5",
+    "description": "Restrição de Códigos Período"
+  },
+  {
+    "name": "CF02T6",
+    "description": "CF02T6"
+  },
+  {
+    "name": "CF02T7",
+    "description": "Diretorias do Usuário"
+  },
+  {
+    "name": "CF02T8",
+    "description": "Level8"
+  },
+  {
+    "name": "CF02T9",
+    "description": "Level9"
+  },
+  {
+    "name": "CF02TA",
+    "description": "Usuário - DPO Empresas"
+  },
+  {
+    "name": "CF02TSD",
+    "description": "Tabela de Usuários"
+  },
+  {
+    "name": "CF03T",
+    "description": "Log de Ações de Usuários"
+  },
+  {
+    "name": "CF04T",
+    "description": "Labels da Empresa"
+  },
+  {
+    "name": "CF05T",
+    "description": "Configuração de Etiquetas"
+  },
+  {
+    "name": "CF06T",
+    "description": "Campos de Etiquetas"
+  },
+  {
+    "name": "CF07T",
+    "description": "Temp Bloco 0300 - SPED FISCAL"
+  },
+  {
+    "name": "CF07T1",
+    "description": "Temp Registro 0305 - SPED FISCAL"
+  },
+  {
+    "name": "CF08T",
+    "description": "Temp Registro G125"
+  },
+  {
+    "name": "CF08T1",
+    "description": "Temp Registro G130"
+  },
+  {
+    "name": "CF08T11",
+    "description": "Temp Registro G140"
+  },
+  {
+    "name": "CF08T2",
+    "description": "Temp Registro G126"
+  },
+  {
+    "name": "CF09T",
+    "description": "Log de Alterações SPED PIS/COFINS"
+  },
+  {
+    "name": "CF16T",
+    "description": "Módulos do Sistema"
+  },
+  {
+    "name": "CF17T",
+    "description": "Permissão de Usuários"
+  },
+  {
+    "name": "CF18T",
+    "description": "Autorização de Encerramento"
+  },
+  {
+    "name": "CF18T1",
+    "description": "Autorização de Encerramento"
+  },
+  {
+    "name": "CF19T",
+    "description": "Intervalos de Datas"
+  },
+  {
+    "name": "CF19T1",
+    "description": "CF19T1"
+  },
+  {
+    "name": "CF20T",
+    "description": "Tabela de Prefixos por Usuário"
+  },
+  {
+    "name": "CF20T1",
+    "description": "Tabela de Prefixos por Usuário"
+  },
+  {
+    "name": "CF21T",
+    "description": "Tabela Temporária CNAB"
+  },
+  {
+    "name": "CF21T1",
+    "description": "Tabela Temporária CNAB"
+  },
+  {
+    "name": "CF21T2",
+    "description": "Tabela Temporária CNAB"
+  },
+  {
+    "name": "CF21T3",
+    "description": "CF21T3"
+  },
+  {
+    "name": "CF21T31",
+    "description": "Temporária CNAB"
+  },
+  {
+    "name": "CF22T",
+    "description": "Comentários do Arquivo"
+  },
+  {
+    "name": "CF23T",
+    "description": "Tabela de Erros"
+  },
+  {
+    "name": "CF23T1",
+    "description": "Tabela de Erros"
+  },
+  {
+    "name": "CF24T",
+    "description": "Temporário para TXT de Bancos"
+  },
+  {
+    "name": "CF25T",
+    "description": "Tabela de Config. por Usuário"
+  },
+  {
+    "name": "CF25T1",
+    "description": "Config. p Usuario (filha)"
+  },
+  {
+    "name": "CF26T",
+    "description": "CF26T"
+  },
+  {
+    "name": "CF27T",
+    "description": "CF27T"
+  },
+  {
+    "name": "CF27T1",
+    "description": "CF27T1"
+  },
+  {
+    "name": "CF27T2",
+    "description": "CF27T2"
+  },
+  {
+    "name": "CF28T",
+    "description": "Log de Alterações em Campos"
+  },
+  {
+    "name": "CF29T",
+    "description": "Tabela Conf Env p/ Transp"
+  },
+  {
+    "name": "CF29T1",
+    "description": "Tabela Conf Env p/ Transp - Fi"
+  },
+  {
+    "name": "CF29T11",
+    "description": "Tabela de Modelos de Documento por Ano"
+  },
+  {
+    "name": "CF29T12",
+    "description": "Tabela de Modelos de Documento por Série de Conhecimento"
+  },
+  {
+    "name": "CF29T2",
+    "description": "Tab Conf Env p/ Tran - Mod Doc"
+  },
+  {
+    "name": "CF29T3",
+    "description": "Escrituração por UF Orig/Dest"
+  },
+  {
+    "name": "CF29T4",
+    "description": "CF29d"
+  },
+  {
+    "name": "CF30T",
+    "description": "Config Pedidos EAN/EDI"
+  },
+  {
+    "name": "CF30T1",
+    "description": "Config Pedidos EAN/EDI - Clien"
+  },
+  {
+    "name": "CF31T",
+    "description": "Config notas EAN/EDI"
+  },
+  {
+    "name": "CF31T1",
+    "description": "Config notas EAN/EDI - Cliente"
+  },
+  {
+    "name": "CF31T2",
+    "description": "Config nota EAN/EDI - ModDoc"
+  },
+  {
+    "name": "CF35T",
+    "description": "CF35T"
+  },
+  {
+    "name": "CF44T",
+    "description": "CF44T"
+  },
+  {
+    "name": "CF44T1",
+    "description": "CF44T1"
+  },
+  {
+    "name": "CF45T",
+    "description": "Controle de Senhas"
+  },
+  {
+    "name": "CF46T",
+    "description": "Liberação de Prod. p/ Usuário"
+  },
+  {
+    "name": "CF47T",
+    "description": "CF47T"
+  },
+  {
+    "name": "CF48T",
+    "description": "Tabela Controle de Pinduras"
+  },
+  {
+    "name": "CF48T1",
+    "description": "Tabela Pindura Logs"
+  },
+  {
+    "name": "CF48T2",
+    "description": "Tabela de Usuarios Autorizados"
+  },
+  {
+    "name": "CF50T",
+    "description": "CF50T"
+  },
+  {
+    "name": "CF50T1",
+    "description": "Tabela Auxiliar do Dicionário de Dados"
+  },
+  {
+    "name": "CF51T",
+    "description": "Centro de Custo do Usuário"
+  },
+  {
+    "name": "CF51T1",
+    "description": " T1636"
+  },
+  {
+    "name": "CF52T",
+    "description": "Tabela de Insumos Relacionados"
+  },
+  {
+    "name": "CF52T1",
+    "description": "Tab Filha Insumos Relacionados"
+  },
+  {
+    "name": "CF53T",
+    "description": "Centro de Custo do Usuário - Com Objeto"
+  },
+  {
+    "name": "CF53T1",
+    "description": "Centro de Custo do Usuário - Com Objeto"
+  },
+  {
+    "name": "CF54T",
+    "description": "Tabela Controle de Inovações do Sistema"
+  },
+  {
+    "name": "CF54T1",
+    "description": "Log de Leitura de Inovação"
+  },
+  {
+    "name": "CF55T",
+    "description": "Tabela de Ocupação do Usuário"
+  },
+  {
+    "name": "CF56T",
+    "description": "Configuração de Aprovações/Autorizações"
+  },
+  {
+    "name": "CF56T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CF58T",
+    "description": "Favoritos por Relatório e Modelo"
+  },
+  {
+    "name": "CF58T1",
+    "description": "Favoritos por Relatório e Modelo - Itens"
+  },
+  {
+    "name": "CF59T",
+    "description": "Configurações do Produto"
+  },
+  {
+    "name": "CF60T",
+    "description": "Tabela de Alçadas"
+  },
+  {
+    "name": "CF60T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CF61T",
+    "description": "Tabela de Contas Corrente por Usuário"
+  },
+  {
+    "name": "CF61T1",
+    "description": "Tabela de Contas Corrente por Usuário"
+  },
+  {
+    "name": "CF62T",
+    "description": "Identificação do Estabelecimento (A/C/D/F)"
+  },
+  {
+    "name": "CF63T",
+    "description": "Registro F100: Demais Documentos e Operações Geradoras de\n                              Contribuição e Créditos"
+  },
+  {
+    "name": "CF63T1",
+    "description": " T1653"
+  },
+  {
+    "name": "CF64T",
+    "description": "Registro F120: Bens Incorporados ao Ativo Imobilizado - Operações\n                              Geradoras de Créditos com base nos Encargos de Depreciação/Amortização"
+  },
+  {
+    "name": "CF64T1",
+    "description": "Registro F129 - Processo Referenciado"
+  },
+  {
+    "name": "CF65T",
+    "description": "Registro F130 - Bens Incorporados ao Ativo Imob - Op Geradoras de\n                              Créditos com base no Vr de Aquisição"
+  },
+  {
+    "name": "CF65T1",
+    "description": "Registro F139 - Processo Referenciado"
+  },
+  {
+    "name": "CF66T",
+    "description": "Registro F150 - Crédito Presumido sobre Estoque de Abertura"
+  },
+  {
+    "name": "CF67T",
+    "description": "Registro F600 - Contribuição Retida na Fonte"
+  },
+  {
+    "name": "CF68T",
+    "description": "Registro F700: Deduções Diversas"
+  },
+  {
+    "name": "CF69T",
+    "description": "Registro F800: Créditos Decorrentes de Eventos de Incorporação, Fusão\n                              e Cisão"
+  },
+  {
+    "name": "CF70T",
+    "description": "Registro 1010: Processo Referênciado - Ação Judicial"
+  },
+  {
+    "name": "CF71T",
+    "description": "Registro 1020: Processo Referênciado - Ação Administrativo"
+  },
+  {
+    "name": "CF72T",
+    "description": "Registro 1100 - Registro de Créditos Fiscais - PIS"
+  },
+  {
+    "name": "CF72T1",
+    "description": "Registro 1101: Apuração de Crédito Extemporâneo - Documentos e\n                              Operações de Períodos Anteriores - PIS"
+  },
+  {
+    "name": "CF73T",
+    "description": "Registro 1200: Contribuição Social Extemporânea - PIS"
+  },
+  {
+    "name": "CF73T1",
+    "description": "Registro 1210: Detalhamento Da Contribuição Social Extemporânea - PIS\n                            "
+  },
+  {
+    "name": "CF73T2",
+    "description": "Registro 1220: Demonstração Do Crédito A Descontar Da Contribuição\n                              Extemporânea - PIS"
+  },
+  {
+    "name": "CF74T",
+    "description": "Registro 1300: Controle Dos Valores Retidos Na Fonte - PIS"
+  },
+  {
+    "name": "CF75T",
+    "description": "Registro 1500: Controle De Créditos Fiscais - COFINS"
+  },
+  {
+    "name": "CF75T1",
+    "description": "Registro 1501: Apuração de Crédito Extemporâneo - Docs e Operações de\n                              Períodos Ant - COFINS"
+  },
+  {
+    "name": "CF76T",
+    "description": "Registro 1600: Contribuição Social Extemporânea - COFINS"
+  },
+  {
+    "name": "CF76T1",
+    "description": "Registro 1610: Detalhamento da Contribuição Social Extemporânea -\n                              COFINS"
+  },
+  {
+    "name": "CF76T2",
+    "description": "Registro 1620: Demonstração do Crédito a Descontar da Contribuição\n                              Extemporânea - COFINS"
+  },
+  {
+    "name": "CF77T",
+    "description": "Registro 1700: Controle Dos Valores Retidos Na Fonte - COFINS"
+  },
+  {
+    "name": "CF78T",
+    "description": "Registro M100: Crédito De Pis/Pasep Relativo Ao Período"
+  },
+  {
+    "name": "CF78T1",
+    "description": "Registro M105: Detalhamento da Base de Calculo do Crédito Apurado no\n                              Período - Pis/Pasep"
+  },
+  {
+    "name": "CF78T2",
+    "description": "Registro M110: Ajustes do Crédito de PIS Apurado"
+  },
+  {
+    "name": "CF79T",
+    "description": "Registro M200: Consolidação da Contribuição Para o PIS do Período\n                            "
+  },
+  {
+    "name": "CF79T1",
+    "description": "Registro M210: Detalhamento da Contribuição Para o PIS do Período\n                            "
+  },
+  {
+    "name": "CF79T11",
+    "description": "Registro M211: Sociedades Cooperativas - Composição da Base de\n                              Calculo - PIS"
+  },
+  {
+    "name": "CF79T12",
+    "description": "Registro M220: Ajustes da Contribuição Para o PIS Apurada"
+  },
+  {
+    "name": "CF79T13",
+    "description": "Registro M230: Informações Adicionais de Diferimento"
+  },
+  {
+    "name": "CF80T",
+    "description": "Registro M300: Contribuição de PIS Diferida em Períodos Anteriores -\n                              Valores A Pagar No Período"
+  },
+  {
+    "name": "CF81T",
+    "description": "Registro M350: Pis/Pasep - Folha De Salários"
+  },
+  {
+    "name": "CF82T",
+    "description": "Registro M400: Receitas Isentas, Não Alcançadas Pela Incidência da\n                              Contribuição, Sujeitas A Alíquota Zero Ou de Vendas Com Suspensão - PIS"
+  },
+  {
+    "name": "CF82T1",
+    "description": "Registro M410: Detalhamento das Receitas Isentas, Não Alcançadas Pela\n                              Incidência da Contribuição, Sujeitas A Alíquota Zero ou de Vendas Com Suspensão - Pis"
+  },
+  {
+    "name": "CF83T",
+    "description": "Registro M500: Crédito de Cofins Relativo ao Período"
+  },
+  {
+    "name": "CF83T1",
+    "description": "Registro M505: Detalhamento da Base de Calculo do Crédito Apurado no\n                              Período - Cofins"
+  },
+  {
+    "name": "CF83T2",
+    "description": "Registro M510: Ajustes do Crédito de Cofins Apurado"
+  },
+  {
+    "name": "CF84T",
+    "description": "Registro M600: Consolidação da Contribuição para a Seguridade Social\n                              - Cofins do Período"
+  },
+  {
+    "name": "CF84T1",
+    "description": "Registro M610: Detalhamento da Contribuição para a Seguridade Social\n                              - Cofins Do Período"
+  },
+  {
+    "name": "CF84T11",
+    "description": "Registro M611: Sociedades Cooperativas - Composição da Base de\n                              Calculo - Cofins"
+  },
+  {
+    "name": "CF84T12",
+    "description": "Registro M620: Ajustes da Cofins Apurada"
+  },
+  {
+    "name": "CF84T13",
+    "description": "Registro M630: Informações Adicionais de Diferimento"
+  },
+  {
+    "name": "CF85T",
+    "description": "Registro M700: Cofins Diferida Em Períodos Anteriores - Valores a\n                              Pagar no Período"
+  },
+  {
+    "name": "CF86T",
+    "description": "Registro M800: Receitas Isentas, Não Alcançadas Pela Incidência da\n                              Contribuição, Sujeitas a Alíquota Zero ou de Vendas com Suspensão - Cofins"
+  },
+  {
+    "name": "CF86T1",
+    "description": "Registro M810: Detalhamento das Receitas Isentas, Não Alcançadas Pela\n                              Incidência da Contribuição, Sujeitas a Alíquota Zero ou de Vendas com Suspensão - Cofins\n                            "
+  },
+  {
+    "name": "CF87T",
+    "description": "Filiais para Geração Sped PIS/COFINS"
+  },
+  {
+    "name": "CF88T",
+    "description": "Registro C380: Nota Fiscal de Venda a Consumidor (Código 02) -\n                              Consolidação de Documentos Emitidos"
+  },
+  {
+    "name": "CF88T1",
+    "description": "Registro C381: Detalhamento da Consolidação - Pis/Pasep"
+  },
+  {
+    "name": "CF88T2",
+    "description": "Registro C385: Detalhamento da Consolidação - Cofins"
+  },
+  {
+    "name": "CF89T",
+    "description": "Registro C400: Equipamento ECF (Códigos 02 E 2D)"
+  },
+  {
+    "name": "CF89T1",
+    "description": "Registro C405: Redução Z (Códigos 02 E 2D)"
+  },
+  {
+    "name": "CF89T11",
+    "description": "Registro C481: Resumo Diário de Documentos Emitidos Por ECF -\n                              Pis/Pasep (Códigos 02 E 2D)"
+  },
+  {
+    "name": "CF89T12",
+    "description": "Registro C485: Resumo Diário de Documentos Emitidos Por ECF - Cofins\n                              (Códigos 02 E 2D)"
+  },
+  {
+    "name": "CF90T",
+    "description": "Registro C100: Documento - Nota Fiscal (Código 01), Nota Fiscal\n                              Avulsa (Código 1B), Nota Fiscal De Produtor (Código 04) E Nf-E (Código 55)"
+  },
+  {
+    "name": "CF90T1",
+    "description": "Registro C110: Complemento Do Documento - Informação Complementar Da\n                              Nota Fiscal (Códigos 01, 1B, 04 E 55)"
+  },
+  {
+    "name": "CF90T2",
+    "description": "Registro C111: Processo Referenciado"
+  },
+  {
+    "name": "CF90T3",
+    "description": "Registro C170: Complemento Do Documento - Itens Do Documento (Códigos\n                              01, 1B, 04 E 55)"
+  },
+  {
+    "name": "CF90T4",
+    "description": "Registro C120: Complemento do Documento - Operações de Importação\n                              (Código 01)"
+  },
+  {
+    "name": "CF90T5",
+    "description": "CF90 T5"
+  },
+  {
+    "name": "CF91T",
+    "description": "Registro C500: Nota Fiscal/Conta De Energia Elétrica (Código 06),\n                              Nota Fiscal/Conta De Fornecimento Dágua Canalizada (Código 29) E Nota Fiscal Consumo\n                              Fornecimento De Gás (Código 28) - Documentos De Entrada/Aquisição Com Crédito"
+  },
+  {
+    "name": "CF91T1",
+    "description": "Registro C501: Complemento Da Operação (Códigos 06, 28 E 29) -\n                              Pis/Pasep"
+  },
+  {
+    "name": "CF91T2",
+    "description": "Registro C505: Complemento Da Operação (Códigos 06, 28 E 29) - Cofins\n                            "
+  },
+  {
+    "name": "CF91T3",
+    "description": "Registro C509: Processo Referenciado"
+  },
+  {
+    "name": "CF92T",
+    "description": "Registro C395: Notas Fiscais De Venda A Consumidor (Códigos 02, 2D,\n                              2E E 59) - Aquisições/Entradas Com Crédito."
+  },
+  {
+    "name": "CF92T1",
+    "description": "Registro C396: Itens Do Documento (Códigos 02, 2D, 2E E 59) -\n                              Aquisições/Entradas Com Crédito"
+  },
+  {
+    "name": "CF93T",
+    "description": "Tabela de Orçamentos por Usuário"
+  },
+  {
+    "name": "CF93T1",
+    "description": "Tabela de Orçamentos por Usuário"
+  },
+  {
+    "name": "CF94T",
+    "description": "Registro D100: Aquisição de Serviços de Transporte"
+  },
+  {
+    "name": "CF94T1",
+    "description": "Registro D101: Complemento do Documento de Transporte - PIS"
+  },
+  {
+    "name": "CF94T2",
+    "description": "Registro D105: Complemento do Documento de Transporte - Cofins"
+  },
+  {
+    "name": "CF94T3",
+    "description": "Registro D111: Processo Referenciado"
+  },
+  {
+    "name": "CF95T",
+    "description": "Registro D500: Nota Fiscal De Serviço De Comunicação (Código 21) E\n                              Nota Fiscal De Serviço De Telecomunicação (Código 22) Documentos De Aquisição Com Direito\n                              A Crédito"
+  },
+  {
+    "name": "CF95T1",
+    "description": "Registro D501: Complemento Da Operação (Códigos 21 E 22) Pis/Pasep\n                            "
+  },
+  {
+    "name": "CF95T2",
+    "description": "Registro D505: Complemento Da Operação (Códigos 21 E 22) Cofins"
+  },
+  {
+    "name": "CF95T3",
+    "description": "Registro D509: Processo Referenciado"
+  },
+  {
+    "name": "CF96T",
+    "description": "Registro 0500: Plano de Contas Contábeis"
+  },
+  {
+    "name": "CF97T",
+    "description": "Registro 0600: Centro de Custos"
+  },
+  {
+    "name": "CF98T",
+    "description": "Registro 0110: Reg. de Apu. da Contrib. Social e de Apropr. de Créd.\n                            "
+  },
+  {
+    "name": "CF99T",
+    "description": "Registro D200: Resumo da Escrituração Diária - Prestação de Serviços\n                              de Transporte"
+  },
+  {
+    "name": "CF99T1",
+    "description": "Registro D201/D202: Totalização do Resumo Diário - Pis/Cofins"
+  },
+  {
+    "name": "CFAAT",
+    "description": "Registro 0145: Regime de Apuração da Contribuição Previdenciária\n                              Sobre a Receita Bruta"
+  },
+  {
+    "name": "CFABT",
+    "description": "Registro P100: Contribuição Previdenciária Sobre a Receita Bruta"
+  },
+  {
+    "name": "CFABT1",
+    "description": "Registro P110: Complemento da Escrituração - Detalhamento da Apuração\n                              da Contribuição"
+  },
+  {
+    "name": "CFABT2",
+    "description": "Registro P199: Processo Referenciado"
+  },
+  {
+    "name": "CFACT",
+    "description": "Registro P200: Consolidação da Contribuição Previdenciária Sobre a\n                              Receita Bruta"
+  },
+  {
+    "name": "CFACT1",
+    "description": "Registro P210: Ajuste da Contribuição Previdenciária Apurada Sobre a\n                              Receita Bruta"
+  },
+  {
+    "name": "CFADT",
+    "description": "Registro 1390 - Controle de produção de usina"
+  },
+  {
+    "name": "CFAFT",
+    "description": "Registro 1600: Total das Operações com Cartão de Crédito e/ou Débito\n                            "
+  },
+  {
+    "name": "CFAGT",
+    "description": "Registro 0120: Identificação de Períodos Dispensados da EFD\n                              Contribuições"
+  },
+  {
+    "name": "CFAHT",
+    "description": "De CHB / Para JB - Tradutor Contábil"
+  },
+  {
+    "name": "CFAKT",
+    "description": "Perfil do Filtro Aleatório de Empresa"
+  },
+  {
+    "name": "CFAKT1",
+    "description": "Empresas do Perfil"
+  },
+  {
+    "name": "CFAKT2",
+    "description": "CFAKT2"
+  },
+  {
+    "name": "CFALT",
+    "description": "Parametro de WebService"
+  },
+  {
+    "name": "CFAMT",
+    "description": "Registro 1400: Informação Sobre Valores Agregados"
+  },
+  {
+    "name": "CFAMT1",
+    "description": "Registro 1400: Informação Sobre Valores Agregados - Operações"
+  },
+  {
+    "name": "CFANT",
+    "description": "Registro C800: Cupom Fiscal Eletrônico"
+  },
+  {
+    "name": "CFANT1",
+    "description": "REGISTRO C810: DETALHAMENTO DO CUPOM FISCAL ELETRÔNICO"
+  },
+  {
+    "name": "CFAOT",
+    "description": "Registro C860: Identificação do Equipamento SAT-CF-E"
+  },
+  {
+    "name": "CFAOT1",
+    "description": "Level1"
+  },
+  {
+    "name": "CFAPT",
+    "description": "Chaves de Liberações do CHBWEB"
+  },
+  {
+    "name": "CFAQT",
+    "description": "Controle de Correções Técnicas"
+  },
+  {
+    "name": "CFART",
+    "description": "Fila de Impressão Silenciosa"
+  },
+  {
+    "name": "CFART1",
+    "description": "Level1"
+  },
+  {
+    "name": "CFAST",
+    "description": "Parâmetros de Impressão Silenciosa"
+  },
+  {
+    "name": "CFAST1",
+    "description": "Parâmetros de Impressão Silenciosa"
+  },
+  {
+    "name": "CFATT",
+    "description": "Grupo de Orçamento do Usuário"
+  },
+  {
+    "name": "CFATT1",
+    "description": "Grupo de Orçamento por Usuário"
+  },
+  {
+    "name": "CFAUT",
+    "description": "Configuração de CHBWS para Inscrição Estadual"
+  },
+  {
+    "name": "CFAWT",
+    "description": "Mensagens personalizadas por módulo"
+  },
+  {
+    "name": "CFAWT1",
+    "description": "Usuários que leram o Comunicado"
+  },
+  {
+    "name": "CFAWT2",
+    "description": "Level2"
+  },
+  {
+    "name": "CFAXT",
+    "description": "Registro 1960: GIAF 1"
+  },
+  {
+    "name": "CFAXTA",
+    "description": "Registro 1970: GIAF 3"
+  },
+  {
+    "name": "CFAXTA1",
+    "description": "CFAXAli"
+  },
+  {
+    "name": "CFAXTB",
+    "description": "Registro 1980: GIAF 4"
+  },
+  {
+    "name": "CFAYT",
+    "description": "Tema da aplicação"
+  },
+  {
+    "name": "CFAYT1",
+    "description": "CFAYT1"
+  },
+  {
+    "name": "CFAZT",
+    "description": "Registro 1050 - Sped Contribuições"
+  },
+  {
+    "name": "CFBAT",
+    "description": "Ocorrências de Baixa"
+  },
+  {
+    "name": "CFBBT",
+    "description": "Gerenciamento de Pré-Correções Técnicas"
+  },
+  {
+    "name": "CFBCT",
+    "description": "Tabela de Log de Envio de Emails - Geral"
+  },
+  {
+    "name": "CFBCT1",
+    "description": "Tabela de Log de Envio de Emails (Destinatários) - Geral"
+  },
+  {
+    "name": "CFBDT",
+    "description": "Usuários e quantidade de atendimentos suporteweb"
+  },
+  {
+    "name": "CFBET",
+    "description": "Controle de Atualização de Data de Expiração do Usuario no Suporteweb\n                            "
+  },
+  {
+    "name": "CFBFT",
+    "description": "Registro 1011: Contribuições com Exigibilidade Suspensa"
+  },
+  {
+    "name": "CFBGT",
+    "description": "Anexos de Impressoras"
+  },
+  {
+    "name": "CFBHT",
+    "description": "Grupo de Relatórios"
+  },
+  {
+    "name": "CFBHT1",
+    "description": "Level1"
+  },
+  {
+    "name": "CFBHT11",
+    "description": "Level2"
+  },
+  {
+    "name": "CFBIT",
+    "description": "Tabela de Dispositivos"
+  },
+  {
+    "name": "CFBJT",
+    "description": "Tabela de Solicitações de Acesso a Web Catálogo"
+  },
+  {
+    "name": "CFBKT",
+    "description": "Solicitação Usuário LGPD"
+  },
+  {
+    "name": "CFBLT",
+    "description": "Parâmetros do Portal LGPD"
+  },
+  {
+    "name": "CFBLT1",
+    "description": "Parâmetro do Portal LGPD - Termo de Aceitação"
+  },
+  {
+    "name": "CFBMT",
+    "description": "Log Acesso Usuário LGPD"
+  },
+  {
+    "name": "CFBMT1",
+    "description": "Log de Funções Usuario LGPD"
+  },
+  {
+    "name": "CFBNT",
+    "description": "Configurações de Integração LDAP"
+  },
+  {
+    "name": "CFBOT",
+    "description": "Cadastro de questionário"
+  },
+  {
+    "name": "CFBOT1",
+    "description": "Log de erros Questionário"
+  },
+  {
+    "name": "CFBOT2",
+    "description": "Level1"
+  },
+  {
+    "name": "CFBPT",
+    "description": "Lançamento de Respostas Questionário"
+  },
+  {
+    "name": "CFBPT1",
+    "description": "Respostas"
+  },
+  {
+    "name": "CFBPT2",
+    "description": "Log de erros Questionário"
+  },
+  {
+    "name": "CFBPT3",
+    "description": "Level1"
+  },
+  {
+    "name": "CFBQT",
+    "description": "Perguntas do Questionário"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "EF01T",
+    "description": "EF01T"
+  },
+  {
+    "name": "EF01T1",
+    "description": "EF01T1"
+  },
+  {
+    "name": "EF01T11",
+    "description": "EF01T11"
+  },
+  {
+    "name": "EF01T2",
+    "description": "Empréstimo de Ferramenta"
+  },
+  {
+    "name": "EF01T3",
+    "description": "Equipe Responsável pela Retirada"
+  },
+  {
+    "name": "EF01T4",
+    "description": "Rastreabilidade do Desconto"
+  },
+  {
+    "name": "EF01T41",
+    "description": "Rastreabilidade de Ferramentas"
+  },
+  {
+    "name": "EF01T5",
+    "description": " Tabela p/ Integração de Valores no Empréstimo"
+  },
+  {
+    "name": "EF01T6",
+    "description": "Anexos do empréstimo"
+  },
+  {
+    "name": "EF02T",
+    "description": "EF02T"
+  },
+  {
+    "name": "EF03T",
+    "description": "Cadastro de Empresa EF"
+  },
+  {
+    "name": "EF04T",
+    "description": "Cadastro de Ferramenta"
+  },
+  {
+    "name": "EF05T",
+    "description": "Cadastro de Caixa de Ferramenta"
+  },
+  {
+    "name": "EF05T1",
+    "description": "Ferramentas da Caixa"
+  },
+  {
+    "name": "EF06T",
+    "description": "Cadastro de Condições de Uso"
+  },
+  {
+    "name": "EF07T",
+    "description": "Reparo de Ferramentas"
+  },
+  {
+    "name": "EF07T1",
+    "description": "Ferramentas para Reparo"
+  },
+  {
+    "name": "EF08T",
+    "description": "Valores p/ Empréstimo de Veículos"
+  },
+  {
+    "name": "EF08T1",
+    "description": "Level1"
+  }
+]

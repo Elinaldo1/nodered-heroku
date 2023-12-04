@@ -1,0 +1,874 @@
+[
+  {
+    "name": "CO01T",
+    "description": "Tabela de Empresa do Compras"
+  },
+  {
+    "name": "CO01TD",
+    "description": "Empresas que geram Cotação na Unificada"
+  },
+  {
+    "name": "CO01TE",
+    "description": "Usuários a ser notificados qualificação de fornecedores"
+  },
+  {
+    "name": "CO02T",
+    "description": "Tabela de Almoxarifados"
+  },
+  {
+    "name": "CO02T1",
+    "description": "Tabela de Capacidades do Almox"
+  },
+  {
+    "name": "CO02T2",
+    "description": "Gestores"
+  },
+  {
+    "name": "CO03T",
+    "description": "Tabela de Moedas"
+  },
+  {
+    "name": "CO04T",
+    "description": "Tabela do Calendário"
+  },
+  {
+    "name": "CO04T1",
+    "description": "Tabela do Calendário"
+  },
+  {
+    "name": "CO05T",
+    "description": "Tabela de Máquinas"
+  },
+  {
+    "name": "CO06T",
+    "description": "Tabela de MarkUp"
+  },
+  {
+    "name": "CO07T",
+    "description": "Tabela de Letras de Comissões"
+  },
+  {
+    "name": "CO08T",
+    "description": "Tabela de Redução da Base ICMS"
+  },
+  {
+    "name": "CO08T1",
+    "description": "Tabela de Redução da Base ICMS"
+  },
+  {
+    "name": "CO09T",
+    "description": "Tabela de Compradores"
+  },
+  {
+    "name": "CO09T1",
+    "description": "Tabela de Restrições de Desp."
+  },
+  {
+    "name": "CO10T",
+    "description": "Tabela de Unidades de Medida"
+  },
+  {
+    "name": "CO11T",
+    "description": "Tabela de Classificações IPI"
+  },
+  {
+    "name": "CO12T",
+    "description": "Tabela de Grupos"
+  },
+  {
+    "name": "CO12T1",
+    "description": "Tabela de Fornec. do Grupo"
+  },
+  {
+    "name": "CO12T2",
+    "description": "CO12T2"
+  },
+  {
+    "name": "CO12T3",
+    "description": "Log de Alterações"
+  },
+  {
+    "name": "CO12T4",
+    "description": "Level4"
+  },
+  {
+    "name": "CO13T",
+    "description": "Tabela de Produtos"
+  },
+  {
+    "name": "CO13T1",
+    "description": "Tabela de Referência de Produtos"
+  },
+  {
+    "name": "CO13T2",
+    "description": "Tabela de Fornecedores do Prod"
+  },
+  {
+    "name": "CO13T3",
+    "description": "Tabela de Tamanhos do Produto"
+  },
+  {
+    "name": "CO13T4",
+    "description": "Tabela de Observações do Prod."
+  },
+  {
+    "name": "CO13T5",
+    "description": "Tabela de Tamanhos p/ Vendas"
+  },
+  {
+    "name": "CO13T6",
+    "description": "Tabela de Alterações Ocorridas"
+  },
+  {
+    "name": "CO13T7",
+    "description": "Tabela Custo Médio Prod."
+  },
+  {
+    "name": "CO13T8",
+    "description": "Docuemnto do Produto"
+  },
+  {
+    "name": "CO13T9",
+    "description": "Operações Tributária do Produto"
+  },
+  {
+    "name": "CO13TA",
+    "description": "CO13TA"
+  },
+  {
+    "name": "CO13TB",
+    "description": "CO13TB"
+  },
+  {
+    "name": "CO13TC",
+    "description": "CO13TC"
+  },
+  {
+    "name": "CO13TI",
+    "description": "Valor Negociado por Empresa"
+  },
+  {
+    "name": "CO13TJ",
+    "description": "Tabela de Orçamentos do Produto"
+  },
+  {
+    "name": "CO13TJA",
+    "description": "Tabela de Orçamentos do Produto - Forn."
+  },
+  {
+    "name": "CO13TJA1",
+    "description": "Tabela de Orçamentos do Produto - Preços"
+  },
+  {
+    "name": "CO13TJB",
+    "description": "Tabela de Produtos Complementares do Orçamento"
+  },
+  {
+    "name": "CO13TK",
+    "description": "Fornecedores por Empresa"
+  },
+  {
+    "name": "CO13TL",
+    "description": "Tolerância no Carregamento"
+  },
+  {
+    "name": "CO13TM",
+    "description": "Valor de Venda Produto Por Coleção"
+  },
+  {
+    "name": "CO13TN",
+    "description": "Benefício Fiscal"
+  },
+  {
+    "name": "CO13TO",
+    "description": "Produtos para Integração de Pedidos via WS"
+  },
+  {
+    "name": "CO13TQ",
+    "description": "Aceites do pré cadastro de Produto"
+  },
+  {
+    "name": "CO14T",
+    "description": "Tabela de Tamanhos"
+  },
+  {
+    "name": "CO15T",
+    "description": "Tabela de Grades"
+  },
+  {
+    "name": "CO15T1",
+    "description": "Tabela de Grades"
+  },
+  {
+    "name": "CO16T",
+    "description": "Tabela de ISQN"
+  },
+  {
+    "name": "CO17T",
+    "description": "Tabela de Solicitações"
+  },
+  {
+    "name": "CO17T1",
+    "description": "Tabela de Itens da Solicitação"
+  },
+  {
+    "name": "CO17T11",
+    "description": "Referências e Marcas Solicitadas"
+  },
+  {
+    "name": "CO17T12",
+    "description": "Level1"
+  },
+  {
+    "name": "CO17T13",
+    "description": "Tabela de vinculo itens solicitação/ itens pedido rotina automática\n                            "
+  },
+  {
+    "name": "CO17T2",
+    "description": "Anexos da Solicitação"
+  },
+  {
+    "name": "CO18T",
+    "description": "Tabela de Ordens de Produção"
+  },
+  {
+    "name": "CO19T",
+    "description": "Item de Solicitação p/ Tamanho"
+  },
+  {
+    "name": "CO20T",
+    "description": "Tabela de Conjuntos"
+  },
+  {
+    "name": "CO20T1",
+    "description": "Tabela de Conjuntos"
+  },
+  {
+    "name": "CO20T2",
+    "description": "Tabela de Despesas do Conjuntos"
+  },
+  {
+    "name": "CO21T",
+    "description": "Tabela de Cotações"
+  },
+  {
+    "name": "CO21T1",
+    "description": "Tabela de Itens da Cotação"
+  },
+  {
+    "name": "CO21T11",
+    "description": "Referências e Marcas Cotadas"
+  },
+  {
+    "name": "CO21T12",
+    "description": "Level1"
+  },
+  {
+    "name": "CO21T2",
+    "description": "Fornecedores de Itens da Cotação"
+  },
+  {
+    "name": "CO21T21",
+    "description": "Tabela de Motivo de Alteração de Fornecedor"
+  },
+  {
+    "name": "CO21T3",
+    "description": "Tabela de Documentos da Cotação"
+  },
+  {
+    "name": "CO21T31",
+    "description": "Level1"
+  },
+  {
+    "name": "CO21T4",
+    "description": "Log Alterações de Fornecedor"
+  },
+  {
+    "name": "CO21T5",
+    "description": "Notificação Cotação"
+  },
+  {
+    "name": "CO21T6",
+    "description": "Fornecedores geração de pedido automatico"
+  },
+  {
+    "name": "CO22T",
+    "description": "CO22T"
+  },
+  {
+    "name": "CO23T",
+    "description": "Tabela de Pedidos"
+  },
+  {
+    "name": "CO23T1",
+    "description": "Tabela de Itens de Pedidos"
+  },
+  {
+    "name": "CO23T2",
+    "description": "Tabela de Descontos do Pedido"
+  },
+  {
+    "name": "CO23T3",
+    "description": "CO23T3"
+  },
+  {
+    "name": "CO23T4",
+    "description": "CO23T4"
+  },
+  {
+    "name": "CO23T5",
+    "description": "Emails Enviados do Pedido"
+  },
+  {
+    "name": "CO23T6",
+    "description": "Historico de Provisoes Financeiras"
+  },
+  {
+    "name": "CO23T7",
+    "description": "Itens de Pedido em Não Conformidade"
+  },
+  {
+    "name": "CO23T8",
+    "description": "CO23 T8"
+  },
+  {
+    "name": "CO23T9",
+    "description": "Autorização de Entrega de Itens de Pedido"
+  },
+  {
+    "name": "CO23TE",
+    "description": "Tabela de Envio Notificação"
+  },
+  {
+    "name": "CO24T",
+    "description": "Item de Pedido p/ Tamanho"
+  },
+  {
+    "name": "CO26T",
+    "description": "Vencimentos por Item de Pedido"
+  },
+  {
+    "name": "CO27T",
+    "description": "Tabela de Notas de Entrada"
+  },
+  {
+    "name": "CO27T1",
+    "description": "Itens de Prod. Nota de Entrada"
+  },
+  {
+    "name": "CO27T2",
+    "description": "Itens Manuais Nota de Entrada"
+  },
+  {
+    "name": "CO27T3",
+    "description": "Itens Desc. da Nota de Entrada"
+  },
+  {
+    "name": "CO27T4",
+    "description": "Duplicatas da Nota de Entrada"
+  },
+  {
+    "name": "CO27T5",
+    "description": "Tabela de Documentos da Nota de Entrada"
+  },
+  {
+    "name": "CO27T6",
+    "description": "Tabela de Notas Transportadas"
+  },
+  {
+    "name": "CO27T7",
+    "description": "Tabela de Desconto Qualidade"
+  },
+  {
+    "name": "CO27TC",
+    "description": "Tabela de Documentos Complementados"
+  },
+  {
+    "name": "CO27TD",
+    "description": "Nota Fiscal Documento de Origem "
+  },
+  {
+    "name": "CO27TE",
+    "description": "Notas de Retorno de Serviços"
+  },
+  {
+    "name": "CO28T",
+    "description": "Item Nota de Entrada p/ Tam."
+  },
+  {
+    "name": "CO29T",
+    "description": "Itens de Pedidos Recebidos"
+  },
+  {
+    "name": "CO30T",
+    "description": "Tabela de Tipos de Inspeções"
+  },
+  {
+    "name": "CO30T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO31T",
+    "description": "Tabela de Adiantamentos"
+  },
+  {
+    "name": "CO31T1",
+    "description": "Tabela de Baixas Adiantamentos"
+  },
+  {
+    "name": "CO31T2",
+    "description": "Liberação de Adiantamentos Bloqueados"
+  },
+  {
+    "name": "CO32T",
+    "description": "Tabela Origem Devol. Ent."
+  },
+  {
+    "name": "CO32T1",
+    "description": "Tabela Origem de Devol. (Ent.) p/ Tam."
+  },
+  {
+    "name": "CO33T",
+    "description": "Tabela Autorizações Nota Ent."
+  },
+  {
+    "name": "CO33T1",
+    "description": "Itens para Aut. de Valores em Notas de Entrada"
+  },
+  {
+    "name": "CO33T2",
+    "description": "Tabela Autor. Tam. Nota Ent."
+  },
+  {
+    "name": "CO36T",
+    "description": "CO36T"
+  },
+  {
+    "name": "CO37T",
+    "description": "CO37T"
+  },
+  {
+    "name": "CO37T1",
+    "description": "CO37T1"
+  },
+  {
+    "name": "CO38T",
+    "description": "Tabela Base de Tributos NF"
+  },
+  {
+    "name": "CO39T",
+    "description": "Tabela de Alterações Pedido"
+  },
+  {
+    "name": "CO40T",
+    "description": "CO40T"
+  },
+  {
+    "name": "CO41T",
+    "description": "CO41T"
+  },
+  {
+    "name": "CO41T1",
+    "description": "Tabela de Documentos do Contrato"
+  },
+  {
+    "name": "CO41T2",
+    "description": "Tabela de Produtos do Contrato"
+  },
+  {
+    "name": "CO42T",
+    "description": "CO42T"
+  },
+  {
+    "name": "CO43T",
+    "description": "Tabela de Conj. Fornecedor"
+  },
+  {
+    "name": "CO43T1",
+    "description": "Tabela de Conj. Fornecedor / F"
+  },
+  {
+    "name": "CO44T",
+    "description": "CO44T"
+  },
+  {
+    "name": "CO44T1",
+    "description": " T1853"
+  },
+  {
+    "name": "CO44T2",
+    "description": "Tipo de Documento da Ordem"
+  },
+  {
+    "name": "CO45T",
+    "description": "CO45T"
+  },
+  {
+    "name": "CO45T1",
+    "description": "CO45T1"
+  },
+  {
+    "name": "CO46T",
+    "description": "CO46T"
+  },
+  {
+    "name": "CO47T",
+    "description": "Tab Notas de Entrada Transmitidas (Viralcool)"
+  },
+  {
+    "name": "CO48T",
+    "description": "Tabela DePara Op. Tributaria (Viralcool)"
+  },
+  {
+    "name": "CO49T",
+    "description": "Tabela de Diretoria"
+  },
+  {
+    "name": "CO50T",
+    "description": "Tabela de Margem de Substituição por UF"
+  },
+  {
+    "name": "CO51T",
+    "description": "Tabela de Inspeções do Pedido"
+  },
+  {
+    "name": "CO51T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO51T2",
+    "description": "Level2"
+  },
+  {
+    "name": "CO51T21",
+    "description": "Level21"
+  },
+  {
+    "name": "CO52T",
+    "description": "Tabela de Controle de Embalagem"
+  },
+  {
+    "name": "CO52T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO52T11",
+    "description": "Tabela de Controle de Embalagem - Movimento"
+  },
+  {
+    "name": "CO53T",
+    "description": "Tabela de Origens do Documento"
+  },
+  {
+    "name": "CO54T",
+    "description": "Autorização p/ Simples Remessa"
+  },
+  {
+    "name": "CO54T1",
+    "description": "Autorização p/ Simples Remessa"
+  },
+  {
+    "name": "CO55T",
+    "description": "Tabela de CST por UF"
+  },
+  {
+    "name": "CO56T",
+    "description": "Tabela de Produtos Direcionados"
+  },
+  {
+    "name": "CO56T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO57T",
+    "description": "Tabela de Pecas p/ Custo ( Poppi )"
+  },
+  {
+    "name": "CO57T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO57T2",
+    "description": "Level2"
+  },
+  {
+    "name": "CO58T",
+    "description": "Liberações Necessárias para Liberação de Solicitação"
+  },
+  {
+    "name": "CO58T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO59T",
+    "description": "Tabela de Motivos de Troca de Fornecedor na Cotação"
+  },
+  {
+    "name": "CO60T",
+    "description": "Tabela de Itens de Cotação não Autorizado - Excedeu Previsão"
+  },
+  {
+    "name": "CO61T",
+    "description": "Inspeções por Pedido"
+  },
+  {
+    "name": "CO61T1",
+    "description": "CO61T1"
+  },
+  {
+    "name": "CO62T",
+    "description": "Tabela de Lançamento de Pré-Nota"
+  },
+  {
+    "name": "CO63T",
+    "description": "Temporário Análise de Despesas"
+  },
+  {
+    "name": "CO64T",
+    "description": "Cadastro de Pedidos de Frete"
+  },
+  {
+    "name": "CO64T1",
+    "description": "Cadastro de Pedido de Frete - Itens"
+  },
+  {
+    "name": "CO65T",
+    "description": "Cadastro de Taxas"
+  },
+  {
+    "name": "CO65T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CO66T",
+    "description": "Email Diretoria"
+  },
+  {
+    "name": "CO67T",
+    "description": "Pontos de Verificação"
+  },
+  {
+    "name": "CO67T1",
+    "description": "Itens de Pontos de Verificação"
+  },
+  {
+    "name": "CO68T",
+    "description": "Cadastro de Produtos para Modelo Padrão"
+  },
+  {
+    "name": "CO68T1",
+    "description": "CO68T1"
+  },
+  {
+    "name": "CO69T",
+    "description": "Tabela de Autorização de Lançamento de Nota de Entrada"
+  },
+  {
+    "name": "CO70T",
+    "description": "Lançamento de Valores do Produto"
+  },
+  {
+    "name": "CO70T1",
+    "description": "CO70T1"
+  },
+  {
+    "name": "CO71T",
+    "description": "Previsão de Despesa e Receira para Compras"
+  },
+  {
+    "name": "CO71T1",
+    "description": "Produtos da Provisão de Despesas"
+  },
+  {
+    "name": "CO72T",
+    "description": "Itens da Solicitação Bloqueados"
+  },
+  {
+    "name": "CO73T",
+    "description": "Tabela de Itens de Cotação não Autorizado - Excedeu Previsão"
+  },
+  {
+    "name": "CO74T",
+    "description": "Temporaria p/ Despesa"
+  },
+  {
+    "name": "CO75T",
+    "description": "Cadastro de Classe de Uso"
+  },
+  {
+    "name": "CO76T",
+    "description": "Cadastro de Grupo Químico"
+  },
+  {
+    "name": "CO77T",
+    "description": "Cadastro de Classe Toxicológico"
+  },
+  {
+    "name": "CO78T",
+    "description": "Cadastro de Classificação Ambiental"
+  },
+  {
+    "name": "CO79T",
+    "description": "Tabela de autorização de recebimento fora do prazo"
+  },
+  {
+    "name": "CO80T",
+    "description": "Itens de Orçamentos da NF de Entrada"
+  },
+  {
+    "name": "CO81T",
+    "description": "Tabela de Produtos de Provisões Gerais"
+  },
+  {
+    "name": "CO82T",
+    "description": "Tabela de Lançamento de Provisões Gerais"
+  },
+  {
+    "name": "CO82T1",
+    "description": "Tabela de Itens de Lançamento de Provisões Gerais"
+  },
+  {
+    "name": "CO82T2",
+    "description": "Tabela de Programação da Provisão"
+  },
+  {
+    "name": "CO82T21",
+    "description": "Tabela de Vencimentos da Programação"
+  },
+  {
+    "name": "CO83T",
+    "description": "Tabela da Programação de Entrega dos Itens do Pedido"
+  },
+  {
+    "name": "CO83T1",
+    "description": "Tabela de Vencimentos da Programação de Entrega"
+  },
+  {
+    "name": "CO84T",
+    "description": "Tabela de Rateio de CMPs"
+  },
+  {
+    "name": "CO85T",
+    "description": "Perfil de Letras de Comissões"
+  },
+  {
+    "name": "CO85T1",
+    "description": "co07cod"
+  },
+  {
+    "name": "CO86T",
+    "description": "Perfil de Compradores"
+  },
+  {
+    "name": "CO86T1",
+    "description": "Perfil de Compradores"
+  },
+  {
+    "name": "CO87T",
+    "description": "Temporária CO32T"
+  },
+  {
+    "name": "CO88T",
+    "description": "Temporária CO27TC"
+  },
+  {
+    "name": "CO89T",
+    "description": "Tabela Devices / Usuário"
+  },
+  {
+    "name": "CO90T",
+    "description": "Boletim de Controle e Conferência de Notas de Entrada"
+  },
+  {
+    "name": "CO90T1",
+    "description": "Boletim de Controle e Conferência de Notas de Entrada"
+  },
+  {
+    "name": "CO90T11",
+    "description": "Boletim de Controle e Conferência de Notas de Entrada Pedidos"
+  },
+  {
+    "name": "CO91T",
+    "description": "De Para Cadastro de Produto"
+  },
+  {
+    "name": "CO92T",
+    "description": "Itens de Pedidos de Compras da Nota Fiscal de Saída"
+  },
+  {
+    "name": "CO93T",
+    "description": "Tabela de Tipos de Análise"
+  },
+  {
+    "name": "CO94T",
+    "description": "Tabela de Análises"
+  },
+  {
+    "name": "CO94T1",
+    "description": "Lançamento dos Tipos de Análises"
+  },
+  {
+    "name": "CO94T11",
+    "description": "Especificações de Descontos"
+  },
+  {
+    "name": "CO95T",
+    "description": "Lançamento de Análise"
+  },
+  {
+    "name": "CO95T1",
+    "description": "Resultados da Análise"
+  },
+  {
+    "name": "CO96T",
+    "description": "Cadastro de Secretaria da Fazenda"
+  },
+  {
+    "name": "CO97T",
+    "description": "Solicitação de Autorização de Despesas da Nota de Entrada"
+  },
+  {
+    "name": "CO98T",
+    "description": "Log Importação XML"
+  },
+  {
+    "name": "CO99T",
+    "description": "Log WS Bbetter"
+  },
+  {
+    "name": "COAAT",
+    "description": "Aceites de Pré Cadastro de Produtos"
+  },
+  {
+    "name": "COAAT1",
+    "description": "Level1"
+  },
+  {
+    "name": "COABT",
+    "description": "Destino de Materiais e Serviços"
+  },
+  {
+    "name": "COACT",
+    "description": "Vinculo de itens como nota fiscal faturamento"
+  },
+  {
+    "name": "COADT",
+    "description": "Grupo de Perguntas - Auto Avaliação"
+  },
+  {
+    "name": "COAET",
+    "description": "Formulário de Auto Avaliação"
+  },
+  {
+    "name": "COAET1",
+    "description": "Pergunda do Formulário"
+  },
+  {
+    "name": "COAFT",
+    "description": "Cadastro de Perguntas"
+  },
+  {
+    "name": "COAGT",
+    "description": "Configurador de datas de necessidade x prioridade"
+  }
+]

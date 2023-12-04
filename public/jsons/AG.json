@@ -1,0 +1,694 @@
+[
+  {
+    "name": "AG01T",
+    "description": "Cadastro de Tabelas"
+  },
+  {
+    "name": "AG01T1",
+    "description": "Cadasto de Tabelas Itens"
+  },
+  {
+    "name": "AG02T",
+    "description": "AG02T"
+  },
+  {
+    "name": "AG03T",
+    "description": "AG03T"
+  },
+  {
+    "name": "AG04T",
+    "description": "AG04T"
+  },
+  {
+    "name": "AG04T1",
+    "description": "AG04T1"
+  },
+  {
+    "name": "AG05T",
+    "description": "AG05T"
+  },
+  {
+    "name": "AG05T1",
+    "description": "AG05T1"
+  },
+  {
+    "name": "AG05T2",
+    "description": "AG05T2"
+  },
+  {
+    "name": "AG06T",
+    "description": "AG06T"
+  },
+  {
+    "name": "AG07T",
+    "description": "AG07T"
+  },
+  {
+    "name": "AG08T",
+    "description": "AG08T"
+  },
+  {
+    "name": "AG09T",
+    "description": "AG09T"
+  },
+  {
+    "name": "AG10T",
+    "description": "Lançamento de Motor"
+  },
+  {
+    "name": "AG10T1",
+    "description": "Propriedades Lançamento Motor"
+  },
+  {
+    "name": "AG10T12",
+    "description": "Talhões para Rateio do Lanc. Motor"
+  },
+  {
+    "name": "AG10T2",
+    "description": "AG10T2"
+  },
+  {
+    "name": "AG11T",
+    "description": "AG11T"
+  },
+  {
+    "name": "AG11T1",
+    "description": "AG11T1"
+  },
+  {
+    "name": "AG11T12",
+    "description": "Talhões para Rateio do Lanc. Irrigação por Pivot"
+  },
+  {
+    "name": "AG11T2",
+    "description": "AG11T2"
+  },
+  {
+    "name": "AG12T",
+    "description": "AG12T"
+  },
+  {
+    "name": "AG13T",
+    "description": "AG13T"
+  },
+  {
+    "name": "AG14T",
+    "description": "AG14T"
+  },
+  {
+    "name": "AG14T1",
+    "description": "Outros Recolhimentos por CNPJ/CPF"
+  },
+  {
+    "name": "AG15T",
+    "description": "AG15T"
+  },
+  {
+    "name": "AG16T",
+    "description": "AG16T"
+  },
+  {
+    "name": "AG17T",
+    "description": "AG17T"
+  },
+  {
+    "name": "AG17T1",
+    "description": "AG17T1"
+  },
+  {
+    "name": "AG18T",
+    "description": "AG18T"
+  },
+  {
+    "name": "AG18T1",
+    "description": "AG18T1"
+  },
+  {
+    "name": "AG19T",
+    "description": "AG19T"
+  },
+  {
+    "name": "AG20T",
+    "description": "AG20T"
+  },
+  {
+    "name": "AG20T1",
+    "description": "AG20T1"
+  },
+  {
+    "name": "AG20T2",
+    "description": "AG20T2"
+  },
+  {
+    "name": "AG21T",
+    "description": "AG21T"
+  },
+  {
+    "name": "AG22T",
+    "description": "AG22T"
+  },
+  {
+    "name": "AG22T1",
+    "description": "AG22T1"
+  },
+  {
+    "name": "AG22T2",
+    "description": "AG22T2"
+  },
+  {
+    "name": "AG23T",
+    "description": "AG23T"
+  },
+  {
+    "name": "AG23T1",
+    "description": "AG23T1"
+  },
+  {
+    "name": "AG24T",
+    "description": "AG24T"
+  },
+  {
+    "name": "AG25T",
+    "description": "AG25T"
+  },
+  {
+    "name": "AG26T",
+    "description": "AG26T"
+  },
+  {
+    "name": "AG26T1",
+    "description": "AG26T1"
+  },
+  {
+    "name": "AG27T",
+    "description": "AG27T"
+  },
+  {
+    "name": "AG28T",
+    "description": "AG28T"
+  },
+  {
+    "name": "AG28T1",
+    "description": "AG28T1"
+  },
+  {
+    "name": "AG28T11",
+    "description": "AG28T11"
+  },
+  {
+    "name": "AG29T",
+    "description": "AG29T"
+  },
+  {
+    "name": "AG30T",
+    "description": "AG30T"
+  },
+  {
+    "name": "AG30T1",
+    "description": "AG30T1"
+  },
+  {
+    "name": "AG30T2",
+    "description": "AG30T2"
+  },
+  {
+    "name": "AG30T3",
+    "description": "AG30T3"
+  },
+  {
+    "name": "AG31T",
+    "description": "AG31T"
+  },
+  {
+    "name": "AG32T",
+    "description": "AG32T"
+  },
+  {
+    "name": "AG32T1",
+    "description": "AG32T1"
+  },
+  {
+    "name": "AG33T",
+    "description": "AG33T"
+  },
+  {
+    "name": "AG34T",
+    "description": "AG34T"
+  },
+  {
+    "name": "AG35T",
+    "description": "AG35T"
+  },
+  {
+    "name": "AG35T1",
+    "description": "AG35T1"
+  },
+  {
+    "name": "AG35T2",
+    "description": "AG35T2"
+  },
+  {
+    "name": "AG36T",
+    "description": "AG36T"
+  },
+  {
+    "name": "AG37T",
+    "description": "AG37T"
+  },
+  {
+    "name": "AG37T1",
+    "description": "AG37T1"
+  },
+  {
+    "name": "AG37T2",
+    "description": "AG37T2"
+  },
+  {
+    "name": "AG38T",
+    "description": "AG38T"
+  },
+  {
+    "name": "AG39T",
+    "description": "Controle de Fornecimento por C"
+  },
+  {
+    "name": "AG39T1",
+    "description": "AG39T1"
+  },
+  {
+    "name": "AG40T",
+    "description": "AG40T"
+  },
+  {
+    "name": "AG40T1",
+    "description": "AG40T1"
+  },
+  {
+    "name": "AG41T",
+    "description": "AG41T"
+  },
+  {
+    "name": "AG41T2",
+    "description": "AG41T2"
+  },
+  {
+    "name": "AG42T",
+    "description": "AG42T"
+  },
+  {
+    "name": "AG42T1",
+    "description": "AG42T1"
+  },
+  {
+    "name": "AG42T2",
+    "description": "AG42T2"
+  },
+  {
+    "name": "AG43T",
+    "description": "AG43T"
+  },
+  {
+    "name": "AG43T1",
+    "description": "AG43T1"
+  },
+  {
+    "name": "AG44T",
+    "description": "Cadastro de Layout"
+  },
+  {
+    "name": "AG44T1",
+    "description": "Campos dos Layout"
+  },
+  {
+    "name": "AG44T2",
+    "description": "Prop/Tal do Layout"
+  },
+  {
+    "name": "AG44T21",
+    "description": "Propriedades Adicionais"
+  },
+  {
+    "name": "AG44T3",
+    "description": "Veiculo do Layout"
+  },
+  {
+    "name": "AG44T31",
+    "description": "Veiculo Generico"
+  },
+  {
+    "name": "AG44T4",
+    "description": "Pessoa do Layout"
+  },
+  {
+    "name": "AG44T41",
+    "description": "Pessoa Generica"
+  },
+  {
+    "name": "AG44T7",
+    "description": "Tipos de Cana do Layout"
+  },
+  {
+    "name": "AG45T",
+    "description": "AG45T"
+  },
+  {
+    "name": "AG46T",
+    "description": "AG46T"
+  },
+  {
+    "name": "AG47T",
+    "description": "AG47T"
+  },
+  {
+    "name": "AG48T",
+    "description": "AG48T"
+  },
+  {
+    "name": "AG49T",
+    "description": "AG49T"
+  },
+  {
+    "name": "AG49T1",
+    "description": "AG49T1"
+  },
+  {
+    "name": "AG50T",
+    "description": "AG50T"
+  },
+  {
+    "name": "AG50T1",
+    "description": "AG50T1"
+  },
+  {
+    "name": "AG51T",
+    "description": "Cadastro de Layout - Importador de Pesagens Configurado"
+  },
+  {
+    "name": "AG51T1",
+    "description": "Veículos do Layout - Importador de Pesagens Configurado"
+  },
+  {
+    "name": "AG51T11",
+    "description": "Parâmetros Genéricos - Veículos"
+  },
+  {
+    "name": "AG51T2",
+    "description": "Pessoas do Layout - Importador de Pesagens Configurado"
+  },
+  {
+    "name": "AG51T21",
+    "description": "Parâmetros Genéricos - Pessoas"
+  },
+  {
+    "name": "AG51T3",
+    "description": "Controle de Pesagens Importadas"
+  },
+  {
+    "name": "AG52T",
+    "description": "AG52T"
+  },
+  {
+    "name": "AG53T",
+    "description": "Parâmetros p/ Índices de Qualidade no Processo de Plantio"
+  },
+  {
+    "name": "AG53T1",
+    "description": "Parâmetros p/ Índices de Qualidade no Processo de Plantio"
+  },
+  {
+    "name": "AG54T",
+    "description": "Controle Diário de Tensiômetro"
+  },
+  {
+    "name": "AG55T",
+    "description": "AG55T"
+  },
+  {
+    "name": "AG57T",
+    "description": "AG57T"
+  },
+  {
+    "name": "AG57T1",
+    "description": "AG57T1"
+  },
+  {
+    "name": "AG58T",
+    "description": "AG58T"
+  },
+  {
+    "name": "AG58T1",
+    "description": "AG58T1"
+  },
+  {
+    "name": "AG59T",
+    "description": "AG59T"
+  },
+  {
+    "name": "AG60T",
+    "description": "AG60T"
+  },
+  {
+    "name": "AG60T1",
+    "description": "AG60T1"
+  },
+  {
+    "name": "AG61T",
+    "description": "Inicio de Saldo dos Cooperados"
+  },
+  {
+    "name": "AG61T1",
+    "description": "Movimentos de Provisão"
+  },
+  {
+    "name": "AG62T",
+    "description": "AG62T"
+  },
+  {
+    "name": "AG63T",
+    "description": "AG63T"
+  },
+  {
+    "name": "AG63T1",
+    "description": "AG63T1"
+  },
+  {
+    "name": "AG65T",
+    "description": "AG65T"
+  },
+  {
+    "name": "AG65T1",
+    "description": "AG65T1"
+  },
+  {
+    "name": "AG66T",
+    "description": "AG66T"
+  },
+  {
+    "name": "AG67T",
+    "description": "AG67T"
+  },
+  {
+    "name": "AG68T",
+    "description": "AG68T"
+  },
+  {
+    "name": "AG69T",
+    "description": "AG69T"
+  },
+  {
+    "name": "AG69T1",
+    "description": "AG69T1"
+  },
+  {
+    "name": "AG70T",
+    "description": "AG70T"
+  },
+  {
+    "name": "AG70T1",
+    "description": "AG70T1"
+  },
+  {
+    "name": "AG71T",
+    "description": "AG71T"
+  },
+  {
+    "name": "AG71T1",
+    "description": "AG71T1"
+  },
+  {
+    "name": "AG71T2",
+    "description": "AG71T2"
+  },
+  {
+    "name": "AG71T3",
+    "description": "AG71T3"
+  },
+  {
+    "name": "AG71T4",
+    "description": "AG71T4"
+  },
+  {
+    "name": "AG80T",
+    "description": "Lcto. de Corte Manual de Terceiros"
+  },
+  {
+    "name": "AG81T",
+    "description": "AG81T"
+  },
+  {
+    "name": "AG82T",
+    "description": "AG82T"
+  },
+  {
+    "name": "AG83T",
+    "description": "AG83T"
+  },
+  {
+    "name": "AG84T",
+    "description": "AG84T"
+  },
+  {
+    "name": "AG85T",
+    "description": "AG85T"
+  },
+  {
+    "name": "AG86T",
+    "description": "Reg. Int. do C.F."
+  },
+  {
+    "name": "AG88T",
+    "description": "Transf. para Terceiros"
+  },
+  {
+    "name": "AG89T",
+    "description": "AG89T"
+  },
+  {
+    "name": "AG91T",
+    "description": "Cadastro de Paradas/Análise Im"
+  },
+  {
+    "name": "AG92T",
+    "description": "Lançamento de Paradas/Análise"
+  },
+  {
+    "name": "AG93T",
+    "description": "Programação Semanal"
+  },
+  {
+    "name": "AG93T1",
+    "description": "OS da Programação"
+  },
+  {
+    "name": "AG94T",
+    "description": "Plano de Recomendação Agronômi"
+  },
+  {
+    "name": "AG94T1",
+    "description": "Talhões do Plano"
+  },
+  {
+    "name": "AG95T",
+    "description": "Critérios de Adubação"
+  },
+  {
+    "name": "AG95T1",
+    "description": "Critérios de Adubação - Tipo d"
+  },
+  {
+    "name": "AG95T2",
+    "description": "Critérios de Adubação - Corte"
+  },
+  {
+    "name": "AG95T3",
+    "description": "Critérios de Adubação - Trato"
+  },
+  {
+    "name": "AG95T4",
+    "description": "Recomendação por Produção Esti"
+  },
+  {
+    "name": "AG95T41",
+    "description": "Recomendação Ton / P"
+  },
+  {
+    "name": "AG95T42",
+    "description": "Recomendação Ton / K"
+  },
+  {
+    "name": "AG95T43",
+    "description": "Recomendação Ton / N"
+  },
+  {
+    "name": "AG95T5",
+    "description": "Recomendação de Gessagem"
+  },
+  {
+    "name": "AG95T51",
+    "description": "Recomendação de Gessagem CTC /"
+  },
+  {
+    "name": "AG95T6",
+    "description": "Recomendação Calagem/Adubo"
+  },
+  {
+    "name": "AG96T",
+    "description": "AG96T"
+  },
+  {
+    "name": "AG96T1",
+    "description": "AG96T1"
+  },
+  {
+    "name": "AG97T",
+    "description": "Planejamento Agrícola"
+  },
+  {
+    "name": "AG97T1",
+    "description": "Propriedades do Plan."
+  },
+  {
+    "name": "AG97T2",
+    "description": "Insumo da Oper/Prop"
+  },
+  {
+    "name": "AG98T",
+    "description": "Grupo de Parceiros"
+  },
+  {
+    "name": "AG98T1",
+    "description": "Fornecedores Parceiros"
+  },
+  {
+    "name": "AG99T",
+    "description": "Fornecedores Cooperados"
+  },
+  {
+    "name": "AG99T1",
+    "description": "Funcionário dos Fornecedores"
+  },
+  {
+    "name": "AGAAT",
+    "description": "Perfil de Planos"
+  },
+  {
+    "name": "AGAAT1",
+    "description": "Level1"
+  },
+  {
+    "name": "AGABT",
+    "description": "Controle de Nematóides"
+  },
+  {
+    "name": "AGACT",
+    "description": "Controle de Raquitismo"
+  },
+  {
+    "name": "AGADT",
+    "description": "Cadastro de Metas de Plantio"
+  },
+  {
+    "name": "AGAET",
+    "description": "Cadastro de turnos"
+  }
+]

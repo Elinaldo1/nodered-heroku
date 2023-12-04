@@ -1,0 +1,478 @@
+[
+  {
+    "name": "CT01T",
+    "description": "Tabela de Empresa Contábil"
+  },
+  {
+    "name": "CT01T1",
+    "description": "Lançamentos off-Line"
+  },
+  {
+    "name": "CT01T2",
+    "description": "Tabela de Centros de Custo por Marca"
+  },
+  {
+    "name": "CT02T",
+    "description": "Tabela de Contas Sintéticas"
+  },
+  {
+    "name": "CT03T",
+    "description": "Tradutor do Plano de Contas"
+  },
+  {
+    "name": "CT03T1",
+    "description": "Tabela CC Contas Analiticas"
+  },
+  {
+    "name": "CT03T21",
+    "description": "Contas Referencias ECD"
+  },
+  {
+    "name": "CT03T9",
+    "description": "Tabela de Contas Analíticas - Alterações"
+  },
+  {
+    "name": "CT04T",
+    "description": "Saldo das Contas Sintéticas"
+  },
+  {
+    "name": "CT05T",
+    "description": "Tabela de Rateio Off-Line"
+  },
+  {
+    "name": "CT05T1",
+    "description": "Tabela de Rateio Off-Line"
+  },
+  {
+    "name": "CT06T",
+    "description": "Conf. Contab. Conta Resultado"
+  },
+  {
+    "name": "CT06T1",
+    "description": "Conf. Contab. Conta Resultado"
+  },
+  {
+    "name": "CT07T",
+    "description": "Tabela de Centro de Custo"
+  },
+  {
+    "name": "CT07T1",
+    "description": "Tabela de Liberações do Centro"
+  },
+  {
+    "name": "CT07T3",
+    "description": "Rateio de Gastos por CCusto"
+  },
+  {
+    "name": "CT07T31",
+    "description": "Rateio de Gastos por CCusto"
+  },
+  {
+    "name": "CT07T4",
+    "description": "Tabela de Produtos por Centro de Custo"
+  },
+  {
+    "name": "CT07T5",
+    "description": "Tabela Operações Tributárias por Centro de Custo"
+  },
+  {
+    "name": "CT08T",
+    "description": "Tabela de Histórico Padrão"
+  },
+  {
+    "name": "CT09T",
+    "description": "Tabela de Lançamentos Padrões"
+  },
+  {
+    "name": "CT09T1",
+    "description": "Tabela de Lançamentos Padrões - Log de Alteração"
+  },
+  {
+    "name": "CT10T",
+    "description": "Tabela de Rateio On-Line"
+  },
+  {
+    "name": "CT10T1",
+    "description": "Tabela de Rateio On-line"
+  },
+  {
+    "name": "CT11T",
+    "description": "Config Contab Prod Massa/Acab"
+  },
+  {
+    "name": "CT11T1",
+    "description": "Config Contab Prod Massa/Acab"
+  },
+  {
+    "name": "CT12T",
+    "description": "Lançamentos de Lote Diário"
+  },
+  {
+    "name": "CT12T1",
+    "description": "CT12T1"
+  },
+  {
+    "name": "CT13T",
+    "description": "Auxiliar do Lote Diário"
+  },
+  {
+    "name": "CT14T",
+    "description": "Saldo de Contas Analíticas"
+  },
+  {
+    "name": "CT15T",
+    "description": "Temp - Contas Caixa"
+  },
+  {
+    "name": "CT16T",
+    "description": "Saldo Sintético - Balanço"
+  },
+  {
+    "name": "CT17T",
+    "description": "Saldo Analitico - Balanço"
+  },
+  {
+    "name": "CT18T",
+    "description": "Tabela de Grupo de Despesa ou"
+  },
+  {
+    "name": "CT19T",
+    "description": "CT19T"
+  },
+  {
+    "name": "CT20T",
+    "description": "CT20T"
+  },
+  {
+    "name": "CT21T",
+    "description": "Composição para Demonstrativo"
+  },
+  {
+    "name": "CT21T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CT21T11",
+    "description": "Level1"
+  },
+  {
+    "name": "CT21T2",
+    "description": "Ordem Composição para Demonstrativo"
+  },
+  {
+    "name": "CT21T21",
+    "description": "CT21 T21"
+  },
+  {
+    "name": "CT22T",
+    "description": "CT22T"
+  },
+  {
+    "name": "CT23T",
+    "description": "CT23T"
+  },
+  {
+    "name": "CT24T",
+    "description": "Tansferência entre Empresas"
+  },
+  {
+    "name": "CT25T",
+    "description": "CT25T"
+  },
+  {
+    "name": "CT25T1",
+    "description": "CT25T1"
+  },
+  {
+    "name": "CT26T",
+    "description": "CT26T"
+  },
+  {
+    "name": "CT27T",
+    "description": "CT27T"
+  },
+  {
+    "name": "CT28T",
+    "description": "Tab. Acumulo Valores por Ccust"
+  },
+  {
+    "name": "CT28T1",
+    "description": "Tab. Rateio Valores por Ccust"
+  },
+  {
+    "name": "CT29T",
+    "description": "Previsão Orçamentos-Sintetico"
+  },
+  {
+    "name": "CT29T1",
+    "description": "Previsão Orçamentos-Sintetico"
+  },
+  {
+    "name": "CT30T",
+    "description": "Tabela de Configuração DMPL"
+  },
+  {
+    "name": "CT30T1",
+    "description": "Tabela de Configuração DMPL -Valores"
+  },
+  {
+    "name": "CT31T",
+    "description": "Temp para Geração SPED CONTABIL"
+  },
+  {
+    "name": "CT32T",
+    "description": "Temp para Geração SPED CONTABIL"
+  },
+  {
+    "name": "CT33T",
+    "description": "Temp para Geração SPED CONTABIL"
+  },
+  {
+    "name": "CT34T",
+    "description": "De/Para Tradutor"
+  },
+  {
+    "name": "CT35T",
+    "description": "Tabela de Informações adicionais da Apuração - Vrls Declaratorios\n                            "
+  },
+  {
+    "name": "CT36T",
+    "description": "Controle de Créditos Fiscais - ICMS"
+  },
+  {
+    "name": "CT36T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CT37T",
+    "description": "Lançamentos para FCONT"
+  },
+  {
+    "name": "CT38T",
+    "description": "Temporário Integração Contábil"
+  },
+  {
+    "name": "CT38T1",
+    "description": "Temporário Integração Contábil"
+  },
+  {
+    "name": "CT39T",
+    "description": "Importação Lcto Contabil ( Sta Lucia)"
+  },
+  {
+    "name": "CT40T",
+    "description": "Cadastro de Tradutores Referenciais do SPED"
+  },
+  {
+    "name": "CT40T1",
+    "description": "Cadastro de Orientações da Conta Referencial"
+  },
+  {
+    "name": "CT41T",
+    "description": "Tabela de Integração Mvto Cont CHB x CNBR WD"
+  },
+  {
+    "name": "CT42T",
+    "description": "Grupos de Orçamento"
+  },
+  {
+    "name": "CT42T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CT43T",
+    "description": "Controle de Alçadas - Lançtos de Lote Diário - Espelho CT12T"
+  },
+  {
+    "name": "CT43T1",
+    "description": "Alterações dos Campos CT43T1"
+  },
+  {
+    "name": "CT43T11",
+    "description": "Level1"
+  },
+  {
+    "name": "CT44T",
+    "description": "Registro 0100: Dados Do Contabilista"
+  },
+  {
+    "name": "CT45T",
+    "description": "Registro 0190: Identificação Das Unidades De Medida"
+  },
+  {
+    "name": "CT46T",
+    "description": "Registro 0150: Tabela de Cadastro do Participante"
+  },
+  {
+    "name": "CT47T",
+    "description": "Registro 0450: Tabela de Informação Complementar do Documento Fiscal\n                            "
+  },
+  {
+    "name": "CT48T",
+    "description": "Registro 0400: Tabela De Natureza Da Operação/Prestação"
+  },
+  {
+    "name": "CT49T",
+    "description": "Registro 0200: Tabela De Identificação Do Item (Produtos E Serviços)\n                            "
+  },
+  {
+    "name": "CT50T",
+    "description": "Configuração p/ Transferência - Origem"
+  },
+  {
+    "name": "CT50T1",
+    "description": " T1655"
+  },
+  {
+    "name": "CT51T",
+    "description": "Configuração p/ Transferência - Origem"
+  },
+  {
+    "name": "CT51T1",
+    "description": "Configuração p/ Transferência - Destino"
+  },
+  {
+    "name": "CT80T",
+    "description": "Agrupamento de Tradutores Contábeis."
+  },
+  {
+    "name": "CT80T1",
+    "description": "Tradutores do Grupo"
+  },
+  {
+    "name": "CT81T",
+    "description": "Tabela de Configuração de Fluxo de Caixa"
+  },
+  {
+    "name": "CT81T1",
+    "description": "Tabela de Conta do Configurador do Fluxo de Caixa"
+  },
+  {
+    "name": "CT81T11",
+    "description": "Tabela de Tradutores do Configurador do Fluxo de Caixa"
+  },
+  {
+    "name": "CT82T",
+    "description": "Tabela de Grupos de Fluxos de Caixa"
+  },
+  {
+    "name": "CT82T1",
+    "description": "Tabela de Grupo de Fluxos de Caixa"
+  },
+  {
+    "name": "CT83T",
+    "description": "Tabela de Cálculo"
+  },
+  {
+    "name": "CT83T1",
+    "description": "Tabela de Cálculos - Fluxo de Caixa"
+  },
+  {
+    "name": "CT84T",
+    "description": "Tabela de Colunas para Relatório de Mutações do Patrimônio Líquido\n                            "
+  },
+  {
+    "name": "CT85T",
+    "description": "Tabela de Fluxos para Relatório de Mutações do Patrimônio Líquido\n                            "
+  },
+  {
+    "name": "CT85T1",
+    "description": "Tabela de Colunas para Relatório de Patrimônio Líquido"
+  },
+  {
+    "name": "CT85T2",
+    "description": "Tabela de Contas para Relatório de Patrimônio Líquido"
+  },
+  {
+    "name": "CT85T3",
+    "description": "Tabela de Tradutores para Relatório de Patrimônio Líquido"
+  },
+  {
+    "name": "CT86T",
+    "description": "Temporária para Atualização de Saldos na CTB (CT04T)"
+  },
+  {
+    "name": "CT87T",
+    "description": "Temporária para Atualização de Saldos na CTB (CT14T)"
+  },
+  {
+    "name": "CT88T",
+    "description": "Composição do Demonstrativo do Lucro Bruto Anual"
+  },
+  {
+    "name": "CT88T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CT88T2",
+    "description": "Vendas Mensais"
+  },
+  {
+    "name": "CT89T",
+    "description": "Tabela Perfil Agrupamento de Contas"
+  },
+  {
+    "name": "CT90T",
+    "description": "CT90T"
+  },
+  {
+    "name": "CT91T",
+    "description": "Tabela Configuração DMPL/DLPA ECD"
+  },
+  {
+    "name": "CT91T1",
+    "description": "Tabela de Linhas - Configuração DMPL/DLPA ECD"
+  },
+  {
+    "name": "CT92T",
+    "description": "Tabela de Parâmetros Sped ECF"
+  },
+  {
+    "name": "CT93T",
+    "description": "Identificação das SCP"
+  },
+  {
+    "name": "CT94T",
+    "description": "Identificação dos Signatários da ECF"
+  },
+  {
+    "name": "CT95T",
+    "description": "Identificação dos Períodos e Formas de Apuração do IRPJ e da CSLL no\n                              Ano-Calendário"
+  },
+  {
+    "name": "CT96T",
+    "description": "Perfil de Seção"
+  },
+  {
+    "name": "CT96T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CT97T",
+    "description": "Temporária para Atualização de Saldos na CTB (CT14T)"
+  },
+  {
+    "name": "CT98T",
+    "description": "Plano de Contas Contábeis - Sped Contribuições"
+  },
+  {
+    "name": "CT99T",
+    "description": "Seleção do Plano de Contas"
+  },
+  {
+    "name": "CT99T1",
+    "description": "Level1"
+  },
+  {
+    "name": "CTAAT",
+    "description": "Seleção do Contas Analíticas"
+  },
+  {
+    "name": "CTAAT1",
+    "description": "Level1"
+  },
+  {
+    "name": "CTABT",
+    "description": "Contas Contábeis PIS/COFINS"
+  }
+]

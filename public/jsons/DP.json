@@ -1,0 +1,758 @@
+[
+  {
+    "name": "DP01T",
+    "description": "Lançamentos Pendentes"
+  },
+  {
+    "name": "DP02T",
+    "description": "Cadastro de Examinador"
+  },
+  {
+    "name": "DP03T",
+    "description": "Avaliação do Período de Experiência"
+  },
+  {
+    "name": "DP03T1",
+    "description": "Cadastro de Fator"
+  },
+  {
+    "name": "DP03T2",
+    "description": "Classificação do Colaborador"
+  },
+  {
+    "name": "DP03T3",
+    "description": "Decisão"
+  },
+  {
+    "name": "DP03T4",
+    "description": "Avaliação do Período de Experiência (DP03T4)"
+  },
+  {
+    "name": "DP04T",
+    "description": "Tabela de Tomadores"
+  },
+  {
+    "name": "DP04T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP05T",
+    "description": "Tabela de Tipo de Atribuição por Tomador"
+  },
+  {
+    "name": "DP06T",
+    "description": "Tabela de Valores por Tomador"
+  },
+  {
+    "name": "DP06T1",
+    "description": "Demonstração dos Custos da Folha de Pagamento por Tomador - TIPO\n                              (DP06T1)"
+  },
+  {
+    "name": "DP07T",
+    "description": "Parâmetros para Pagamento de Diferença"
+  },
+  {
+    "name": "DP08T",
+    "description": "Cadastro de Categoria de Suspensão"
+  },
+  {
+    "name": "DP09T",
+    "description": "Valores por Tomador/Obras (DP09T)"
+  },
+  {
+    "name": "DP10T",
+    "description": "Cadastro de Perfil"
+  },
+  {
+    "name": "DP11T",
+    "description": "Histórico de Perfil do Cargo (DP11T)"
+  },
+  {
+    "name": "DP12T",
+    "description": "Histórico de Função II (DP12T)"
+  },
+  {
+    "name": "DP13T",
+    "description": "Histórico de Reajuste de Valor da Linha"
+  },
+  {
+    "name": "DP13T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP14T",
+    "description": "Justificativa de Faltas"
+  },
+  {
+    "name": "DP15T",
+    "description": "Cadastro de Valor da Refeição"
+  },
+  {
+    "name": "DP15T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP16T",
+    "description": "Tabela de Preço de Serviços"
+  },
+  {
+    "name": "DP16T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP17T",
+    "description": "Apuração para Previsão de Férias"
+  },
+  {
+    "name": "DP17T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP18T",
+    "description": "Cadastro do Chip"
+  },
+  {
+    "name": "DP19T",
+    "description": "Tabela de Previdencia Privada"
+  },
+  {
+    "name": "DP19T1",
+    "description": "DP19 T1"
+  },
+  {
+    "name": "DP19T11",
+    "description": "Level1"
+  },
+  {
+    "name": "DP21T",
+    "description": "Ocorrências de Faltas para Pecistas"
+  },
+  {
+    "name": "DP21T1",
+    "description": "Ocorrências de Faltas para Pecistas (DP21T1)"
+  },
+  {
+    "name": "DP22T",
+    "description": "Tabela de Cadastro de Prêmio"
+  },
+  {
+    "name": "DP22T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP22T2",
+    "description": "Level1"
+  },
+  {
+    "name": "DP22T3",
+    "description": "Level1"
+  },
+  {
+    "name": "DP23T",
+    "description": "DP23 T"
+  },
+  {
+    "name": "DP23T1",
+    "description": "DP23 T1"
+  },
+  {
+    "name": "DP24T",
+    "description": "Diferença de Hora Extra Apurada - Della Coletta"
+  },
+  {
+    "name": "DP24T1",
+    "description": "Diferença de Hora Extra Apurada (DP24T1)"
+  },
+  {
+    "name": "DP25T",
+    "description": "Tabela de Processos Administrativos/Judiciais"
+  },
+  {
+    "name": "DP25T1",
+    "description": "Tabela de Processos Adm/Judiciais ( Decisões )"
+  },
+  {
+    "name": "DP26T",
+    "description": "Tabela de Rubricas eSocial"
+  },
+  {
+    "name": "DP27T",
+    "description": "Situação Gerador de Acidente - eSocial"
+  },
+  {
+    "name": "DP27T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP28T",
+    "description": "Tabela de Monitoramento da Saúde do Trabalhador"
+  },
+  {
+    "name": "DP28T1",
+    "description": "Detalhamento das informações do ASO"
+  },
+  {
+    "name": "DP28T2",
+    "description": "Informações da Monitoração Biológica"
+  },
+  {
+    "name": "DP29T",
+    "description": "Informações do IRRF - S5002 (Autonomo/Trab Sem Vinc)"
+  },
+  {
+    "name": "DP29T1",
+    "description": "Bases, deduções, isenções e retenções do IRRF"
+  },
+  {
+    "name": "DP29T2",
+    "description": "Informações relativas ao IRRF"
+  },
+  {
+    "name": "DP30T",
+    "description": "Cadastro de Aviso Prévio"
+  },
+  {
+    "name": "DP32T",
+    "description": "informações Enviadas ao eSocial"
+  },
+  {
+    "name": "DP33T",
+    "description": "Histórico de Gerência"
+  },
+  {
+    "name": "DP34T",
+    "description": "Histórico de Engenheiro"
+  },
+  {
+    "name": "DP35T",
+    "description": "Recrutado: Dependentes: Outros Documentos"
+  },
+  {
+    "name": "DP36T",
+    "description": "Permissão de Avaliação por Departamentos"
+  },
+  {
+    "name": "DP36T1",
+    "description": "Permissão de Avaliação por Departamentos"
+  },
+  {
+    "name": "DP37T",
+    "description": "Cadastro de Fatores"
+  },
+  {
+    "name": "DP37T1",
+    "description": "Cadastro de Fatores - Departamento"
+  },
+  {
+    "name": "DP38T",
+    "description": "Lançamento de Avaliação"
+  },
+  {
+    "name": "DP38T1",
+    "description": "Lançamento de Avaliação - Fatores (DP38T1)"
+  },
+  {
+    "name": "DP39T",
+    "description": "Funcionário: Formação"
+  },
+  {
+    "name": "DP40T",
+    "description": "Controle de xml eSocial Gerado"
+  },
+  {
+    "name": "DP40T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP40TB",
+    "description": "Agrupamento CPF "
+  },
+  {
+    "name": "DP40TE",
+    "description": "Espelho do Controle de xml eSocial Gerado"
+  },
+  {
+    "name": "DP41T",
+    "description": "Solicitação de Treinamento"
+  },
+  {
+    "name": "DP41T1",
+    "description": "Solicitação de Treinamento - Funcionário (DP41T1)"
+  },
+  {
+    "name": "DP43T",
+    "description": "Tabela de Períodos de Avaliações"
+  },
+  {
+    "name": "DP44T",
+    "description": "Tabela de Perfil de Avaliação"
+  },
+  {
+    "name": "DP44T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP44T2",
+    "description": "Level2"
+  },
+  {
+    "name": "DP45T",
+    "description": "Vale Transporte"
+  },
+  {
+    "name": "DP45T1",
+    "description": "Vale Transporte - Faixa (DP45T1)"
+  },
+  {
+    "name": "DP46T",
+    "description": "Tabela PPR Barralcool - Indicador Coletivo - Empresa"
+  },
+  {
+    "name": "DP46T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP46T2",
+    "description": "Level2"
+  },
+  {
+    "name": "DP47T",
+    "description": "Tabela de Cadastro de Indicadores ( Barralcool)"
+  },
+  {
+    "name": "DP47T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP48T",
+    "description": "Tabela de Cadastro de Indicador (Grupo de Departamento)"
+  },
+  {
+    "name": "DP48T1",
+    "description": "Tabela de Cadastro de Indicador (Grupo de Departamento)"
+  },
+  {
+    "name": "DP48T2",
+    "description": "Level1"
+  },
+  {
+    "name": "DP49T",
+    "description": "Tabela de Cadastro de Indicadores ( Departamento )"
+  },
+  {
+    "name": "DP49T1",
+    "description": "Tabela de Cadastro de Indicador (Departamento)"
+  },
+  {
+    "name": "DP49T2",
+    "description": "Level1"
+  },
+  {
+    "name": "DP50T",
+    "description": "Tabela de Indicadores Individuais ( Barralcool )"
+  },
+  {
+    "name": "DP50T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP50T2",
+    "description": "Level2"
+  },
+  {
+    "name": "DP50T3",
+    "description": "Ocorrências Disciplinares"
+  },
+  {
+    "name": "DP50T4",
+    "description": "Avaliacao Desempenho"
+  },
+  {
+    "name": "DP50T5",
+    "description": "Análise Externa"
+  },
+  {
+    "name": "DP50T6",
+    "description": "Level6"
+  },
+  {
+    "name": "DP51T",
+    "description": "Tabela de Lançamentos de Indicadores p/ Funcionário ( PPR )"
+  },
+  {
+    "name": "DP51T1",
+    "description": "Indicadores p/ Funcionário ( PPR ) - Referencia (DP51T1)"
+  },
+  {
+    "name": "DP52T",
+    "description": "Cadastro de Doenças - CID"
+  },
+  {
+    "name": "DP53T",
+    "description": "Tabela de Integ. Prov. Férias - SEST/SENAT"
+  },
+  {
+    "name": "DP53T6",
+    "description": "DP53T6"
+  },
+  {
+    "name": "DP53T7",
+    "description": "DP53T7"
+  },
+  {
+    "name": "DP53T8",
+    "description": "DP53T8"
+  },
+  {
+    "name": "DP53T9",
+    "description": "DP53T9"
+  },
+  {
+    "name": "DP53TB",
+    "description": "Eventos Fixos por Departamento"
+  },
+  {
+    "name": "DP53TR",
+    "description": "DP53TR"
+  },
+  {
+    "name": "DP54T",
+    "description": "Indicador - (DP54T)"
+  },
+  {
+    "name": "DP55T",
+    "description": "Tabela de Lançamentos Individual ( Absenteismo )"
+  },
+  {
+    "name": "DP56T",
+    "description": "Tabela de Lançamentos Individual ( Ocorr. Disciplinares )"
+  },
+  {
+    "name": "DP57T",
+    "description": "Tabela de Lançamentos Individual ( Atestado Médico )"
+  },
+  {
+    "name": "DP58T",
+    "description": "CADASTRO PRELIMINAR DE FUNCIONÁRIO"
+  },
+  {
+    "name": "DP59T",
+    "description": "Tabela de Cadastro de Jornadas ( eSocial )"
+  },
+  {
+    "name": "DP60T",
+    "description": "Tabela de Lançamentos de indicadores Coletivos"
+  },
+  {
+    "name": "DP61T",
+    "description": "Tabela Lançamento de Pagto a Beneficiário não Identificado"
+  },
+  {
+    "name": "DP61T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP62T",
+    "description": "Tabela de Ambiente de Trabalho"
+  },
+  {
+    "name": "DP62T1",
+    "description": "Fatores de Riscos do Ambiente de Trabalho"
+  },
+  {
+    "name": "DP62T2",
+    "description": "Level1"
+  },
+  {
+    "name": "DP62T3",
+    "description": "Level1"
+  },
+  {
+    "name": "DP63T",
+    "description": "Beneficiários não Identificados"
+  },
+  {
+    "name": "DP64T",
+    "description": "DP64T"
+  },
+  {
+    "name": "DP64T1",
+    "description": "Tabela de Trabalhador sem Vínculo - Dependentes"
+  },
+  {
+    "name": "DP64T2",
+    "description": "Tabela de Trabalhador sem Vínculo - Outros Documentos"
+  },
+  {
+    "name": "DP65T",
+    "description": "Tabela de Atividades"
+  },
+  {
+    "name": "DP66T",
+    "description": "Exposição a Condições Ambientais do Trabalho"
+  },
+  {
+    "name": "DP66TA",
+    "description": "Atividades"
+  },
+  {
+    "name": "DP66TE",
+    "description": "Condições Ambientais do Trabalho - EPIs"
+  },
+  {
+    "name": "DP66TF",
+    "description": "Fatores de Riscos"
+  },
+  {
+    "name": "DP66TI",
+    "description": "Level1"
+  },
+  {
+    "name": "DP66TP",
+    "description": "Level1"
+  },
+  {
+    "name": "DP67T",
+    "description": "Condições Ambientais do Trabalho - EPCs"
+  },
+  {
+    "name": "DP68T",
+    "description": "Tabela de Histórico Atribuição de Indicadores p/ Funcionario"
+  },
+  {
+    "name": "DP69T",
+    "description": "Outros Recolhimentos - Autônomos"
+  },
+  {
+    "name": "DP69T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP70T",
+    "description": "Lançamento de Comercializações da Produção Rural"
+  },
+  {
+    "name": "DP70T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP70TB",
+    "description": "Geração Manual Comercialização"
+  },
+  {
+    "name": "DP70TB1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP71T",
+    "description": "Lançamento de Aquisições de Produção Rural"
+  },
+  {
+    "name": "DP71T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP71TB",
+    "description": " T1525"
+  },
+  {
+    "name": "DP72T",
+    "description": "Fornecedores com Processo Judicial Isentando Retenções"
+  },
+  {
+    "name": "DP74T",
+    "description": "Cadastro de Parâmetros Pagamento Dissídio Coletivo"
+  },
+  {
+    "name": "DP74T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP75T",
+    "description": "Funcionário: Processos Judiciais - eSocial"
+  },
+  {
+    "name": "DP76T",
+    "description": "Cadastro de Eventos Homolognet"
+  },
+  {
+    "name": "DP77T",
+    "description": "Cadastro de Descontos Homolognet"
+  },
+  {
+    "name": "DP77T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP78T",
+    "description": "Tabela de PPR a Pagar"
+  },
+  {
+    "name": "DP78T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP79T",
+    "description": "Tabela de PR a Pagar (Espelho da antiga TDP78T)"
+  },
+  {
+    "name": "DP79T1",
+    "description": "Tabela de PPR a Pagar - Parcelas (Espelho da antiga TDP78T)"
+  },
+  {
+    "name": "DP80T",
+    "description": "Lançamento da Folha - Eventos Informativos"
+  },
+  {
+    "name": "DP80T1",
+    "description": "Lançamento da Folha - Eventos Informativos"
+  },
+  {
+    "name": "DP81T",
+    "description": "Entidade Educativa Sem Fins Lucrativos"
+  },
+  {
+    "name": "DP82T",
+    "description": "Fatores de Riscos"
+  },
+  {
+    "name": "DP83T",
+    "description": "Cadastro de Intensidade"
+  },
+  {
+    "name": "DP84T",
+    "description": "Cadastro de Técnicas de Medição"
+  },
+  {
+    "name": "DP85T",
+    "description": "Tabela de Ocorrencias de Retorno eSocial"
+  },
+  {
+    "name": "DP85T1",
+    "description": "Level1"
+  },
+  {
+    "name": "DP86T",
+    "description": "Funcionário: Histórico de Cargo"
+  },
+  {
+    "name": "DP87T",
+    "description": "Grau de Parentesco"
+  },
+  {
+    "name": "DP88T",
+    "description": "Autorizações Necessárias para Liberação de Crédito em Conta"
+  },
+  {
+    "name": "DP88T1",
+    "description": "Usuários Autorizações Necessárias para Liberação de Cred. Conta"
+  },
+  {
+    "name": "DP89T",
+    "description": "Informações das contribuições sociais por trabalhador ( Autonomo/ TSV\n                              )"
+  },
+  {
+    "name": "DP89T1",
+    "description": "Cálculo da contribuição previdenciaria do segurado"
+  },
+  {
+    "name": "DP89T2",
+    "description": "Informações sobre bases de cálculo, descontos e deduções de\n                              contribuições sociais"
+  },
+  {
+    "name": "DP89T3",
+    "description": "Cálculo das contribuições sociais devidas a outras entidades e fundos\n                            "
+  },
+  {
+    "name": "DP90T",
+    "description": "Dicionário de Dados eSocial"
+  },
+  {
+    "name": "DP91T",
+    "description": "Cadastro de Classificação e Ações"
+  },
+  {
+    "name": "DP92T",
+    "description": "Tabela de Inconsistências no geração de calculos"
+  },
+  {
+    "name": "DP93T",
+    "description": "Dados da Empresa - Tabelas eSocial em Produção"
+  },
+  {
+    "name": "DP94T",
+    "description": "Tabela de Monitoramento de Lotes (eSocial)"
+  },
+  {
+    "name": "DP94T1",
+    "description": "Ocorrencias do Lote"
+  },
+  {
+    "name": "DP96T",
+    "description": "Informações das contribuições sociais por trabalhador - S5001"
+  },
+  {
+    "name": "DP96T1",
+    "description": "Cálculo da contribuição previdenciária do segurado,"
+  },
+  {
+    "name": "DP96T2",
+    "description": "Informações sobre bases de cálculo, descontos e deduções de\n                              contribuições sociais devidas à Previdência Social e a Outras Entidades e Fundos"
+  },
+  {
+    "name": "DP96T3",
+    "description": "Cálculo das contribuições sociais devidas a Outras Entidades e Fundos\n                            "
+  },
+  {
+    "name": "DP97T",
+    "description": "Informações do Imposto de Renda Retido na Fonte - S5002"
+  },
+  {
+    "name": "DP97T1",
+    "description": "Bases, deduções, isenções e retenções do IRRF"
+  },
+  {
+    "name": "DP97T2",
+    "description": "Informações relativas ao Imposto de Renda Retido na Fonte"
+  },
+  {
+    "name": "DP98T",
+    "description": "contribuições sociais consolidadas por contribuinte - S5011"
+  },
+  {
+    "name": "DP98T1",
+    "description": "Identificação da lotação tributária"
+  },
+  {
+    "name": "DP98T2",
+    "description": "Informações das contribuições sociais devidas à Previdência Social e\n                              Outras Entidades e Fundos, consolidadas por estabelecimento e por código de Receita"
+  },
+  {
+    "name": "DP98T3",
+    "description": "Informações consolidadas das contribuições sociais devidas à\n                              Previdência Social e Outras Entidades e Fundos, por código de Receita - CR"
+  },
+  {
+    "name": "DP98T4",
+    "description": "Bases de cálculo da contribuição previdenciária incidente sobre\n                              remunerações, por categoria"
+  },
+  {
+    "name": "DP98T5",
+    "description": "Informações de bases de cálculo relativas a aquisição de produção\n                              rural. Origem S-1250"
+  },
+  {
+    "name": "DP98T6",
+    "description": "Informações de bases de cálculo relativas à comercialização da\n                              produção rural da Pessoa Física. Informações desse grupo conforme informado pelo\n                              contribuinte em S-1260."
+  },
+  {
+    "name": "DP99T",
+    "description": "Inf. do IRRF consolidadas por contribuinte - S5012"
+  },
+  {
+    "name": "DP99T1",
+    "description": "Informações consolidadas do IRRF por código de Receita - CR"
+  },
+  {
+    "name": "DPAAT",
+    "description": "Remuneração de Não Portuários"
+  }
+]

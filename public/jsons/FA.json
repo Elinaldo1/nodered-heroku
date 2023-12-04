@@ -1,0 +1,226 @@
+[
+  {
+    "name": "FA01T",
+    "description": "Cadastro de Paradas de Ordem de Serviço"
+  },
+  {
+    "name": "FA02T",
+    "description": "Lcto de Paradas da O.S."
+  },
+  {
+    "name": "FA02T1",
+    "description": "Seq. da Parada"
+  },
+  {
+    "name": "FA03T",
+    "description": "Cadastro de Check List Frota"
+  },
+  {
+    "name": "FA04T",
+    "description": "Cadastro de Plano de Check List"
+  },
+  {
+    "name": "FA04T1",
+    "description": "Check List do Plano"
+  },
+  {
+    "name": "FA05T",
+    "description": "Cadastro de Auto Posto p/ Ducha"
+  },
+  {
+    "name": "FA06T",
+    "description": "Cadastro de Clientes do Auto Posto"
+  },
+  {
+    "name": "FA06T1",
+    "description": "Veículos de Clientes (Ducha)"
+  },
+  {
+    "name": "FA07T",
+    "description": "Execução de Ducha"
+  },
+  {
+    "name": "FA07T1",
+    "description": "Seq. Execução de Ducha"
+  },
+  {
+    "name": "FA08T",
+    "description": "Cad. Observação de Alienação"
+  },
+  {
+    "name": "FA08T1",
+    "description": "Seq. da Observação"
+  },
+  {
+    "name": "FA09T",
+    "description": "Autorização Serviços de Terceiros"
+  },
+  {
+    "name": "FA09T1",
+    "description": "Autorização Serviços de Terceiros - Itens"
+  },
+  {
+    "name": "FA10T",
+    "description": "Tipo de Carroceria"
+  },
+  {
+    "name": "FA12T",
+    "description": "Motivo de Remonta"
+  },
+  {
+    "name": "FA13T",
+    "description": "Cadastro de Justificativa do Serviço com Garantia"
+  },
+  {
+    "name": "FA15T",
+    "description": "Lcto de Sulco e PSI do Pneu"
+  },
+  {
+    "name": "FA15T1",
+    "description": "Lcto de Sulco e PSI do Pneu"
+  },
+  {
+    "name": "FA16T",
+    "description": "Detalhes das Movimentações de Acessório"
+  },
+  {
+    "name": "FA17T",
+    "description": "Cadastro de Provisão de Manutenção de Veículo"
+  },
+  {
+    "name": "FA18T",
+    "description": "Custo de Especialidade de Veículos"
+  },
+  {
+    "name": "FA18T1",
+    "description": "Rateio Especilidade sem Apontamento"
+  },
+  {
+    "name": "FA19T",
+    "description": "Tabela Intermediaria Depreciação"
+  },
+  {
+    "name": "FA19T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FA20T",
+    "description": "Manutenção de Dados de PSI e Sulco"
+  },
+  {
+    "name": "FA20T1",
+    "description": "Leitura Sulco"
+  },
+  {
+    "name": "FA21T",
+    "description": "Transferência de Bomba"
+  },
+  {
+    "name": "FA22T",
+    "description": "Cadastro de Causa Raiz"
+  },
+  {
+    "name": "FA23T",
+    "description": "Transferência entre Comboios"
+  },
+  {
+    "name": "FA23TSD",
+    "description": "Transferência entre Posto/Comboio"
+  },
+  {
+    "name": "FA23TSDE",
+    "description": "Erros de Sincronização FA23T"
+  },
+  {
+    "name": "FA24T",
+    "description": "Manutenção Transferência entre Posto/Comboio"
+  },
+  {
+    "name": "FA25T",
+    "description": "Lançamento de Encerrantes"
+  },
+  {
+    "name": "FA25T1",
+    "description": "Log de Lançamento Inicial de Encerrantes"
+  },
+  {
+    "name": "FA25TSD",
+    "description": "Lançamento de Encerrantes"
+  },
+  {
+    "name": "FA25TSDE",
+    "description": "Erros de Sincronização FA25T"
+  },
+  {
+    "name": "FA26T",
+    "description": "Manutenção do Lançamento de Encerrantes"
+  },
+  {
+    "name": "FA27T",
+    "description": "Medição Física de Tanque"
+  },
+  {
+    "name": "FA27TSD",
+    "description": "Medição Física de Tanque"
+  },
+  {
+    "name": "FA27TSDE",
+    "description": "Erros de Sincronização FA27T"
+  },
+  {
+    "name": "FA28T",
+    "description": "Manutenção da Medição Física de Tanque"
+  },
+  {
+    "name": "FA29T",
+    "description": "Manutenção de Análise de Óleo"
+  },
+  {
+    "name": "FA30T",
+    "description": "Lançamento de Check List MPT"
+  },
+  {
+    "name": "FA30T1",
+    "description": "Respostas do critério de avaliação"
+  },
+  {
+    "name": "FA30T11",
+    "description": "Não conformidades do critério de avaliação"
+  },
+  {
+    "name": "FA31T",
+    "description": "Cadastro de Check List de MPT"
+  },
+  {
+    "name": "FA31T1",
+    "description": "Grupo de Partes do Equipamento"
+  },
+  {
+    "name": "FA31T11",
+    "description": "Critérios de Avaliação"
+  },
+  {
+    "name": "FA31T2",
+    "description": " Especialidades do Check-List"
+  },
+  {
+    "name": "FA32T",
+    "description": "Cadastro de Indisponibilidade de Pessoas"
+  },
+  {
+    "name": "FA32T1",
+    "description": "Pessoas Indisponíveis"
+  },
+  {
+    "name": "FA33T",
+    "description": "Cadastro de Componentes Agregados"
+  },
+  {
+    "name": "FA34T",
+    "description": "Controle de Remessa de Agregado"
+  },
+  {
+    "name": "FA34T1",
+    "description": "Agregados no Controle de Remessa"
+  }
+]

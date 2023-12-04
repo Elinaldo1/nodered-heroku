@@ -1,0 +1,1070 @@
+[
+  {
+    "name": "FT01T",
+    "description": "Tabela de Empresa Faturamento"
+  },
+  {
+    "name": "FT01T1",
+    "description": "Tabela de Parametros LPD"
+  },
+  {
+    "name": "FT01T2",
+    "description": "Tabela de Prefixos p/ Análise"
+  },
+  {
+    "name": "FT01T4",
+    "description": "Empresa Espelho do Faturamento"
+  },
+  {
+    "name": "FT01T5",
+    "description": "Op. Trib. Entrada Não Considerada no LPD"
+  },
+  {
+    "name": "FT01T6",
+    "description": "Tabela de Classificações Financ. p/ Análise de Crédito"
+  },
+  {
+    "name": "FT01T7",
+    "description": "Tabela de Seções para Faturamento Automático"
+  },
+  {
+    "name": "FT01T8",
+    "description": "Tabela de Usuários Autorizados a Faturar p/ Clientes Bloqueados"
+  },
+  {
+    "name": "FT01TG1",
+    "description": "Produtos Açúcar para LPD"
+  },
+  {
+    "name": "FT01TG2",
+    "description": "Produtos Álcool para LPD"
+  },
+  {
+    "name": "FT01TH",
+    "description": "Royalties por Empresa"
+  },
+  {
+    "name": "FT01TH1",
+    "description": "Condições de Pagamento por Empresa"
+  },
+  {
+    "name": "FT01TJ",
+    "description": "UFs para Roaylties"
+  },
+  {
+    "name": "FT01TK",
+    "description": "Empresas Análise de Crédito"
+  },
+  {
+    "name": "FT02T",
+    "description": "Tabela de Vendedores"
+  },
+  {
+    "name": "FT03T",
+    "description": "Tabela de Pedidos de Venda"
+  },
+  {
+    "name": "FT03T1",
+    "description": "Tabela de Itens de Pedidos"
+  },
+  {
+    "name": "FT03T2",
+    "description": "Tabela de Descontos do Pedido"
+  },
+  {
+    "name": "FT03T3",
+    "description": "Comissões e Descontos"
+  },
+  {
+    "name": "FT03T4",
+    "description": "FT03T4"
+  },
+  {
+    "name": "FT03T5",
+    "description": "FT03T5"
+  },
+  {
+    "name": "FT03T51",
+    "description": "FT03T51"
+  },
+  {
+    "name": "FT03T6",
+    "description": "FT03T6"
+  },
+  {
+    "name": "FT03T7",
+    "description": "FT03T7"
+  },
+  {
+    "name": "FT03T8",
+    "description": "Tabela de Documentos do Orçamento"
+  },
+  {
+    "name": "FT03T9",
+    "description": "Conhecimento de Frete do Orçamento"
+  },
+  {
+    "name": "FT03TC",
+    "description": "Critica do Orçamento"
+  },
+  {
+    "name": "FT03TD",
+    "description": "Operações Tributárias p Faturamento"
+  },
+  {
+    "name": "FT03TE",
+    "description": "Tabela Fases do Orçamento"
+  },
+  {
+    "name": "FT03TF",
+    "description": "Programação Manual"
+  },
+  {
+    "name": "FT03TG",
+    "description": "Solicitação de Carregamento"
+  },
+  {
+    "name": "FT04T",
+    "description": "Tabela Item de Pedido p/ Tam"
+  },
+  {
+    "name": "FT05T",
+    "description": "Tabela de Vencimentos de Itens"
+  },
+  {
+    "name": "FT06T",
+    "description": "Tabela de Adiantamentos"
+  },
+  {
+    "name": "FT06T1",
+    "description": "Tabela de Baixas Adiantamentos"
+  },
+  {
+    "name": "FT07T",
+    "description": "Tabela de Notas de Saída"
+  },
+  {
+    "name": "FT07T1",
+    "description": "Tabela de Itens de Produtos NF"
+  },
+  {
+    "name": "FT07T2",
+    "description": "Tabela de Itens Manuais NF"
+  },
+  {
+    "name": "FT07T3",
+    "description": "Tabela de Descontos da NF"
+  },
+  {
+    "name": "FT07T4",
+    "description": "Duplicatas da NF de Saída"
+  },
+  {
+    "name": "FT07T5",
+    "description": "Tabela de Itens de Pedido NF"
+  },
+  {
+    "name": "FT07T6",
+    "description": "Complementos da Nota de Saída"
+  },
+  {
+    "name": "FT07T7",
+    "description": "Descarregamento no Porto"
+  },
+  {
+    "name": "FT07TC",
+    "description": "Tabela de Declaração de Importação"
+  },
+  {
+    "name": "FT07TC1",
+    "description": "Tabela de Adição da Declaração de Importação"
+  },
+  {
+    "name": "FT07TD",
+    "description": "Tabela de Nota Referenciada de Produtor"
+  },
+  {
+    "name": "FT07TE",
+    "description": "Tabela de Números de Processos da Nota"
+  },
+  {
+    "name": "FT07TF",
+    "description": "Tabela de Declaração de Exportação"
+  },
+  {
+    "name": "FT07TG",
+    "description": "Origem de Agrupamentos de Royalties"
+  },
+  {
+    "name": "FT07TH",
+    "description": "Notas Fiscais de Terceiros"
+  },
+  {
+    "name": "FT07TH1",
+    "description": "Notas Fiscais de Terceiros"
+  },
+  {
+    "name": "FT08T",
+    "description": "Item da Nota de Saída p/ Tam."
+  },
+  {
+    "name": "FT09T",
+    "description": "Itens de Orçamentos da NF"
+  },
+  {
+    "name": "FT10T",
+    "description": "Item da Nota de Saída p/ Tam."
+  },
+  {
+    "name": "FT11T",
+    "description": "Itens de Pedidos da NF"
+  },
+  {
+    "name": "FT12T",
+    "description": "Tabela de Critérios da NF"
+  },
+  {
+    "name": "FT12T1",
+    "description": "Tabela de Itens de Critérios"
+  },
+  {
+    "name": "FT12T2",
+    "description": "Tabela de Insumos do Critério"
+  },
+  {
+    "name": "FT13T",
+    "description": "Tabela de Textos"
+  },
+  {
+    "name": "FT13T1",
+    "description": "Tabela de Itens de Textos"
+  },
+  {
+    "name": "FT14T",
+    "description": "Tabela de Comissões do Orçam."
+  },
+  {
+    "name": "FT15T",
+    "description": "Tabela de Comissões da NF"
+  },
+  {
+    "name": "FT16T",
+    "description": "Tabela de Req. do Orçamento"
+  },
+  {
+    "name": "FT17T",
+    "description": "Tabela de Frete"
+  },
+  {
+    "name": "FT17T1",
+    "description": "Tabela de Fretes"
+  },
+  {
+    "name": "FT17T2",
+    "description": "Tabela de Fretes"
+  },
+  {
+    "name": "FT17T21",
+    "description": "Tabela de Fretes - Cidades"
+  },
+  {
+    "name": "FT18T",
+    "description": "Tabela de Lcto de Conhecimento"
+  },
+  {
+    "name": "FT18T1",
+    "description": "Tabela de NFs do Conhecimento"
+  },
+  {
+    "name": "FT19T",
+    "description": "Tabela Origem Devol. Sai."
+  },
+  {
+    "name": "FT19T1",
+    "description": "Tabela Origem de Devol. (Sai.) p/ Tam."
+  },
+  {
+    "name": "FT20T",
+    "description": "Tabela de Autorizações de Fat."
+  },
+  {
+    "name": "FT20T1",
+    "description": "Tabela de Itens de Autor. Fat."
+  },
+  {
+    "name": "FT21T",
+    "description": "Tabela para Cálculo de Fretes"
+  },
+  {
+    "name": "FT21T1",
+    "description": "Tabela de Frete por Cidade"
+  },
+  {
+    "name": "FT23T",
+    "description": "Tabela de Alterações Orçam."
+  },
+  {
+    "name": "FT24T",
+    "description": "Tabela Ordem de Carregamento"
+  },
+  {
+    "name": "FT24T1",
+    "description": "Tabela de Lacres da O.C."
+  },
+  {
+    "name": "FT24T2",
+    "description": "Tabela de Orçamentos da Ordem de Carregamento"
+  },
+  {
+    "name": "FT24T3",
+    "description": "Check List de Carregamento"
+  },
+  {
+    "name": "FT24T4",
+    "description": "Lacres da Carreta"
+  },
+  {
+    "name": "FT24TA",
+    "description": "FT24TA"
+  },
+  {
+    "name": "FT24TB",
+    "description": "FT24TB"
+  },
+  {
+    "name": "FT24TC",
+    "description": "FT24TC"
+  },
+  {
+    "name": "FT24TD",
+    "description": "Lotes da OC"
+  },
+  {
+    "name": "FT24TF",
+    "description": "Certificado Açúcar e Levedura"
+  },
+  {
+    "name": "FT24TG",
+    "description": "Compartimentos"
+  },
+  {
+    "name": "FT24TH",
+    "description": "Tabela de Documentos da Ordem de Carregamento"
+  },
+  {
+    "name": "FT25T",
+    "description": "Tabela de Lacres da Nota"
+  },
+  {
+    "name": "FT26T",
+    "description": "Tabela de Origens do Documento"
+  },
+  {
+    "name": "FT27T",
+    "description": "Autorização p/ Simples Remessa"
+  },
+  {
+    "name": "FT27T1",
+    "description": "Autorização p/ Simples Remessa"
+  },
+  {
+    "name": "FT28T",
+    "description": "Tabela de Pré Faturamento"
+  },
+  {
+    "name": "FT28T1",
+    "description": "Tabela de Itens de Pré Fatur."
+  },
+  {
+    "name": "FT28T2",
+    "description": "Tabela de Tam. de Pré Fatur."
+  },
+  {
+    "name": "FT29T",
+    "description": "FT29T"
+  },
+  {
+    "name": "FT29T1",
+    "description": "FT29T1"
+  },
+  {
+    "name": "FT29T2",
+    "description": "FT29T2"
+  },
+  {
+    "name": "FT29T3",
+    "description": "FT29T3"
+  },
+  {
+    "name": "FT30T",
+    "description": "FT30T"
+  },
+  {
+    "name": "FT30T1",
+    "description": "FT30T1"
+  },
+  {
+    "name": "FT30T2",
+    "description": "FT30T2"
+  },
+  {
+    "name": "FT31T",
+    "description": "Cadastro de Paradas das LPDs"
+  },
+  {
+    "name": "FT32T",
+    "description": "Tabela de Distribuição"
+  },
+  {
+    "name": "FT32T1",
+    "description": "Tabela de Distribuição"
+  },
+  {
+    "name": "FT33T",
+    "description": "Tabela de Preços"
+  },
+  {
+    "name": "FT33T1",
+    "description": "Tabela de Preços p/ Produto"
+  },
+  {
+    "name": "FT33T2",
+    "description": "Tabela de Preços p/ Condições"
+  },
+  {
+    "name": "FT34T",
+    "description": "Tabela de Cargas"
+  },
+  {
+    "name": "FT34T1",
+    "description": "Tabela de Itens da Carga"
+  },
+  {
+    "name": "FT35T",
+    "description": "Tabela de Liberações do Item"
+  },
+  {
+    "name": "FT36T",
+    "description": "Tab Transp Ocorr. Entr. Mercad"
+  },
+  {
+    "name": "FT36T1",
+    "description": "FT36T1"
+  },
+  {
+    "name": "FT37T",
+    "description": "Tansportadora de Conhecimentos"
+  },
+  {
+    "name": "FT37T1",
+    "description": "Conhecimentos Embarcados"
+  },
+  {
+    "name": "FT37T2",
+    "description": "Notas Fiscais de Conhecimentos"
+  },
+  {
+    "name": "FT38T",
+    "description": "FT38T"
+  },
+  {
+    "name": "FT39T",
+    "description": "FT39T"
+  },
+  {
+    "name": "FT40T",
+    "description": "FT40T"
+  },
+  {
+    "name": "FT41T",
+    "description": "FT41T"
+  },
+  {
+    "name": "FT42T",
+    "description": "FT42T"
+  },
+  {
+    "name": "FT43T",
+    "description": "FT43T"
+  },
+  {
+    "name": "FT44T",
+    "description": "Lote de Faturamento"
+  },
+  {
+    "name": "FT44T1",
+    "description": "Orçamentos do Lote de Faturamento"
+  },
+  {
+    "name": "FT44T2",
+    "description": "Adicionais de Lote de Faturamento"
+  },
+  {
+    "name": "FT44T4",
+    "description": "Dados Transporte e Entrega"
+  },
+  {
+    "name": "FT44T41",
+    "description": "Lacres"
+  },
+  {
+    "name": "FT44T42",
+    "description": "Lacres da Carreta"
+  },
+  {
+    "name": "FT46T",
+    "description": "FT46T"
+  },
+  {
+    "name": "FT46T1",
+    "description": "FT46T1"
+  },
+  {
+    "name": "FT47T",
+    "description": "FT47T"
+  },
+  {
+    "name": "FT48T",
+    "description": "Nota Fiscal Eletronica"
+  },
+  {
+    "name": "FT48T1",
+    "description": "Nota Fiscal Eletronica"
+  },
+  {
+    "name": "FT48T2",
+    "description": "Nota Fiscal Eletronica"
+  },
+  {
+    "name": "FT48T21",
+    "description": "Nota Fiscal Eletronica"
+  },
+  {
+    "name": "FT49T",
+    "description": "FT49T"
+  },
+  {
+    "name": "FT50T",
+    "description": "FT50T"
+  },
+  {
+    "name": "FT51T",
+    "description": "FT51T"
+  },
+  {
+    "name": "FT52T",
+    "description": "Geração de TXT da NF"
+  },
+  {
+    "name": "FT52T1",
+    "description": "FT52T1"
+  },
+  {
+    "name": "FT52T11",
+    "description": "FT52T11"
+  },
+  {
+    "name": "FT52T3",
+    "description": "FT52T3"
+  },
+  {
+    "name": "FT53T",
+    "description": "Tabela Config. Op. Trib. ZFM"
+  },
+  {
+    "name": "FT54T",
+    "description": "Check List de Carregamento"
+  },
+  {
+    "name": "FT54T2",
+    "description": "Questões do Check List de Carregamento"
+  },
+  {
+    "name": "FT55T",
+    "description": "Configuração de Questões do Check List"
+  },
+  {
+    "name": "FT55T1",
+    "description": "Grupo de Questões de Check List"
+  },
+  {
+    "name": "FT55T2",
+    "description": "Questões do Grupo de Check List"
+  },
+  {
+    "name": "FT55T21",
+    "description": "Cadastro Respostas p/ Questão"
+  },
+  {
+    "name": "FT55T3",
+    "description": "Produtos do Configurador de Check List"
+  },
+  {
+    "name": "FT55T4",
+    "description": "Log de Alteração do Configurador de Check List"
+  },
+  {
+    "name": "FT55T5",
+    "description": "Observações do Config. Check List"
+  },
+  {
+    "name": "FT55T6",
+    "description": "Produtos do Configurador de Check List"
+  },
+  {
+    "name": "FT56T",
+    "description": "FT56T"
+  },
+  {
+    "name": "FT57T",
+    "description": "Tabela de Rotas - Braspress"
+  },
+  {
+    "name": "FT58T",
+    "description": "Tabela de Receitas"
+  },
+  {
+    "name": "FT59T",
+    "description": "Tabela de Partilha Simples Nac"
+  },
+  {
+    "name": "FT60T",
+    "description": "Parametros SGV Palm"
+  },
+  {
+    "name": "FT61T",
+    "description": "Pedidos SGV Palm"
+  },
+  {
+    "name": "FT61T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FT62T",
+    "description": "Tabela de Ordem de Descarga"
+  },
+  {
+    "name": "FT62T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FT63T",
+    "description": "Tabela de Vasilhames"
+  },
+  {
+    "name": "FT64T",
+    "description": "Tabela de Fichas Baixadas pela NF"
+  },
+  {
+    "name": "FT65T",
+    "description": "Cadastro de Navio"
+  },
+  {
+    "name": "FT66T",
+    "description": "Lcto de Despesas de Terminal/Porto Açucar"
+  },
+  {
+    "name": "FT66T1",
+    "description": "Lançamento das Despesas"
+  },
+  {
+    "name": "FT66T2",
+    "description": "FT66T2"
+  },
+  {
+    "name": "FT67T",
+    "description": "Lcto de Despesas de Terminal/Porto Alcool"
+  },
+  {
+    "name": "FT67T1",
+    "description": "Lançamento das Despesas"
+  },
+  {
+    "name": "FT68T",
+    "description": "Ordem Carregamento GATEC"
+  },
+  {
+    "name": "FT69T",
+    "description": "Configuração Xml NFE Entrada"
+  },
+  {
+    "name": "FT69T1",
+    "description": "Configuração Xml NFE Entrada - Emails"
+  },
+  {
+    "name": "FT69T2",
+    "description": "Configuração Xml NFE Entrada - Empresas"
+  },
+  {
+    "name": "FT71T",
+    "description": "Xml Nfe"
+  },
+  {
+    "name": "FT72T",
+    "description": "Seguro Transporte"
+  },
+  {
+    "name": "FT72T1",
+    "description": "Lançamento Seguro Transporte"
+  },
+  {
+    "name": "FT73T",
+    "description": "Log Liberações OC"
+  },
+  {
+    "name": "FT74T",
+    "description": "Ordem de Retirada de Mercadoria"
+  },
+  {
+    "name": "FT74T1",
+    "description": "Itens da ORM"
+  },
+  {
+    "name": "FT74T2",
+    "description": "FT74T2"
+  },
+  {
+    "name": "FT74T3",
+    "description": "Tabela de Lacres da ORM"
+  },
+  {
+    "name": "FT74TF",
+    "description": "Certificado Açúcar e Levedura"
+  },
+  {
+    "name": "FT75T",
+    "description": "Tabela de Reduções Z - ECF"
+  },
+  {
+    "name": "FT76T",
+    "description": "Xml NFe"
+  },
+  {
+    "name": "FT76T1",
+    "description": "Xml NFe - Itens"
+  },
+  {
+    "name": "FT77T",
+    "description": "Geração de Féria"
+  },
+  {
+    "name": "FT77T1",
+    "description": "Itens da Féria"
+  },
+  {
+    "name": "FT78T",
+    "description": "Tabela de Controle das NFs enviadas no webservice"
+  },
+  {
+    "name": "FT80T",
+    "description": "Ordem de Descarregamento"
+  },
+  {
+    "name": "FT80T1",
+    "description": "Ordem Descarregamento - NF Entrada"
+  },
+  {
+    "name": "FT82T",
+    "description": "Tabela Base de Tributos NF"
+  },
+  {
+    "name": "FT83T",
+    "description": "Lançamento de Chegada do Caminhão"
+  },
+  {
+    "name": "FT83T1",
+    "description": "Itens da Chegada do Caminhão"
+  },
+  {
+    "name": "FT84T",
+    "description": "Lançamento de Descarga"
+  },
+  {
+    "name": "FT84T1",
+    "description": "Vasilhames do Cliente"
+  },
+  {
+    "name": "FT84T2",
+    "description": "Clientes da Descarga"
+  },
+  {
+    "name": "FT85T",
+    "description": "Lançamento de Carga"
+  },
+  {
+    "name": "FT85T1",
+    "description": "Clientes da Carga"
+  },
+  {
+    "name": "FT85T11",
+    "description": "Orçamentos do Cliente"
+  },
+  {
+    "name": "FT85T111",
+    "description": "Itens do Orçamento"
+  },
+  {
+    "name": "FT85T12",
+    "description": "Vasilhames da Carga"
+  },
+  {
+    "name": "FT86T",
+    "description": "Manifesto NF-e"
+  },
+  {
+    "name": "FT86T1",
+    "description": "Level1"
+  },
+  {
+    "name": "FT86T2",
+    "description": "Level2"
+  },
+  {
+    "name": "FT87T",
+    "description": "Tabela de Faixas para Títulos"
+  },
+  {
+    "name": "FT88T",
+    "description": "Tabela Configuradora de Faturamento entre Empresas do Grupo"
+  },
+  {
+    "name": "FT88T1",
+    "description": "Tabela Configuradora de Operações de Fat. entre Empresas do Grupo\n                            "
+  },
+  {
+    "name": "FT89T",
+    "description": "Metas de Faturamento"
+  },
+  {
+    "name": "FT90T",
+    "description": "Itens de Pedidos de Transferência de NF"
+  },
+  {
+    "name": "FT91T",
+    "description": "Tabela Configuradora de Envio Triangular a Terceiros"
+  },
+  {
+    "name": "FT92T",
+    "description": "Tabela de Prazo Extra de Cobrança por UF"
+  },
+  {
+    "name": "FT93T",
+    "description": "Tabela de Autorização de Faturamento de Pedidos"
+  },
+  {
+    "name": "FT93T1",
+    "description": "Titulos da Autorização de Faturamento de Pedidos"
+  },
+  {
+    "name": "FT94T",
+    "description": "Tabela temporária de itens prontos para faturar"
+  },
+  {
+    "name": "FT95T",
+    "description": "Xml Nfe"
+  },
+  {
+    "name": "FT96T",
+    "description": "Autorização Alt Qtde Orçamentos"
+  },
+  {
+    "name": "FT96T1",
+    "description": "Grade do Item"
+  },
+  {
+    "name": "FT97T",
+    "description": "Tabela da Programação de Entrega dos Itens do Pedido"
+  },
+  {
+    "name": "FT97T1",
+    "description": "Tabela de Vencimentos da Programação de Entrega"
+  },
+  {
+    "name": "FT98T",
+    "description": "Tabela de autorização de recebimento fora do prazo"
+  },
+  {
+    "name": "FT99T",
+    "description": "Tabela de Manifesto Eletrônico de Documentos Fiscais - MDF-e"
+  },
+  {
+    "name": "FT99T1",
+    "description": "Tabela de Municípios de Carregamento do MDF-e"
+  },
+  {
+    "name": "FT99T2",
+    "description": "Tabela de Percurso do MDF-e"
+  },
+  {
+    "name": "FT99T3",
+    "description": "Tabela de Veículos do MDF-e"
+  },
+  {
+    "name": "FT99T4",
+    "description": "Tabela de Condutores do MDF-e"
+  },
+  {
+    "name": "FT99T5",
+    "description": "Tabela de Vale-Pedágio do MDF-e"
+  },
+  {
+    "name": "FT99T6",
+    "description": "Tabela de Notas do MDF-e"
+  },
+  {
+    "name": "FT99T61",
+    "description": "Tabela de Unidades de Transporte do MDF-e"
+  },
+  {
+    "name": "FT99T611",
+    "description": "Tabela de Lacres da Unidade de Transporte do MDF-e"
+  },
+  {
+    "name": "FT99T612",
+    "description": "Tabela de Unidades de Carga do MDF-e"
+  },
+  {
+    "name": "FT99T6121",
+    "description": "Tabela de Lacres da Unidade de Carga do MDF-e"
+  },
+  {
+    "name": "FT99T7",
+    "description": "Tabela de Lacres do MDF-e"
+  },
+  {
+    "name": "FT99T8",
+    "description": "Tabela de Autorização de Download do MDF-e"
+  },
+  {
+    "name": "FT99T9",
+    "description": "Comunicação Sefaz MDF-e"
+  },
+  {
+    "name": "FTAAT",
+    "description": "Temporária FT19T"
+  },
+  {
+    "name": "FTABT",
+    "description": "PREÇO MÍNIMO POR ESTADO"
+  },
+  {
+    "name": "FTABT1",
+    "description": "VALOR MÍNIMO PRODUTO POR ESTADO"
+  },
+  {
+    "name": "FTACT",
+    "description": "Cadastro de Observações"
+  },
+  {
+    "name": "FTACT1",
+    "description": "Level1"
+  },
+  {
+    "name": "FTADT",
+    "description": "Observações configuradas"
+  },
+  {
+    "name": "FTAET",
+    "description": "Tabela Temporaria de Itens prontos para Faturar"
+  },
+  {
+    "name": "FTAFT",
+    "description": "Configurador de Operações Tributárias do Representante"
+  },
+  {
+    "name": "FTAGT",
+    "description": "Tabela de Rotas - Patrus"
+  },
+  {
+    "name": "FTAHT",
+    "description": "Configurador WSERP KPL"
+  },
+  {
+    "name": "FTAHT1",
+    "description": "Configurador WSERP KPL - Contas"
+  },
+  {
+    "name": "FTAHT2",
+    "description": "Configurador WSERP KPL - OpTributária"
+  },
+  {
+    "name": "FTAHT3",
+    "description": "Configurador WSERP KPL - Representantes"
+  },
+  {
+    "name": "FTAIT",
+    "description": "Autorização de Crédito para o Orçamento"
+  },
+  {
+    "name": "FTAIT1",
+    "description": "Item de Autorização de Crédito para o Orçamento"
+  },
+  {
+    "name": "FTAJT",
+    "description": "Tabela de Origens do Documento Compras"
+  },
+  {
+    "name": "FTAKT",
+    "description": "Campos para alteração da Carta de Correção NF-e"
+  },
+  {
+    "name": "FTAKT1",
+    "description": "FTAKT1"
+  },
+  {
+    "name": "FTAKT2",
+    "description": "FTAKT2"
+  },
+  {
+    "name": "FTAMT",
+    "description": "Tabela Config. Transf. - Produto"
+  },
+  {
+    "name": "FTANT",
+    "description": "Cadastro da Portaria"
+  },
+  {
+    "name": "FTANT1",
+    "description": "Usuários da Portaria"
+  },
+  {
+    "name": "FTAOT",
+    "description": "Cadastro do Tipo de Fila"
+  },
+  {
+    "name": "FTAPT",
+    "description": "Tabela de preço mínimo por Cidade/UF"
+  },
+  {
+    "name": "FTAPT1",
+    "description": "Produtos"
+  },
+  {
+    "name": "FTAPT2",
+    "description": "Cidades"
+  },
+  {
+    "name": "FTAQT",
+    "description": "Fila de Carregamento/Descarregamento"
+  },
+  {
+    "name": "FTAQT1",
+    "description": "Status da Fila de Carregamento/Descarregamento"
+  },
+  {
+    "name": "FTART",
+    "description": "Representante - Operações Tributárias "
+  },
+  {
+    "name": "FTAST",
+    "description": "CADASTRO DE CONSUMIDOR FINAL POR EMPRESA"
+  },
+  {
+    "name": "FTATT",
+    "description": "DePara Operação Tributária/Banco e Operação"
+  },
+  {
+    "name": "FTATT1",
+    "description": "DePara Operação Tributária/Banco e Operação"
+  }
+]

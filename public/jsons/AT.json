@@ -1,0 +1,174 @@
+[
+  {
+    "name": "AT01T",
+    "description": "Centro de Custo"
+  },
+  {
+    "name": "AT01TA",
+    "description": "AT01TA"
+  },
+  {
+    "name": "AT02T",
+    "description": "Grupo"
+  },
+  {
+    "name": "AT03T",
+    "description": "Índice"
+  },
+  {
+    "name": "AT04T",
+    "description": "Sub Grupo"
+  },
+  {
+    "name": "AT05T",
+    "description": "Lay-Out"
+  },
+  {
+    "name": "AT05T1",
+    "description": "Lay-Outs"
+  },
+  {
+    "name": "AT06T",
+    "description": "CIAP"
+  },
+  {
+    "name": "AT06T1",
+    "description": "CIAP"
+  },
+  {
+    "name": "AT07T",
+    "description": "Tabela de Indices"
+  },
+  {
+    "name": "AT07T1",
+    "description": "Tabela de Indices"
+  },
+  {
+    "name": "AT08T",
+    "description": "Localização"
+  },
+  {
+    "name": "AT09T",
+    "description": "Fornecedor do Ativo"
+  },
+  {
+    "name": "AT10T",
+    "description": "Periodo"
+  },
+  {
+    "name": "AT11T",
+    "description": "AT11T"
+  },
+  {
+    "name": "AT12T",
+    "description": "Inclusao de Itens"
+  },
+  {
+    "name": "AT12T1",
+    "description": "Componentes do Bem"
+  },
+  {
+    "name": "AT12T2",
+    "description": "Manutenções - REABERTURA DE PERIODOS"
+  },
+  {
+    "name": "AT12T9",
+    "description": "Inclusão de Itens - Alterações"
+  },
+  {
+    "name": "AT12TB1",
+    "description": "Propriedades"
+  },
+  {
+    "name": "AT12TB2",
+    "description": "Etapas"
+  },
+  {
+    "name": "AT12TG",
+    "description": "Valores da Lavoura"
+  },
+  {
+    "name": "AT12TH",
+    "description": "Tabela Períodos de Safra - Por Lavoura"
+  },
+  {
+    "name": "AT13T",
+    "description": "Lançamento de Baixas"
+  },
+  {
+    "name": "AT14T",
+    "description": "Transferencia"
+  },
+  {
+    "name": "AT15T",
+    "description": "Temporaria de Calculo"
+  },
+  {
+    "name": "AT18T",
+    "description": "AT18T"
+  },
+  {
+    "name": "AT19T",
+    "description": "AT19T"
+  },
+  {
+    "name": "AT20T",
+    "description": "AT20T"
+  },
+  {
+    "name": "AT21T",
+    "description": "AT21T"
+  },
+  {
+    "name": "AT22T",
+    "description": "AT22T"
+  },
+  {
+    "name": "AT23T",
+    "description": "AT23T"
+  },
+  {
+    "name": "AT24T",
+    "description": "AT24T"
+  },
+  {
+    "name": "AT25T",
+    "description": "AT25 T"
+  },
+  {
+    "name": "AT25T1",
+    "description": "Level1"
+  },
+  {
+    "name": "AT25T2",
+    "description": "AT25 T2"
+  },
+  {
+    "name": "AT25T21",
+    "description": "Level1"
+  },
+  {
+    "name": "AT26T",
+    "description": "Acompanhamento do CIAP por Itens"
+  },
+  {
+    "name": "AT27T",
+    "description": "Lançamento CIAP Extemporâneo"
+  },
+  {
+    "name": "AT28T",
+    "description": "Perfil de Índice Web"
+  },
+  {
+    "name": "AT28T1",
+    "description": "Level1"
+  },
+  {
+    "name": "AT29T",
+    "description": "Validação de Itens do Ativo com Nota Fiscal"
+  },
+  {
+    "name": "ATable",
+    "description": "AuditTable"
+  }
+]
